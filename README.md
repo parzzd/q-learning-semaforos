@@ -1,8 +1,6 @@
 # Agilizador: Q-learning para tráfico en Javier Prado/Salaverry
 
-Proyecto de control semafórico con aprendizaje automático para Javier Prado y
-Salaverry. **La versión actual usa Q-learning tabular, sin una red neuronal.**
-El nombre del proyecto expresa la dirección prevista para su desarrollo.
+Proyecto de control semafórico con aprendizaje automático para Javier Prado
 
 Primer experimento de aprendizaje de **duraciones de verde** para un cruce de Lima,
 con cinco cámaras virtuales y cuadras adyacentes. Se usa una red descargada de
