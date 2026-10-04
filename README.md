@@ -1,4 +1,4 @@
-# Agilizador: redes neuronales para tráfico en Javier Prado/Salaverry
+# Agilizador: Q-learning para tráfico en Javier Prado/Salaverry
 
 Proyecto de control semafórico con aprendizaje automático para Javier Prado y
 Salaverry. **La versión actual usa Q-learning tabular, sin una red neuronal.**
