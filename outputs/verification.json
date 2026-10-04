@@ -1,0 +1,8 @@
+{
+  "samples": 600,
+  "blocked_samples": 42,
+  "allowed_phases_and_transitions": "passed",
+  "green_limits": "passed",
+  "colliding_vehicle_count": 0,
+  "teleports": 0
+}

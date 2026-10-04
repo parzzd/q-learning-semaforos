@@ -1,0 +1,69 @@
+Success.
+Warning: Discarding unknown compound 'cycleway.track' in type 'cycleway.track|highway.residential' (first occurrence for edge '24295062').
+Warning: Discarding unknown compound 'cycleway.track' in type 'cycleway.track|highway.primary' (first occurrence for edge '339388905').
+Warning: Discarding unusable type 'railway.proposed' (first occurrence for edge '1469947838').
+Warning: Removing pt stop '9411566789' on non existing edge '46227650#0'.
+Warning: PT line in relation 4193499 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 4203897 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 4204154 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 4204283 with no stops ignored. Probably OSM file is incomplete.
+Warning: PT line in relation 4210264 with no stops ignored. Probably OSM file is incomplete.
+Warning: direction of restriction relation could not be determined
+Warning: Ignoring restriction relation '15547092'.
+Warning: from-edge '1337802437' of restriction relation could not be determined
+Warning: Ignoring restriction relation '18331966'.
+Warning: direction of restriction relation could not be determined
+Warning: Ignoring restriction relation '18336008'.
+Warning: No way found for reference '111917230' in relation '18397317'
+Warning: No way found for reference '563914739' in relation '18397317'
+Warning: Ignoring restriction relation '18397317' with unknown from-way.
+Warning: Ignoring restriction relation '18397317' with unknown to-way.
+Warning: direction of restriction relation could not be determined
+Warning: Ignoring restriction relation '18756879'.
+Warning: PT line 'Ruta 1' in relation 20125043 has a gap of 13 stops, only keeping first part.
+Warning: Removed a road without junctions: -1092451795.
+Warning: Removed a road without junctions: -1340160496,-436925837.
+Warning: Removed a road without junctions: 1092451795.
+Warning: Could not assign stop '9411566789' to pt line '13707077' (closest edge '1343544512', distance 351.77). Ignoring!
+Warning: Removed invalid stop '9411566789' from line '13707077'.
+Warning: Could not assign stop '9411566789' to pt line '13924722' (closest edge '1343544512', distance 351.77). Ignoring!
+Warning: Removed invalid stop '9411566789' from line '13924722'.
+Warning: Removed invalid stop '10992583876' from line '16861884'.
+Warning: Not joining junctions 10009794298,263384507,263384563 (not compact (maxEdge=24306456#0 length=9.08)).
+Warning: Not joining junctions 10010083811,10991152130,4139686852,4341221941,4341221951,8301738203 (not compact (maxEdge=1469334623#2 length=6.37)).
+Warning: Not joining junctions 2793008241,2793008248 (only 1 edge within and no cross-traffic).
+Warning: Not joining junctions 4139686850,9492728106 (parallel incoming -1029647830,-111939180#2).
+Warning: Not joining junctions 1425922007,263378637 (only 1 exit node).
+Warning: Found sharp turn with radius 1.48 at the start of edge '-1183565701#0'.
+Warning: Found sharp turn with radius 1.74 at the end of edge '-1183565701#1'.
+Warning: Found sharp turn with radius 7.85 at the end of edge '-893216178#3'.
+Warning: Found sharp turn with radius 7.85 at the start of edge '1029647829#1'.
+Warning: Found sharp turn with radius 1.48 at the end of edge '1183565701#0'.
+Warning: The traffic light '262728225' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '262728225'
+Warning: The traffic light '262728324' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '262728324'
+Warning: The traffic light '263111211' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '263111211'
+Warning: The traffic light '263387635' does not control any links; it will not be build.
+Warning: Could not build program '0' for traffic light '263387635'
+Warning: Minor green from edge '1343544516' to edge '1343544511' exceeds 0.00m/s. Maybe a left-turn lane is missing.
+Warning: Minor green from edge '1343544509' to edge '1343544513' exceeds 0.00m/s. Maybe a left-turn lane is missing.
+Warning: Minor green from edge '1343402201' to edge '892976044#0' exceeds 0.00m/s. Maybe a left-turn lane is missing.
+Warning: Minor green from edge '1343402197#0' to edge '1343402194' exceeds 0.00m/s. Maybe a left-turn lane is missing.
+Warning: Minor green from edge '1343402192#0' to edge '1343402200#2' exceeds 0.00m/s. Maybe a left-turn lane is missing.
+Warning: Speed of straight connection '436248916#0_0->1469334621#3_1' reduced by 11.21 due to turning radius of 8.51 (length=7.00, angle=67.04).
+Warning: Speed of straight connection '436248917#0_0->1469334623#3_1' reduced by 11.00 due to turning radius of 9.05 (length=6.93, angle=63.14).
+Warning: Intersecting left turns at junction 'cluster_1425922040_1425922094_262730000_263108229_#6more' from lane '279876622#2_1' and lane '24267068#0_1' (increase junction radius to avoid this).
+Warning: Stop '9411566787' named 'Gregorio Escobedo' from line '13707077' on edge '46227650#1' is not part of the route.
+Warning: Stop '9411566787' named 'Gregorio Escobedo' from line '13924722' on edge '46227650#1' is not part of the route.
+Warning: Removing pt stop '10992583876' on non existing edge ''.
+Warning: Removing pt stop '9411566779' on non existing edge ''.
+Warning: Removing pt stop '9411566781' on non existing edge ''.
+Warning: Removing pt stop '9411566788' on non existing edge ''.
+Warning: Removed 6 pt stops because they could not be assigned to the network
+Warning: 6 total messages of type: Found sharp turn with radius % at the % of edge '%'.
+Warning: 27 total messages of type: Minor green from edge '%' to edge '%' exceeds %m/s. Maybe a left-turn lane is missing.
+Warning: 9 total messages of type: Not joining junctions % (%).
+Warning: 72 total messages of type: PT line in relation % with no stops ignored. Probably OSM file is incomplete.
+Warning: 7 total messages of type: Removing pt stop '%' on non existing edge '%'.

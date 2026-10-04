@@ -1,0 +1,5 @@
+<nodes>
+  <!-- Esquinas y dos cruces interiores OSM forman un solo cruce físico. -->
+  <join nodes="10313727021 10313727022 10313727023 10313727024 1425922042 1425922047"
+        id="JP_SALAVERRY" type="traffic_light" tlLayout="incoming" />
+</nodes>

@@ -1,0 +1,46 @@
+{
+  "junction_id": "JP_SALAVERRY",
+  "center_lonlat": [
+    -77.0543726,
+    -12.0951777
+  ],
+  "bbox_lonlat": [
+    -77.0595,
+    -12.0995,
+    -77.049,
+    -12.0898
+  ],
+  "source": "© OpenStreetMap contributors — ODbL 1.0",
+  "source_url": "https://www.openstreetmap.org/copyright",
+  "download_date_local": "2026-10-04",
+  "incoming_edges": [
+    "1338097859#2",
+    "284905870#0",
+    "314735739#4",
+    "315553414#13"
+  ],
+  "outgoing_edges": [
+    "1095296668#0",
+    "317137456#0",
+    "331430035#0",
+    "436314572#0"
+  ],
+  "traffic_lights": [
+    "262730023",
+    "263383329",
+    "GS_cluster_10009794302_10010083804_10313727029_10313727030_#2more",
+    "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more",
+    "JP_SALAVERRY",
+    "cluster_1425922069_1425922099_262729477_262729478_#2more",
+    "joinedS_108009619_262728248",
+    "joinedS_263381649_263384427"
+  ],
+  "assumptions": [
+    "Geometría y sentidos importados de OSM; requieren revisión en campo.",
+    "Conexiones de giro y fases inferidas por SUMO; no son planes municipales.",
+    "Se usa una fase exclusiva por acceso como simplificación inicial.",
+    "Demanda y operación de emergencias sintéticas, sin calibración local.",
+    "Piloto vehicular: peatones y ciclistas todavía no se simulan.",
+    "Cámaras virtuales ideales con cobertura por carriles; sin video ni oclusiones."
+  ]
+}

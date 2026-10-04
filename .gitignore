@@ -1,0 +1,23 @@
+# Entornos y cachés de Python y Jupyter
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos locales y configuración privada
+.cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Ejecuciones repetidas y registros regenerables
+outputs/episodes/
+outputs/evaluation/
+outputs/visual/
+outputs/**/*.log

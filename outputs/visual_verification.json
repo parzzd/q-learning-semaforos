@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "cinco cámaras y eventos del modelo disponibles",
+    "reproducir y pausar avanzan el tiempo",
+    "salto a una emergencia en el segundo registrado",
+    "selector de velocidad",
+    "cambiar de controlador carga la grabación por reglas",
+    "visor sin desbordamiento horizontal a 390 px"
+  ],
+  "browser_errors": {
+    "success": true,
+    "data": {
+      "errors": []
+    },
+    "error": null
+  },
+  "recordings_verified": [
+    "qlearning",
+    "adaptive"
+  ]
+}
