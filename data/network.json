@@ -38,7 +38,7 @@
   "assumptions": [
     "Geometría y sentidos importados de OSM; requieren revisión en campo.",
     "Conexiones de giro y fases inferidas por SUMO; no son planes municipales.",
-    "Se usa una fase exclusiva por acceso como simplificación inicial.",
+    "Los sentidos opuestos comparten fase de frente; los giros usan descarga protegida según sus carriles.",
     "Demanda y operación de emergencias sintéticas, sin calibración local.",
     "Piloto vehicular: peatones y ciclistas todavía no se simulan.",
     "Cámaras virtuales ideales con cobertura por carriles; sin video ni oclusiones."

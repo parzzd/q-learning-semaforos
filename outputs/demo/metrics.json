@@ -1,16 +1,18 @@
 {
   "horizon_s": 600,
   "departed": 365,
-  "arrived": 307,
-  "still_in_network": 58,
+  "arrived": 291,
+  "still_in_network": 74,
   "pending_departures": 0,
-  "observed_mean_queue_vehicles": 37.058,
-  "observed_max_queue_vehicles": 64,
-  "network_stopped_vehicle_seconds": 22869,
-  "mean_stopped_s_per_departed_vehicle": 62.655,
+  "observed_mean_queue_vehicles": 56.88,
+  "observed_max_queue_vehicles": 108,
+  "observed_mean_turn_queue_vehicles": 19.39,
+  "observed_max_turn_queue_vehicles": 35,
+  "network_stopped_vehicle_seconds": 34936,
+  "mean_stopped_s_per_departed_vehicle": 95.715,
   "colliding_vehicle_count": 0,
   "teleports": 0,
-  "reward": -469.42,
+  "reward": -946.6,
   "emergencies": [
     {
       "id": "special_1",
@@ -23,7 +25,7 @@
     {
       "id": "special_2",
       "type": "police_active",
-      "stopped_s": 23,
+      "stopped_s": 37,
       "departed": true,
       "arrived": true,
       "censored_at_horizon": false
@@ -31,7 +33,7 @@
     {
       "id": "special_3",
       "type": "ambulance_active",
-      "stopped_s": 22,
+      "stopped_s": 20,
       "departed": true,
       "arrived": true,
       "censored_at_horizon": false
@@ -39,13 +41,14 @@
     {
       "id": "special_4",
       "type": "police_active",
-      "stopped_s": 19,
+      "stopped_s": 58,
       "departed": true,
       "arrived": true,
       "censored_at_horizon": false
     }
   ],
   "data_kind": "synthetic; uncalibrated",
+  "phase_schema": "987687213d0ee72b",
   "controller": "adaptive",
   "seed": 7
 }

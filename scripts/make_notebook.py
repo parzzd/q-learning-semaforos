@@ -41,7 +41,9 @@ C5 observa las calles receptoras. La cobertura por carriles es ideal y aún no
 representa perspectiva ni oclusiones. La posición de cinco cámaras físicas debe
 validarse: una sola cámara en C5 podría no observar todas las salidas.
 
-El cruce usa fases exclusivas por acceso, generadas por SUMO. Los giros usan las
+El frente se habilita al mismo tiempo para los dos sentidos de cada avenida.
+Los giros compartidos tienen una fase adicional de descarga del acceso; los
+carriles exclusivos permiten una fase de giro independiente. Los giros usan las
 conexiones inferidas del mapa; no se confirma la existencia de carriles exclusivos
 de giro ni que estas fases coincidan con el programa real de la municipalidad.
 """)
@@ -102,8 +104,9 @@ display(Image(filename=str(ROOT / "outputs" / "demo" / "trafico.png")))
 """)
 markdown("""## Aprendizaje y comparación
 
-El modelo aprende a elegir **10, 20 o 30 segundos de verde**. El acceso a servir se
-elige mediante reglas de demanda, prioridad de emergencia y congestión. La
+El modelo aprende a elegir **entre 10 y 60 segundos de verde, en pasos de 10**.
+La fase a servir se elige según demanda por movimiento, espera, colas de giro,
+prioridad de emergencia y congestión. La
 recompensa penaliza colas y detención de emergencias. Es un controlador híbrido:
 el aprendizaje asigna duración y las reglas restringen las acciones.
 

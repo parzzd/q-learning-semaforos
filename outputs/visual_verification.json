@@ -5,6 +5,8 @@
     "salto a una emergencia en el segundo registrado",
     "selector de velocidad",
     "cambiar de controlador carga la grabación por reglas",
+    "doce tiempos asignados y contadores coinciden con SUMO",
+    "ambos sentidos de frente muestran el mismo tiempo",
     "visor sin desbordamiento horizontal a 390 px"
   ],
   "browser_errors": {

@@ -14,7 +14,8 @@ def export_replay(layout, recordings):
     signal_positions = [edge.getLanes()[0].getShape()[-1] for edge in layout.incoming]
     payload = {"center": layout.center, "roads": road_geometry, "cameras": layout.cameras,
                "signal_positions": signal_positions, "phases": layout.phases,
-               "phase_camera": layout.phase_camera, "recordings": {}}
+               "phase_cameras": layout.phase_cameras, "phase_meta": layout.phase_meta,
+               "movements": layout.movements, "schema": layout.schema, "recordings": {}}
     for controller, entry in recordings.items():
         directory = entry["directory"]
         with (directory / "decisions.csv").open() as stream:

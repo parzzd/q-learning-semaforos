@@ -88,11 +88,11 @@ def draw_episode(layout, directory):
     axes[0].legend(ncol=2, frameon=False, fontsize=9)
     phases = []
     for row in trace:
-        state = row["signals"]
-        phases.append(layout.phases.index(state) + 1 if state in layout.phases else 0)
+        phases.append(row["phase"] + 1 if row.get("stage") == "green" else 0)
     axes[1].step(times, phases, where="post", color="#0b4f88", linewidth=1.2)
-    axes[1].set_yticks(range(len(layout.phases) + 1), ["Despeje"] + [f"C{camera + 1}" for camera in layout.phase_camera])
-    axes[1].set_ylabel("Acceso con verde")
+    axes[1].set_yticks(range(len(layout.phases) + 1), ["Despeje"] + [meta["label"] for meta in layout.phase_meta])
+    axes[1].tick_params(axis="y", labelsize=8)
+    axes[1].set_ylabel("Fase con verde")
     axes[1].set_xlabel("Tiempo simulado (s)")
     for axis in axes:
         axis.grid(alpha=0.16)
@@ -133,7 +133,12 @@ def snapshot_figure(layout, row):
         axis.scatter(x - cx, y - cy, s=35, color="#0b4f88", zorder=5)
         axis.annotate(camera["id"], (x - cx, y - cy), xytext=(5, 7), textcoords="offset points", weight="bold",
                       bbox={"fc": "white", "ec": "none", "pad": 1}, zorder=6)
-        labels.append(f"{camera['id']} · {camera['label']}\nSeñal: {state} | Cola: {row['queues'][index]} | Giros: {row['turn_queues'][index]}")
+        heads = {h["id"]: h for h in row.get("signal_timings", [])}
+        timing = ""
+        if heads:
+            front, left = heads[f"C{index + 1}_s"], heads[f"C{index + 1}_l"]
+            timing = f"\nVerde asignado: frente {front['assigned_green_s']} s · giro izq. {left['assigned_green_s']} s"
+        labels.append(f"{camera['id']} · {camera['label']}\nSeñal: {state} | Cola: {row['queues'][index]} | Giros: {row['turn_queues'][index]}{timing}")
     camera = layout.cameras[4]
     x, y = camera["position_xy"]
     axis.scatter(x - cx, y - cy, s=35, color="#087f6d", zorder=5)
@@ -148,7 +153,7 @@ def snapshot_figure(layout, row):
     panel.axis("off")
     panel.text(0, 0.98, "Observaciones de las cámaras", fontsize=13, weight="bold", va="top", color="#132b45")
     for index, label in enumerate(labels):
-        panel.text(0, 0.85 - index * 0.15, label, va="top", fontsize=10, linespacing=1.5)
+        panel.text(0, 0.85 - index * 0.16, label, va="top", fontsize=9, linespacing=1.4)
     panel.text(0, 0.20, "C5 · Salidas\n" + ("Congestión detectada" if any(row["blocked"]) else "Sin bloqueo detectado"), va="top", fontsize=10)
     active = ", ".join(event["id"] for event in row["emergencies"]) or "ninguna visible"
     panel.text(0, 0.075, "Emergencia activa: " + active, va="top", fontsize=10, wrap=True)

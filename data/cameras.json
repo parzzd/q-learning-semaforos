@@ -187,17 +187,319 @@
     }
   ],
   "green_phases": [
-    "GGGGGrrrrrrrrrrrrrrrr",
-    "rrrrrGGGGGrrrrrrrrrrr",
-    "rrrrrrrrrrGGGGGrrrrrr",
-    "rrrrrrrrrrrrrrrGGGGGG"
+    "rrrrrGGGrrrrrrrGGGGrr",
+    "GGGrrrrrrrGGGrrrrrrrr",
+    "rrrrrrrrrrGGGGrrrrrrr",
+    "rrrrrGGGGrrrrrrrrrrrr",
+    "GGGGrrrrrrrrrrrrrrrrr",
+    "rrrrrrrrrrrrrrrGGGGGr"
   ],
-  "phase_camera": [
-    2,
-    1,
-    0,
-    3
+  "phase_cameras": [
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ]
   ],
+  "phase_meta": [
+    {
+      "id": 0,
+      "label": "Javier Prado · frente en ambos sentidos",
+      "kind": "through",
+      "cameras": [
+        1,
+        3
+      ],
+      "goal_movements": [
+        "C2_s",
+        "C2_r",
+        "C4_s",
+        "C4_r"
+      ]
+    },
+    {
+      "id": 1,
+      "label": "Salaverry · frente en ambos sentidos",
+      "kind": "through",
+      "cameras": [
+        0,
+        2
+      ],
+      "goal_movements": [
+        "C1_s",
+        "C1_r",
+        "C3_s",
+        "C3_r"
+      ]
+    },
+    {
+      "id": 2,
+      "label": "C1 · descarga de giros compartidos",
+      "kind": "shared_turn",
+      "cameras": [
+        0
+      ],
+      "goal_movements": [
+        "C1_l",
+        "C1_r"
+      ]
+    },
+    {
+      "id": 3,
+      "label": "C2 · descarga de giros compartidos",
+      "kind": "shared_turn",
+      "cameras": [
+        1
+      ],
+      "goal_movements": [
+        "C2_l",
+        "C2_r"
+      ]
+    },
+    {
+      "id": 4,
+      "label": "C3 · descarga de giros compartidos",
+      "kind": "shared_turn",
+      "cameras": [
+        2
+      ],
+      "goal_movements": [
+        "C3_l",
+        "C3_r"
+      ]
+    },
+    {
+      "id": 5,
+      "label": "C4 · descarga de giros compartidos",
+      "kind": "shared_turn",
+      "cameras": [
+        3
+      ],
+      "goal_movements": [
+        "C4_l",
+        "C4_r"
+      ]
+    }
+  ],
+  "movements": [
+    {
+      "id": "C1_s",
+      "camera": 0,
+      "direction": "s",
+      "label": "Frente",
+      "links": [
+        11,
+        12
+      ],
+      "lanes": [
+        "1338097859#2_0",
+        "1338097859#2_1"
+      ],
+      "shared": true,
+      "outputs": [
+        "317137456#0"
+      ]
+    },
+    {
+      "id": "C1_l",
+      "camera": 0,
+      "direction": "l",
+      "label": "Giro izquierdo",
+      "links": [
+        13
+      ],
+      "lanes": [
+        "1338097859#2_1"
+      ],
+      "shared": true,
+      "outputs": [
+        "1095296668#0"
+      ]
+    },
+    {
+      "id": "C1_r",
+      "camera": 0,
+      "direction": "r",
+      "label": "Giro derecho",
+      "links": [
+        10
+      ],
+      "lanes": [
+        "1338097859#2_0"
+      ],
+      "shared": true,
+      "outputs": [
+        "436314572#0"
+      ]
+    },
+    {
+      "id": "C2_s",
+      "camera": 1,
+      "direction": "s",
+      "label": "Frente",
+      "links": [
+        6,
+        7
+      ],
+      "lanes": [
+        "314735739#4_0",
+        "314735739#4_1"
+      ],
+      "shared": true,
+      "outputs": [
+        "1095296668#0"
+      ]
+    },
+    {
+      "id": "C2_l",
+      "camera": 1,
+      "direction": "l",
+      "label": "Giro izquierdo",
+      "links": [
+        8
+      ],
+      "lanes": [
+        "314735739#4_1"
+      ],
+      "shared": true,
+      "outputs": [
+        "331430035#0"
+      ]
+    },
+    {
+      "id": "C2_r",
+      "camera": 1,
+      "direction": "r",
+      "label": "Giro derecho",
+      "links": [
+        5
+      ],
+      "lanes": [
+        "314735739#4_0"
+      ],
+      "shared": true,
+      "outputs": [
+        "317137456#0"
+      ]
+    },
+    {
+      "id": "C3_s",
+      "camera": 2,
+      "direction": "s",
+      "label": "Frente",
+      "links": [
+        1,
+        2
+      ],
+      "lanes": [
+        "284905870#0_0",
+        "284905870#0_1"
+      ],
+      "shared": true,
+      "outputs": [
+        "331430035#0"
+      ]
+    },
+    {
+      "id": "C3_l",
+      "camera": 2,
+      "direction": "l",
+      "label": "Giro izquierdo",
+      "links": [
+        3
+      ],
+      "lanes": [
+        "284905870#0_1"
+      ],
+      "shared": true,
+      "outputs": [
+        "436314572#0"
+      ]
+    },
+    {
+      "id": "C3_r",
+      "camera": 2,
+      "direction": "r",
+      "label": "Giro derecho",
+      "links": [
+        0
+      ],
+      "lanes": [
+        "284905870#0_0"
+      ],
+      "shared": true,
+      "outputs": [
+        "1095296668#0"
+      ]
+    },
+    {
+      "id": "C4_s",
+      "camera": 3,
+      "direction": "s",
+      "label": "Frente",
+      "links": [
+        16,
+        17,
+        18
+      ],
+      "lanes": [
+        "315553414#13_0",
+        "315553414#13_1"
+      ],
+      "shared": true,
+      "outputs": [
+        "436314572#0"
+      ]
+    },
+    {
+      "id": "C4_l",
+      "camera": 3,
+      "direction": "l",
+      "label": "Giro izquierdo",
+      "links": [
+        19
+      ],
+      "lanes": [
+        "315553414#13_1"
+      ],
+      "shared": true,
+      "outputs": [
+        "317137456#0"
+      ]
+    },
+    {
+      "id": "C4_r",
+      "camera": 3,
+      "direction": "r",
+      "label": "Giro derecho",
+      "links": [
+        15
+      ],
+      "lanes": [
+        "315553414#13_0"
+      ],
+      "shared": true,
+      "outputs": [
+        "331430035#0"
+      ]
+    }
+  ],
+  "schema": "987687213d0ee72b",
   "routes": [
     {
       "id": "r0",

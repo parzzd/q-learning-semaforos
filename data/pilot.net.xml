@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-10-04T12:33:11.649588-05:00 by Eclipse SUMO netconvert 1.27.1
+<!-- generated on 2026-10-04T18:39:03.967130-05:00 by Eclipse SUMO netconvert 1.27.1
 <netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -1529,10 +1529,16 @@
         <lane id=":JP_SALAVERRY_1_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="45.76" shape="772.00,876.98 752.00,835.85"/>
     </edge>
     <edge id=":JP_SALAVERRY_3" function="internal">
-        <lane id=":JP_SALAVERRY_3_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="12.66" length="54.00" shape="772.00,876.98 768.87,862.75 773.52,852.16 784.36,846.15 799.82,845.68"/>
+        <lane id=":JP_SALAVERRY_3_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="12.66" length="31.95" shape="772.00,876.98 768.87,862.75 773.52,852.16 778.61,849.34"/>
     </edge>
     <edge id=":JP_SALAVERRY_4" function="internal">
-        <lane id=":JP_SALAVERRY_4_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="7.97" length="30.77" shape="772.00,876.98 773.17,867.55 776.69,862.84 782.58,862.83 790.83,867.53"/>
+        <lane id=":JP_SALAVERRY_4_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="7.97" length="27.38" shape="772.00,876.98 773.17,867.55 776.69,862.84 782.58,862.83 787.89,865.85"/>
+    </edge>
+    <edge id=":JP_SALAVERRY_21" function="internal">
+        <lane id=":JP_SALAVERRY_21_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="12.66" length="22.05" shape="778.61,849.34 784.36,846.15 799.82,845.68"/>
+    </edge>
+    <edge id=":JP_SALAVERRY_22" function="internal">
+        <lane id=":JP_SALAVERRY_22_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="7.97" length="3.39" shape="787.89,865.85 790.83,867.53"/>
     </edge>
     <edge id=":JP_SALAVERRY_5" function="internal">
         <lane id=":JP_SALAVERRY_5_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="5.58" length="9.36" shape="797.52,860.82 794.65,860.75 793.06,861.60 792.74,863.38 793.69,866.09"/>
@@ -1542,10 +1548,16 @@
         <lane id=":JP_SALAVERRY_6_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="43.24" shape="798.00,857.66 788.27,857.01 775.81,857.41 763.53,858.93 754.32,861.66"/>
     </edge>
     <edge id=":JP_SALAVERRY_8" function="internal">
-        <lane id=":JP_SALAVERRY_8_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="51.17" shape="798.00,857.66 787.40,854.27 772.47,847.81 758.81,840.82 752.00,835.85"/>
+        <lane id=":JP_SALAVERRY_8_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="31.24" shape="798.00,857.66 787.40,854.27 772.47,847.81 769.05,846.06"/>
     </edge>
     <edge id=":JP_SALAVERRY_9" function="internal">
-        <lane id=":JP_SALAVERRY_9_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="6.18" length="17.69" shape="798.00,857.66 793.97,853.98 792.93,850.76 794.88,847.99 799.82,845.68"/>
+        <lane id=":JP_SALAVERRY_9_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="6.18" length="14.21" shape="798.00,857.66 793.97,853.98 792.93,850.76 794.88,847.99 796.67,847.16"/>
+    </edge>
+    <edge id=":JP_SALAVERRY_23" function="internal">
+        <lane id=":JP_SALAVERRY_23_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="19.93" shape="769.05,846.06 758.81,840.82 752.00,835.85"/>
+    </edge>
+    <edge id=":JP_SALAVERRY_24" function="internal">
+        <lane id=":JP_SALAVERRY_24_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="6.18" length="3.48" shape="796.67,847.16 799.82,845.68"/>
     </edge>
     <edge id=":JP_SALAVERRY_10" function="internal">
         <lane id=":JP_SALAVERRY_10_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="31.70" shape="773.46,825.47 777.13,830.29 782.91,834.21 790.80,837.23 800.79,839.36"/>
@@ -1555,10 +1567,16 @@
         <lane id=":JP_SALAVERRY_11_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="45.40" shape="770.58,826.87 790.83,867.53"/>
     </edge>
     <edge id=":JP_SALAVERRY_13" function="internal">
-        <lane id=":JP_SALAVERRY_13_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.71" length="43.60" shape="770.58,826.87 773.55,837.05 771.83,846.24 765.42,854.45 754.32,861.66"/>
+        <lane id=":JP_SALAVERRY_13_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.71" length="31.44" shape="770.58,826.87 773.55,837.05 771.83,846.24 765.42,854.45 764.52,855.03"/>
     </edge>
     <edge id=":JP_SALAVERRY_14" function="internal">
-        <lane id=":JP_SALAVERRY_14_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="7.88" length="30.13" shape="770.58,826.87 769.30,836.08 765.78,840.65 760.02,840.57 752.00,835.85"/>
+        <lane id=":JP_SALAVERRY_14_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="7.88" length="26.74" shape="770.58,826.87 769.30,836.08 765.78,840.65 760.02,840.57 754.93,837.57"/>
+    </edge>
+    <edge id=":JP_SALAVERRY_25" function="internal">
+        <lane id=":JP_SALAVERRY_25_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.71" length="12.17" shape="764.52,855.03 754.32,861.66"/>
+    </edge>
+    <edge id=":JP_SALAVERRY_26" function="internal">
+        <lane id=":JP_SALAVERRY_26_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="7.88" length="3.39" shape="754.93,837.57 752.00,835.85"/>
     </edge>
     <edge id=":JP_SALAVERRY_15" function="internal">
         <lane id=":JP_SALAVERRY_15_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="6.64" length="9.48" shape="746.04,844.96 748.31,843.47 749.58,841.69 749.85,839.61 749.12,837.24"/>
@@ -1569,10 +1587,16 @@
         <lane id=":JP_SALAVERRY_16_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="53.89" shape="747.46,847.83 757.35,845.34 771.46,844.28 786.65,844.46 799.82,845.68"/>
     </edge>
     <edge id=":JP_SALAVERRY_19" function="internal">
-        <lane id=":JP_SALAVERRY_19_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="48.94" shape="747.46,847.83 756.86,848.24 770.48,853.33 783.44,860.58 790.83,867.53"/>
+        <lane id=":JP_SALAVERRY_19_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="29.20" shape="747.46,847.83 756.86,848.24 770.48,853.33 775.06,855.89"/>
     </edge>
     <edge id=":JP_SALAVERRY_20" function="internal">
-        <lane id=":JP_SALAVERRY_20_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="6.90" length="22.55" shape="747.46,847.83 754.36,848.71 757.81,851.31 757.79,855.63 754.32,861.66"/>
+        <lane id=":JP_SALAVERRY_20_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="6.90" length="19.32" shape="747.46,847.83 754.36,848.71 757.81,851.31 757.79,855.63 755.93,858.86"/>
+    </edge>
+    <edge id=":JP_SALAVERRY_27" function="internal">
+        <lane id=":JP_SALAVERRY_27_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="13.89" length="19.75" shape="775.06,855.89 783.44,860.58 790.83,867.53"/>
+    </edge>
+    <edge id=":JP_SALAVERRY_28" function="internal">
+        <lane id=":JP_SALAVERRY_28_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="6.90" length="3.23" shape="755.93,858.86 754.32,861.66"/>
     </edge>
     <edge id=":cluster_10009794302_10010083804_10313727029_10313727030_#2more_0" function="internal">
         <lane id=":cluster_10009794302_10010083804_10313727029_10313727030_#2more_0_0" index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship container cable_car subway aircraft wheelchair scooter drone" speed="6.65" length="9.38" shape="405.06,1431.53 403.35,1429.72 401.43,1428.90 399.28,1429.07 396.91,1430.24"/>
@@ -3574,17 +3598,11 @@
         <phase duration="2"  state="rrrrrrrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="JP_SALAVERRY" type="static" programID="0" offset="0">
-        <phase duration="16" state="GGGGGrrrrrrrrrrrrrrrr"/>
-        <phase duration="3"  state="yyyyyrrrrrrrrrrrrrrrr"/>
+        <phase duration="40" state="rrrrrGGGggrrrrrGGGGgg"/>
+        <phase duration="3"  state="rrrrryyyyyrrrrryyyyyy"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="18" state="rrrrrGGGGGrrrrrrrrrrr"/>
-        <phase duration="3"  state="rrrrryyyyyrrrrrrrrrrr"/>
-        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="18" state="rrrrrrrrrrGGGGGrrrrrr"/>
-        <phase duration="3"  state="rrrrrrrrrryyyyyrrrrrr"/>
-        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="18" state="rrrrrrrrrrrrrrrGGGGGG"/>
-        <phase duration="3"  state="rrrrrrrrrrrrrrryyyyyy"/>
+        <phase duration="40" state="GGGggrrrrrGGGggrrrrrr"/>
+        <phase duration="3"  state="yyyyyrrrrryyyyyrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="cluster_1425922069_1425922099_262729477_262729478_#2more" type="static" programID="0" offset="0">
@@ -4521,28 +4539,28 @@
     <junction id="9492728107" type="dead_end" x="841.80" y="1343.25" incLanes="412572556_0" intLanes="" shape="841.80,1343.25 840.04,1340.58 841.80,1343.25" fringe="inner">
         <param key="buffer_stop" value="true"/>
     </junction>
-    <junction id="JP_SALAVERRY" type="traffic_light" x="770.15" y="849.37" incLanes="284905870#0_0 284905870#0_1 314735739#4_0 314735739#4_1 1338097859#2_0 1338097859#2_1 315553414#13_0 315553414#13_1" intLanes=":JP_SALAVERRY_0_0 :JP_SALAVERRY_1_0 :JP_SALAVERRY_1_1 :JP_SALAVERRY_3_0 :JP_SALAVERRY_4_0 :JP_SALAVERRY_5_0 :JP_SALAVERRY_6_0 :JP_SALAVERRY_6_1 :JP_SALAVERRY_8_0 :JP_SALAVERRY_9_0 :JP_SALAVERRY_10_0 :JP_SALAVERRY_11_0 :JP_SALAVERRY_11_1 :JP_SALAVERRY_13_0 :JP_SALAVERRY_14_0 :JP_SALAVERRY_15_0 :JP_SALAVERRY_16_0 :JP_SALAVERRY_16_1 :JP_SALAVERRY_16_2 :JP_SALAVERRY_19_0 :JP_SALAVERRY_20_0" shape="767.71,879.13 795.12,865.38 794.56,863.45 794.77,862.84 795.28,862.46 796.12,862.32 797.28,862.41 801.03,837.77 794.39,836.52 788.67,834.90 783.86,832.91 779.96,830.56 776.98,827.85 774.90,824.78 747.68,837.94 748.20,840.16 747.97,841.13 747.41,842.02 746.53,842.82 745.33,843.53 756.46,865.96 759.48,866.54 761.26,868.26 763.23,870.93 765.38,874.55">
+    <junction id="JP_SALAVERRY" type="traffic_light" x="770.15" y="849.37" incLanes="284905870#0_0 284905870#0_1 314735739#4_0 314735739#4_1 1338097859#2_0 1338097859#2_1 315553414#13_0 315553414#13_1" intLanes=":JP_SALAVERRY_0_0 :JP_SALAVERRY_1_0 :JP_SALAVERRY_1_1 :JP_SALAVERRY_21_0 :JP_SALAVERRY_22_0 :JP_SALAVERRY_5_0 :JP_SALAVERRY_6_0 :JP_SALAVERRY_6_1 :JP_SALAVERRY_23_0 :JP_SALAVERRY_24_0 :JP_SALAVERRY_10_0 :JP_SALAVERRY_11_0 :JP_SALAVERRY_11_1 :JP_SALAVERRY_25_0 :JP_SALAVERRY_26_0 :JP_SALAVERRY_15_0 :JP_SALAVERRY_16_0 :JP_SALAVERRY_16_1 :JP_SALAVERRY_16_2 :JP_SALAVERRY_27_0 :JP_SALAVERRY_28_0" shape="767.71,879.13 795.12,865.38 794.56,863.45 794.77,862.84 795.28,862.46 796.12,862.32 797.28,862.41 801.03,837.77 794.39,836.52 788.67,834.90 783.86,832.91 779.96,830.56 776.98,827.85 774.90,824.78 747.68,837.94 748.20,840.16 747.97,841.13 747.41,842.02 746.53,842.82 745.33,843.53 756.46,865.96 759.48,866.54 761.26,868.26 763.23,870.93 765.38,874.55">
         <request index="0"  response="000000000000011000000" foes="000000000000011000000" cont="0"/>
         <request index="1"  response="011111000000111000000" foes="011111110000111000000" cont="0"/>
         <request index="2"  response="011111000000111000000" foes="011111110000111000000" cont="0"/>
-        <request index="3"  response="011110001100111000000" foes="011110001101111000000" cont="0"/>
-        <request index="4"  response="010000001100000000000" foes="010000001100000000000" cont="0"/>
+        <request index="3"  response="011110001100111000000" foes="011110001101111000000" cont="1"/>
+        <request index="4"  response="010000001100000000000" foes="010000001100000000000" cont="1"/>
         <request index="5"  response="000000000000000000000" foes="000000001100000000000" cont="0"/>
-        <request index="6"  response="000000000000000000000" foes="110000011100000001111" cont="0"/>
-        <request index="7"  response="000000000000000000000" foes="110000011100000001111" cont="0"/>
-        <request index="8"  response="001110000000000000000" foes="001110111100000001110" cont="0"/>
-        <request index="9"  response="001110000000000001000" foes="001110000000000001000" cont="0"/>
+        <request index="6"  response="000000000000000001000" foes="110000011100000001111" cont="0"/>
+        <request index="7"  response="000000010000000001000" foes="110000011100000001111" cont="0"/>
+        <request index="8"  response="001110010000000001000" foes="001110111100000001110" cont="1"/>
+        <request index="9"  response="001110000000000001000" foes="001110000000000001000" cont="1"/>
         <request index="10" response="001110000000000000000" foes="001110000000000000000" cont="0"/>
         <request index="11" response="011110000000111100000" foes="011110000000111111000" cont="0"/>
         <request index="12" response="011110000000111100000" foes="011110000000111111000" cont="0"/>
-        <request index="13" response="011110000000111000110" foes="111110000000111000110" cont="0"/>
-        <request index="14" response="000000000000100000110" foes="000000000000100000110" cont="0"/>
+        <request index="13" response="011110000000111000110" foes="111110000000111000110" cont="1"/>
+        <request index="14" response="000000000000100000110" foes="000000000000100000110" cont="1"/>
         <request index="15" response="000000000000000000000" foes="000000000000000000110" cont="0"/>
-        <request index="16" response="000000000000000000000" foes="000000011111100001110" cont="0"/>
-        <request index="17" response="000000000000000000000" foes="000000011111100001110" cont="0"/>
-        <request index="18" response="000000000000000000000" foes="000000011111100001110" cont="0"/>
-        <request index="19" response="000000000000011000000" foes="000000011100011011110" cont="0"/>
-        <request index="20" response="000000010000011000000" foes="000000010000011000000" cont="0"/>
+        <request index="16" response="000000010000000000000" foes="000000011111100001110" cont="0"/>
+        <request index="17" response="000000010000000000000" foes="000000011111100001110" cont="0"/>
+        <request index="18" response="000000010000000001000" foes="000000011111100001110" cont="0"/>
+        <request index="19" response="000000010000011001000" foes="000000011100011011110" cont="1"/>
+        <request index="20" response="000000010000011000000" foes="000000010000011000000" cont="1"/>
     </junction>
     <junction id="cluster_10009794302_10010083804_10313727029_10313727030_#2more" type="traffic_light" x="402.45" y="1413.41" incLanes="1343544516_0 1343544516_1 1343544514_0 1343544514_1 1343544514_2 1343544509_0 1343544509_1 1343544512_0 1343544512_1 1343544512_2" intLanes=":cluster_10009794302_10010083804_10313727029_10313727030_#2more_0_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_1_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_1_1 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_17_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_4_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_5_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_5_1 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_5_2 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_18_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_9_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_10_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_10_1 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_19_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_13_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_14_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_14_1 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_20_0" shape="403.72,1432.42 419.73,1421.73 418.87,1419.63 418.90,1418.67 419.23,1417.78 419.88,1416.95 420.84,1416.18 406.51,1394.51 399.79,1391.84 383.49,1403.09 382.43,1408.61 397.80,1431.57 400.08,1430.58 401.11,1430.56 402.06,1430.86 402.93,1431.48">
         <request index="0"  response="00000000011100000" foes="00000000011100000" cont="0"/>
@@ -4832,6 +4850,14 @@
     <junction id=":263378640_3_0" type="internal" x="226.03" y="376.93" incLanes=":263378640_2_0 -436411741_0" intLanes=":263378640_0_0"/>
     <junction id=":263378653_3_0" type="internal" x="354.08" y="582.31" incLanes=":263378653_1_0 -426911069_0" intLanes=":263378653_2_0"/>
     <junction id=":263384427_8_0" type="internal" x="395.12" y="1013.20" incLanes=":263384427_7_0 24306352#1_0" intLanes=":263384427_0_0 :263384427_1_0 :263384427_3_0 :263384427_3_1 :263384427_5_0"/>
+    <junction id=":JP_SALAVERRY_21_0" type="internal" x="778.61" y="849.34" incLanes=":JP_SALAVERRY_3_0 1338097859#2_0 1338097859#2_1" intLanes=":JP_SALAVERRY_6_0 :JP_SALAVERRY_6_1 :JP_SALAVERRY_8_0 :JP_SALAVERRY_9_0 :JP_SALAVERRY_10_0 :JP_SALAVERRY_11_0 :JP_SALAVERRY_11_1 :JP_SALAVERRY_16_0 :JP_SALAVERRY_16_1 :JP_SALAVERRY_16_2 :JP_SALAVERRY_19_0"/>
+    <junction id=":JP_SALAVERRY_22_0" type="internal" x="787.89" y="865.85" incLanes=":JP_SALAVERRY_4_0 1338097859#2_0 1338097859#2_1 314735739#4_0 315553414#13_1" intLanes=":JP_SALAVERRY_5_0 :JP_SALAVERRY_11_0 :JP_SALAVERRY_11_1 :JP_SALAVERRY_19_0"/>
+    <junction id=":JP_SALAVERRY_23_0" type="internal" x="769.05" y="846.06" incLanes=":JP_SALAVERRY_8_0 315553414#13_0 315553414#13_1" intLanes=":JP_SALAVERRY_1_0 :JP_SALAVERRY_1_1 :JP_SALAVERRY_3_0 :JP_SALAVERRY_11_0 :JP_SALAVERRY_11_1 :JP_SALAVERRY_13_0 :JP_SALAVERRY_14_0 :JP_SALAVERRY_15_0 :JP_SALAVERRY_16_0 :JP_SALAVERRY_16_1 :JP_SALAVERRY_16_2"/>
+    <junction id=":JP_SALAVERRY_24_0" type="internal" x="796.67" y="847.16" incLanes=":JP_SALAVERRY_9_0 1338097859#2_0 284905870#0_1 315553414#13_0 315553414#13_1" intLanes=":JP_SALAVERRY_3_0 :JP_SALAVERRY_10_0 :JP_SALAVERRY_16_0 :JP_SALAVERRY_16_1 :JP_SALAVERRY_16_2"/>
+    <junction id=":JP_SALAVERRY_25_0" type="internal" x="764.52" y="855.03" incLanes=":JP_SALAVERRY_13_0 284905870#0_0 284905870#0_1" intLanes=":JP_SALAVERRY_0_0 :JP_SALAVERRY_1_0 :JP_SALAVERRY_1_1 :JP_SALAVERRY_6_0 :JP_SALAVERRY_6_1 :JP_SALAVERRY_8_0 :JP_SALAVERRY_16_0 :JP_SALAVERRY_16_1 :JP_SALAVERRY_16_2 :JP_SALAVERRY_19_0 :JP_SALAVERRY_20_0"/>
+    <junction id=":JP_SALAVERRY_26_0" type="internal" x="754.93" y="837.57" incLanes=":JP_SALAVERRY_14_0 284905870#0_0 284905870#0_1 314735739#4_1 315553414#13_0" intLanes=":JP_SALAVERRY_1_0 :JP_SALAVERRY_1_1 :JP_SALAVERRY_8_0 :JP_SALAVERRY_15_0"/>
+    <junction id=":JP_SALAVERRY_27_0" type="internal" x="775.06" y="855.89" incLanes=":JP_SALAVERRY_19_0 314735739#4_0 314735739#4_1" intLanes=":JP_SALAVERRY_1_0 :JP_SALAVERRY_1_1 :JP_SALAVERRY_3_0 :JP_SALAVERRY_4_0 :JP_SALAVERRY_5_0 :JP_SALAVERRY_6_0 :JP_SALAVERRY_6_1 :JP_SALAVERRY_11_0 :JP_SALAVERRY_11_1 :JP_SALAVERRY_13_0"/>
+    <junction id=":JP_SALAVERRY_28_0" type="internal" x="755.93" y="858.86" incLanes=":JP_SALAVERRY_20_0 1338097859#2_1 284905870#0_0 314735739#4_0 314735739#4_1" intLanes=":JP_SALAVERRY_0_0 :JP_SALAVERRY_6_0 :JP_SALAVERRY_6_1 :JP_SALAVERRY_13_0"/>
     <junction id=":cluster_10009794302_10010083804_10313727029_10313727030_#2more_17_0" type="internal" x="404.22" y="1410.01" incLanes=":cluster_10009794302_10010083804_10313727029_10313727030_#2more_3_0 1343544509_0 1343544509_1" intLanes=":cluster_10009794302_10010083804_10313727029_10313727030_#2more_5_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_5_1 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_5_2 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_8_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_9_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_10_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_10_1 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_14_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_14_1 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_16_0"/>
     <junction id=":cluster_10009794302_10010083804_10313727029_10313727030_#2more_18_0" type="internal" x="397.00" y="1407.51" incLanes=":cluster_10009794302_10010083804_10313727029_10313727030_#2more_8_0 1343544512_0 1343544512_1" intLanes=":cluster_10009794302_10010083804_10313727029_10313727030_#2more_1_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_1_1 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_3_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_10_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_10_1 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_12_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_13_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_14_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_14_1"/>
     <junction id=":cluster_10009794302_10010083804_10313727029_10313727030_#2more_19_0" type="internal" x="398.52" y="1413.61" incLanes=":cluster_10009794302_10010083804_10313727029_10313727030_#2more_12_0 1343544516_0 1343544516_1" intLanes=":cluster_10009794302_10010083804_10313727029_10313727030_#2more_0_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_1_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_1_1 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_5_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_5_1 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_5_2 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_8_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_14_0 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_14_1 :cluster_10009794302_10010083804_10313727029_10313727030_#2more_16_0"/>
@@ -6262,24 +6288,32 @@
     <connection from=":JP_SALAVERRY_0" to="1095296668#0" fromLane="0" toLane="0" dir="r" state="M"/>
     <connection from=":JP_SALAVERRY_1" to="331430035#0" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":JP_SALAVERRY_1" to="331430035#0" fromLane="1" toLane="1" dir="s" state="M"/>
-    <connection from=":JP_SALAVERRY_3" to="436314572#0" fromLane="0" toLane="2" dir="l" state="M"/>
-    <connection from=":JP_SALAVERRY_4" to="317137456#0" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":JP_SALAVERRY_3" to="436314572#0" fromLane="0" toLane="2" via=":JP_SALAVERRY_21_0" dir="l" state="m"/>
+    <connection from=":JP_SALAVERRY_21" to="436314572#0" fromLane="0" toLane="2" dir="l" state="M"/>
+    <connection from=":JP_SALAVERRY_4" to="317137456#0" fromLane="0" toLane="1" via=":JP_SALAVERRY_22_0" dir="t" state="m"/>
+    <connection from=":JP_SALAVERRY_22" to="317137456#0" fromLane="0" toLane="1" dir="t" state="M"/>
     <connection from=":JP_SALAVERRY_5" to="317137456#0" fromLane="0" toLane="0" dir="r" state="M"/>
     <connection from=":JP_SALAVERRY_6" to="1095296668#0" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":JP_SALAVERRY_6" to="1095296668#0" fromLane="1" toLane="1" dir="s" state="M"/>
-    <connection from=":JP_SALAVERRY_8" to="331430035#0" fromLane="0" toLane="1" dir="l" state="M"/>
-    <connection from=":JP_SALAVERRY_9" to="436314572#0" fromLane="0" toLane="2" dir="t" state="M"/>
+    <connection from=":JP_SALAVERRY_8" to="331430035#0" fromLane="0" toLane="1" via=":JP_SALAVERRY_23_0" dir="l" state="m"/>
+    <connection from=":JP_SALAVERRY_23" to="331430035#0" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":JP_SALAVERRY_9" to="436314572#0" fromLane="0" toLane="2" via=":JP_SALAVERRY_24_0" dir="t" state="m"/>
+    <connection from=":JP_SALAVERRY_24" to="436314572#0" fromLane="0" toLane="2" dir="t" state="M"/>
     <connection from=":JP_SALAVERRY_10" to="436314572#0" fromLane="0" toLane="0" dir="r" state="M"/>
     <connection from=":JP_SALAVERRY_11" to="317137456#0" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":JP_SALAVERRY_11" to="317137456#0" fromLane="1" toLane="1" dir="s" state="M"/>
-    <connection from=":JP_SALAVERRY_13" to="1095296668#0" fromLane="0" toLane="1" dir="l" state="M"/>
-    <connection from=":JP_SALAVERRY_14" to="331430035#0" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":JP_SALAVERRY_13" to="1095296668#0" fromLane="0" toLane="1" via=":JP_SALAVERRY_25_0" dir="l" state="m"/>
+    <connection from=":JP_SALAVERRY_25" to="1095296668#0" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":JP_SALAVERRY_14" to="331430035#0" fromLane="0" toLane="1" via=":JP_SALAVERRY_26_0" dir="t" state="m"/>
+    <connection from=":JP_SALAVERRY_26" to="331430035#0" fromLane="0" toLane="1" dir="t" state="M"/>
     <connection from=":JP_SALAVERRY_15" to="331430035#0" fromLane="0" toLane="0" dir="r" state="M"/>
     <connection from=":JP_SALAVERRY_16" to="436314572#0" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":JP_SALAVERRY_16" to="436314572#0" fromLane="1" toLane="1" dir="s" state="M"/>
     <connection from=":JP_SALAVERRY_16" to="436314572#0" fromLane="2" toLane="2" dir="s" state="M"/>
-    <connection from=":JP_SALAVERRY_19" to="317137456#0" fromLane="0" toLane="1" dir="l" state="M"/>
-    <connection from=":JP_SALAVERRY_20" to="1095296668#0" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":JP_SALAVERRY_19" to="317137456#0" fromLane="0" toLane="1" via=":JP_SALAVERRY_27_0" dir="l" state="m"/>
+    <connection from=":JP_SALAVERRY_27" to="317137456#0" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":JP_SALAVERRY_20" to="1095296668#0" fromLane="0" toLane="1" via=":JP_SALAVERRY_28_0" dir="t" state="m"/>
+    <connection from=":JP_SALAVERRY_28" to="1095296668#0" fromLane="0" toLane="1" dir="t" state="M"/>
     <connection from=":cluster_10009794302_10010083804_10313727029_10313727030_#2more_0" to="1343544513" fromLane="0" toLane="0" dir="r" state="M"/>
     <connection from=":cluster_10009794302_10010083804_10313727029_10313727030_#2more_1" to="1343544510" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":cluster_10009794302_10010083804_10313727029_10313727030_#2more_1" to="1343544510" fromLane="1" toLane="1" dir="s" state="M"/>

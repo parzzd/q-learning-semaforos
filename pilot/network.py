@@ -1,5 +1,6 @@
 from pathlib import Path
 import json
+import hashlib
 import math
 import sys
 
@@ -114,20 +115,112 @@ class Layout:
             "virtual": True,
             "note": "Cobertura agregada ideal. Una cámara física puede requerir otra ubicación o sensores adicionales.",
         })
-        self.phase_links = [[i for i, value in enumerate(state) if value in "Gg"] for state in self.phases]
-        self.phase_camera = []
-        self.camera_phase = {}
-        self.phase_outputs = []
-        for phase, links in enumerate(self.phase_links):
-            inputs = {a.getEdge().getID() for a, b, link in self.tls.getConnections() if link in links}
-            camera = next(i for i, edge in enumerate(self.incoming) if edge.getID() in inputs)
-            assert len(inputs) == 1, "Cada fase inicial debe servir un solo acceso."
-            self.phase_camera.append(camera)
-            self.camera_phase[camera] = phase
-            self.phase_outputs.append(sorted({b.getEdge().getID() for a, b, link in self.tls.getConnections()
-                if link in links and any(connection.getDirection() != "t"
-                    for connection in a.getEdge().getConnections(b.getEdge()))}))
+        self._build_signal_plan()
         self.routes = self._routes()
+
+    def _build_signal_plan(self):
+        """Agrupa por movimiento sin inventar carriles exclusivos en el mapa."""
+        self.links = {}
+        lane_directions = {}
+        for incoming, outgoing, link in self.tls.getConnections():
+            connection = next(c for c in incoming.getOutgoing()
+                              if c.getToLane() == outgoing and c.getTLSID() == TLS_ID)
+            camera = self.incoming.index(incoming.getEdge())
+            self.links[link] = {"camera": camera, "direction": connection.getDirection(),
+                                "lane": incoming.getID(), "output": outgoing.getEdge().getID(),
+                                "junction_index": connection.getJunctionIndex()}
+            if connection.getDirection() != "t":
+                lane_directions.setdefault(incoming.getID(), set()).add(connection.getDirection())
+        self.movements = []
+        self.movement_lookup = {}
+        for camera in range(4):
+            for direction, label in (("s", "Frente"), ("l", "Giro izquierdo"), ("r", "Giro derecho")):
+                links = [i for i, link in self.links.items()
+                         if link["camera"] == camera and link["direction"] == direction]
+                if not links:
+                    continue
+                lanes = sorted({self.links[i]["lane"] for i in links})
+                movement = {"id": f"C{camera + 1}_{direction}", "camera": camera,
+                            "direction": direction, "label": label, "links": sorted(links),
+                            "lanes": lanes, "shared": any(len(lane_directions[lane]) > 1 for lane in lanes),
+                            "outputs": sorted({self.links[i]["output"] for i in links})}
+                self.movements.append(movement)
+                self.movement_lookup[camera, direction] = movement["id"]
+        self.movement_by_id = {m["id"]: m for m in self.movements}
+        self.phases, self.phase_meta, self.phase_goals = [], [], []
+        self.camera_phase, self.movement_phase = {}, {}
+        size = max(self.links) + 1
+
+        def compatible(links):
+            return not any(self.links[a]["camera"] != self.links[b]["camera"]
+                           and self.node.areFoes(self.links[a]["junction_index"], self.links[b]["junction_index"])
+                           for a in links for b in links if a < b)
+
+        def add(label, kind, cameras, priority, yielding, goals):
+            assert compatible(priority), f"Movimientos prioritarios incompatibles: {label}"
+            state = ["r"] * size
+            for link in priority:
+                state[link] = "G"
+            for link in yielding:
+                state[link] = "g"
+            self.phases.append("".join(state))
+            self.phase_goals.append(goals)
+            self.phase_meta.append({"id": len(self.phases) - 1, "label": label,
+                                    "kind": kind, "cameras": cameras, "goal_movements": goals})
+            return len(self.phases) - 1
+
+        for avenue in ("Javier Prado", "Salaverry"):
+            cameras = [i for i, label in enumerate(self.camera_labels) if avenue in label]
+            assert len(cameras) == 2
+            groups = [m for m in self.movements if m["camera"] in cameras]
+            primary = [m for m in groups if m["direction"] == "s" or (m["direction"] == "r" and m["shared"])]
+            phase = add(avenue + " · frente en ambos sentidos", "through", cameras,
+                        [i for m in primary for i in m["links"]],
+                        [], [m["id"] for m in primary])
+            for camera in cameras:
+                self.camera_phase[camera] = phase
+            for movement in primary:
+                self.movement_phase[movement["id"]] = phase
+            # Carriles exclusivos: flechas protegidas y duración independiente.
+            for direction in ("l", "r"):
+                dedicated = [m for m in groups if m["direction"] == direction and not m["shared"]]
+                batches = [dedicated] if compatible([i for m in dedicated for i in m["links"]]) else [[m] for m in dedicated]
+                for batch in batches:
+                    if not batch:
+                        continue
+                    phase = add(avenue + " · " + batch[0]["label"].lower(), "turn",
+                                [m["camera"] for m in batch], [i for m in batch for i in m["links"]], [],
+                                [m["id"] for m in batch])
+                    for movement in batch:
+                        self.movement_phase[movement["id"]] = phase
+        # En carriles compartidos se descarga el acceso completo: un vehículo de
+        # frente puede preceder al que gira. El sentido opuesto permanece rojo.
+        for camera in range(4):
+            turns = [m for m in self.movements if m["camera"] == camera and m["direction"] in ("l", "r") and m["shared"]]
+            if not turns:
+                continue
+            phase = add(f"C{camera + 1} · descarga de giros compartidos", "shared_turn", [camera],
+                        [i for i, link in self.links.items() if link["camera"] == camera and link["direction"] != "t"], [],
+                        [m["id"] for m in turns])
+            for movement in turns:
+                if movement["direction"] == "l":
+                    self.movement_phase[movement["id"]] = phase
+        self.phase_cameras = [meta["cameras"] for meta in self.phase_meta]
+        self.phase_links = [[i for i, value in enumerate(state) if value in "Gg"] for state in self.phases]
+        self.phase_outputs = [sorted({self.links[i]["output"] for i in links}) for links in self.phase_links]
+        self.schema = hashlib.sha256(json.dumps({"states": self.phases, "goals": self.phase_goals}, sort_keys=True).encode()).hexdigest()[:16]
+
+    def safe_state(self, phase, blocked_outputs):
+        """Cierra sólo movimientos hacia salidas ocupadas, sin añadir verdes."""
+        return "".join("r" if self.links.get(i, {}).get("output") in blocked_outputs else value
+                       for i, value in enumerate(self.phases[phase]))
+
+    def phase_blocked(self, phase, blocked_outputs):
+        goals = [self.movement_by_id[m] for m in self.phase_goals[phase]]
+        if self.phase_meta[phase]["kind"] == "through":
+            # El frente de los dos sentidos se abre y se cierra conjuntamente.
+            return any(output in blocked_outputs for m in goals if m["direction"] == "s" for output in m["outputs"])
+        return all(any(output in blocked_outputs for output in m["outputs"]) for m in goals)
 
     def _routes(self):
         routes = []
@@ -148,7 +241,8 @@ class Layout:
 
     def save(self):
         payload = {"cameras": self.cameras, "green_phases": self.phases,
-                   "phase_camera": self.phase_camera, "routes": self.routes,
+                   "phase_cameras": self.phase_cameras, "phase_meta": self.phase_meta,
+                   "movements": self.movements, "schema": self.schema, "routes": self.routes,
                    "camera_model": "Sensor ideal por carriles: sin imágenes, perspectiva ni oclusiones."}
         (DATA / "cameras.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2))
         return payload

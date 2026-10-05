@@ -1,8 +1,11 @@
 {
   "samples": 600,
-  "blocked_samples": 42,
+  "blocked_samples": 56,
   "allowed_phases_and_transitions": "passed",
   "green_limits": "passed",
+  "opposite_through_timings": "passed",
+  "paired_samples": 210,
+  "turn_relief_samples": 60,
   "colliding_vehicle_count": 0,
   "teleports": 0
 }

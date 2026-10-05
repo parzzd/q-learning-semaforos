@@ -34,7 +34,7 @@ def main(argv=None):
         recordings = {}
         for controller in ("qlearning", "adaptive"):
             directory = OUTPUTS / "visual" / f"{controller}_{args.seed}"
-            learner = Learner.load(OUTPUTS / "model.json") if controller == "qlearning" else None
+            learner = Learner.load(OUTPUTS / "model.json", layout) if controller == "qlearning" else None
             metrics = run_episode(layout, directory, args.seed, args.seconds,
                                   controller=controller, learner=learner, trace=True)
             recordings[controller] = {"directory": directory, "metrics": metrics}
@@ -58,7 +58,7 @@ def main(argv=None):
         }, ensure_ascii=False, indent=2))
         print(f"Modelo: {OUTPUTS / 'model.json'} · {learner.updates} actualizaciones")
     else:
-        learner = Learner.load(OUTPUTS / "model.json")
+        learner = Learner.load(OUTPUTS / "model.json", layout)
         training_seeds = set(json.loads((OUTPUTS / "training.json").read_text())["training_seeds"])
         seeds = [int(seed) for seed in args.seeds.split(",")]
         if training_seeds.intersection(seeds):

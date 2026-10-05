@@ -11,11 +11,12 @@ def bin_queue(value):
 
 
 def state_key(layout, observation, phase):
-    camera = layout.phase_camera[phase]
-    return ":".join(map(str, [phase, bin_queue(observation["queues"][camera]),
+    turns = sum(observation["movement_queues"][m] for m in layout.phase_goals[phase]
+                if layout.movement_by_id[m]["direction"] in ("l", "r"))
+    return ":".join(map(str, [phase, bin_queue(observation["phase_queues"][phase]),
                               bin_queue(sum(observation["queues"])),
-                              bin_queue(observation["turn_queues"][camera]),
-                              int(any(event["phase"] == phase for event in observation["emergencies"]))]))
+                              bin_queue(turns), min(2, observation["phase_waits"][phase] // 30),
+                              int(any(phase in event["phases"] for event in observation["emergencies"]))]))
 
 
 class Learner:
@@ -23,6 +24,7 @@ class Learner:
         self.q = {}
         self.rng = random.Random(seed)
         self.updates = 0
+        self.schema = None
 
     def select(self, key, epsilon=0):
         values = self.q.get(key)
@@ -42,18 +44,26 @@ class Learner:
     def save(self, path: Path):
         path.write_text(json.dumps({"algorithm": "tabular Q-learning; semi-Markov timing",
                                     "durations_s": DURATIONS, "updates": self.updates,
+                                    "phase_schema": self.schema,
                                     "q": self.q, "scope": "Initial synthetic experiment; no field validation."}, indent=2))
 
     @classmethod
-    def load(cls, path):
+    def load(cls, path, layout=None):
         payload = json.loads(Path(path).read_text())
+        if payload.get("durations_s") != list(DURATIONS) or (layout and payload.get("phase_schema") != layout.schema):
+            raise ValueError("El modelo no corresponde a las fases actuales. Ejecuta: python -m pilot.cli train")
         learner = cls()
         learner.q = payload["q"]
         learner.updates = payload["updates"]
+        learner.schema = payload.get("phase_schema")
         return learner
 
 
 def run_episode(layout, directory, seed, horizon, controller="adaptive", learner=None, epsilon=0, train=False, trace=False):
+    if learner is not None:
+        if learner.schema not in (None, layout.schema):
+            raise ValueError("Modelo entrenado para otro plan de movimientos.")
+        learner.schema = layout.schema
     simulation = Simulation(layout, directory, seed, horizon, trace)
     try:
         while simulation.time < horizon:
@@ -64,8 +74,12 @@ def run_episode(layout, directory, seed, horizon, controller="adaptive", learner
                 action = learner.select(key, epsilon)
                 duration = DURATIONS[action]
             elif controller == "adaptive" and phase is not None:
-                camera = layout.phase_camera[phase]
-                action = min(bin_queue(observation["queues"][camera]), len(DURATIONS) - 1)
+                loads = [sum(observation["movement_queues"][m] for m in layout.phase_goals[phase]
+                             if layout.movement_by_id[m]["camera"] == camera
+                             and not any(edge in observation["blocked_outputs"] for edge in layout.movement_by_id[m]["outputs"]))
+                         for camera in layout.phase_cameras[phase]]
+                needed = 10 + 2 * max(loads, default=0) + (10 if observation["phase_waits"][phase] >= 45 else 0)
+                action = next((i for i, seconds in enumerate(DURATIONS) if seconds >= needed), len(DURATIONS) - 1)
                 duration = DURATIONS[action]
             else:
                 action, duration = 1, 20

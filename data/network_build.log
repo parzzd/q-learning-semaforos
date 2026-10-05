@@ -63,7 +63,7 @@ Warning: Removing pt stop '9411566781' on non existing edge ''.
 Warning: Removing pt stop '9411566788' on non existing edge ''.
 Warning: Removed 6 pt stops because they could not be assigned to the network
 Warning: 6 total messages of type: Found sharp turn with radius % at the % of edge '%'.
-Warning: 27 total messages of type: Minor green from edge '%' to edge '%' exceeds %m/s. Maybe a left-turn lane is missing.
+Warning: 35 total messages of type: Minor green from edge '%' to edge '%' exceeds %m/s. Maybe a left-turn lane is missing.
 Warning: 9 total messages of type: Not joining junctions % (%).
 Warning: 72 total messages of type: PT line in relation % with no stops ignored. Probably OSM file is incomplete.
 Warning: 7 total messages of type: Removing pt stop '%' on non existing edge '%'.
