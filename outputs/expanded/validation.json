@@ -1,0 +1,1642 @@
+{
+  "profile": "five_blocks_v1",
+  "scenario_schema": "ea08127ad2158a99",
+  "passed": true,
+  "paired_demands_identical": {
+    "201": true,
+    "202": true,
+    "203": true
+  },
+  "model_retrained": false,
+  "previous_model_unchanged": true,
+  "previous_model_sha256": "1d4117b17ee8c3b36613c23de7e534e18104ee57e724115eaa5ce8f76f352b1f",
+  "seeds": [
+    201,
+    202,
+    203
+  ],
+  "seconds_per_run": 1200,
+  "source": {
+    "source_url": "https://www.openstreetmap.org/api/0.6/map?bbox=-77.0665,-12.1075,-77.042,-12.0825",
+    "bbox_lonlat": [
+      -77.0665,
+      -12.1075,
+      -77.042,
+      -12.0825
+    ],
+    "downloaded_at_utc": "2026-10-05T02:45:06.883301+00:00",
+    "source": "© OpenStreetMap contributors — ODbL 1.0",
+    "source_license_url": "https://www.openstreetmap.org/copyright",
+    "bytes": 11431231,
+    "osm_signal_nodes": 152
+  },
+  "imported_signal_controls": 38,
+  "active_neighbor_controls": 6,
+  "structure": {
+    "passed": true,
+    "errors": [],
+    "routes": [
+      {
+        "id": "r0",
+        "length_m": 1252.8,
+        "upstream_signals": [
+          "cluster_1425922069_1425922099_262729477_262729478_#2more"
+        ],
+        "connected": true
+      },
+      {
+        "id": "r1",
+        "length_m": 1708.9,
+        "upstream_signals": [
+          "cluster_1425922069_1425922099_262729477_262729478_#2more"
+        ],
+        "connected": true
+      },
+      {
+        "id": "r2",
+        "length_m": 1264.3,
+        "upstream_signals": [
+          "cluster_1425922069_1425922099_262729477_262729478_#2more"
+        ],
+        "connected": true
+      },
+      {
+        "id": "r3",
+        "length_m": 1388.9,
+        "upstream_signals": [
+          "GS_cluster_10313721312_10313721313"
+        ],
+        "connected": true
+      },
+      {
+        "id": "r4",
+        "length_m": 1845.1,
+        "upstream_signals": [
+          "GS_cluster_10313721312_10313721313"
+        ],
+        "connected": true
+      },
+      {
+        "id": "r5",
+        "length_m": 1420.4,
+        "upstream_signals": [
+          "GS_cluster_10313721312_10313721313"
+        ],
+        "connected": true
+      },
+      {
+        "id": "r6",
+        "length_m": 1659.8,
+        "upstream_signals": [
+          "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more",
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more"
+        ],
+        "connected": true
+      },
+      {
+        "id": "r7",
+        "length_m": 1691.3,
+        "upstream_signals": [
+          "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more",
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more"
+        ],
+        "connected": true
+      },
+      {
+        "id": "r8",
+        "length_m": 1671.4,
+        "upstream_signals": [
+          "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more",
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more"
+        ],
+        "connected": true
+      },
+      {
+        "id": "r9",
+        "length_m": 1659.0,
+        "upstream_signals": [
+          "263383329",
+          "joinedS_263381649_263384427"
+        ],
+        "connected": true
+      },
+      {
+        "id": "r10",
+        "length_m": 1234.3,
+        "upstream_signals": [
+          "263383329",
+          "joinedS_263381649_263384427"
+        ],
+        "connected": true
+      },
+      {
+        "id": "r11",
+        "length_m": 1214.3,
+        "upstream_signals": [
+          "263383329",
+          "joinedS_263381649_263384427"
+        ],
+        "connected": true
+      },
+      {
+        "id": "side_0",
+        "length_m": 344.3,
+        "upstream_signals": [],
+        "connected": true
+      },
+      {
+        "id": "side_1",
+        "length_m": 344.1,
+        "upstream_signals": [],
+        "connected": true
+      },
+      {
+        "id": "side_2",
+        "length_m": 449.2,
+        "upstream_signals": [],
+        "connected": true
+      },
+      {
+        "id": "side_3",
+        "length_m": 412.9,
+        "upstream_signals": [],
+        "connected": true
+      },
+      {
+        "id": "side_4",
+        "length_m": 867.3,
+        "upstream_signals": [],
+        "connected": true
+      },
+      {
+        "id": "side_5",
+        "length_m": 857.7,
+        "upstream_signals": [],
+        "connected": true
+      },
+      {
+        "id": "side_6",
+        "length_m": 473.8,
+        "upstream_signals": [],
+        "connected": true
+      },
+      {
+        "id": "side_7",
+        "length_m": 473.9,
+        "upstream_signals": [],
+        "connected": true
+      },
+      {
+        "id": "side_8",
+        "length_m": 185.5,
+        "upstream_signals": [],
+        "connected": true
+      },
+      {
+        "id": "side_9",
+        "length_m": 415.1,
+        "upstream_signals": [],
+        "connected": true
+      }
+    ],
+    "neighbor_protected_phase_conflicts": [],
+    "five_blocks_each_approach": true,
+    "central_routes": 12,
+    "lateral_routes": 10,
+    "upstream_signals_each_approach": [
+      [
+        "cluster_1425922069_1425922099_262729477_262729478_#2more"
+      ],
+      [
+        "GS_cluster_10313721312_10313721313"
+      ],
+      [
+        "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more",
+        "GS_cluster_1425922073_1425922080_263109777_263109778_#2more"
+      ],
+      [
+        "263383329",
+        "joinedS_263381649_263384427"
+      ]
+    ],
+    "camera_count": 5
+  },
+  "results": [
+    {
+      "horizon_s": 1200,
+      "departed": 660,
+      "arrived": 659,
+      "still_in_network": 1,
+      "pending_departures": 0,
+      "observed_mean_queue_vehicles": 17.128,
+      "observed_max_queue_vehicles": 48,
+      "observed_mean_turn_queue_vehicles": 7.612,
+      "observed_max_turn_queue_vehicles": 25,
+      "network_stopped_vehicle_seconds": 37821,
+      "mean_stopped_s_per_departed_vehicle": 57.305,
+      "colliding_vehicle_count": 0,
+      "teleports": 0,
+      "reward": -600.02,
+      "emergencies": [
+        {
+          "id": "special_1",
+          "type": "ambulance_active",
+          "stopped_s": 10,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_2",
+          "type": "police_active",
+          "stopped_s": 35,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_3",
+          "type": "ambulance_active",
+          "stopped_s": 19,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_4",
+          "type": "police_active",
+          "stopped_s": 11,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        }
+      ],
+      "data_kind": "synthetic; uncalibrated",
+      "phase_schema": "987687213d0ee72b",
+      "scenario_profile": "five_blocks_v1",
+      "scenario_schema": "ea08127ad2158a99",
+      "network_audit": {
+        "central_crossings": 422,
+        "central_crossings_after_prior_signal": 422,
+        "by_camera": [
+          {
+            "camera": "C1",
+            "central_crossings": 112,
+            "with_prior_signal": 112,
+            "arrivals_per_10s": {
+              "70": 1,
+              "80": 1,
+              "100": 1,
+              "110": 1,
+              "150": 1,
+              "160": 2,
+              "170": 8,
+              "290": 8,
+              "300": 6,
+              "360": 1,
+              "370": 7,
+              "380": 1,
+              "510": 2,
+              "520": 4,
+              "530": 5,
+              "540": 4,
+              "550": 2,
+              "620": 2,
+              "630": 5,
+              "640": 5,
+              "650": 3,
+              "660": 10,
+              "670": 6,
+              "850": 4,
+              "860": 4,
+              "870": 4,
+              "880": 5,
+              "890": 3,
+              "900": 3,
+              "920": 3
+            }
+          },
+          {
+            "camera": "C2",
+            "central_crossings": 110,
+            "with_prior_signal": 110,
+            "arrivals_per_10s": {
+              "180": 2,
+              "190": 10,
+              "320": 2,
+              "330": 4,
+              "340": 5,
+              "360": 1,
+              "400": 3,
+              "420": 4,
+              "430": 1,
+              "560": 9,
+              "570": 7,
+              "580": 3,
+              "590": 2,
+              "600": 2,
+              "610": 2,
+              "690": 4,
+              "700": 10,
+              "710": 7,
+              "720": 1,
+              "780": 1,
+              "790": 3,
+              "800": 1,
+              "810": 1,
+              "950": 5,
+              "960": 9,
+              "970": 9,
+              "980": 2
+            }
+          },
+          {
+            "camera": "C3",
+            "central_crossings": 99,
+            "with_prior_signal": 99,
+            "arrivals_per_10s": {
+              "220": 3,
+              "290": 4,
+              "300": 4,
+              "310": 2,
+              "430": 1,
+              "440": 8,
+              "450": 6,
+              "460": 2,
+              "510": 2,
+              "520": 6,
+              "530": 5,
+              "550": 1,
+              "620": 3,
+              "630": 5,
+              "640": 4,
+              "650": 1,
+              "740": 8,
+              "850": 4,
+              "860": 4,
+              "870": 5,
+              "880": 4,
+              "890": 3,
+              "990": 1,
+              "1000": 8,
+              "1010": 4,
+              "1020": 1
+            }
+          },
+          {
+            "camera": "C4",
+            "central_crossings": 101,
+            "with_prior_signal": 101,
+            "arrivals_per_10s": {
+              "90": 1,
+              "120": 1,
+              "130": 4,
+              "240": 2,
+              "250": 10,
+              "260": 2,
+              "270": 2,
+              "280": 1,
+              "320": 2,
+              "360": 1,
+              "470": 5,
+              "480": 10,
+              "490": 8,
+              "500": 3,
+              "560": 4,
+              "570": 5,
+              "580": 1,
+              "590": 1,
+              "750": 2,
+              "760": 5,
+              "770": 3,
+              "780": 5,
+              "790": 3,
+              "800": 1,
+              "810": 1,
+              "820": 6,
+              "840": 1,
+              "1050": 3,
+              "1060": 4,
+              "1070": 3,
+              "1100": 1
+            }
+          }
+        ],
+        "upstream_red_waiters": {
+          "joinedS_263381649_263384427": 116,
+          "GS_cluster_10313721312_10313721313": 142,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 132,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 86,
+          "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more": 4,
+          "263383329": 1
+        },
+        "upstream_red_stopped_vehicle_seconds": {
+          "joinedS_263381649_263384427": 3321,
+          "GS_cluster_10313721312_10313721313": 3595,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 3506,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 2389,
+          "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more": 138,
+          "263383329": 1
+        },
+        "crossings_by_tls": {
+          "263383329": 101,
+          "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more": 254,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 265,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 265,
+          "GS_cluster_10313721312_10313721313": 254,
+          "joinedS_263381649_263384427": 260
+        }
+      },
+      "neighbor_programs": "SUMO-generated fixed cycles; no municipal timings; emergency priority only at central junction",
+      "controller": "adaptive",
+      "seed": 201,
+      "passed": true,
+      "trace_audit": {
+        "passed": true,
+        "errors": [],
+        "samples": 1200,
+        "paired_through_samples": 428,
+        "turn_bottleneck_relief_samples": 0,
+        "blocked_output_samples": 0
+      }
+    },
+    {
+      "horizon_s": 1200,
+      "departed": 660,
+      "arrived": 660,
+      "still_in_network": 0,
+      "pending_departures": 0,
+      "observed_mean_queue_vehicles": 15.125,
+      "observed_max_queue_vehicles": 54,
+      "observed_mean_turn_queue_vehicles": 6.66,
+      "observed_max_turn_queue_vehicles": 22,
+      "network_stopped_vehicle_seconds": 35189,
+      "mean_stopped_s_per_departed_vehicle": 53.317,
+      "colliding_vehicle_count": 0,
+      "teleports": 0,
+      "reward": -529.32,
+      "emergencies": [
+        {
+          "id": "special_1",
+          "type": "ambulance_active",
+          "stopped_s": 13,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_2",
+          "type": "police_active",
+          "stopped_s": 30,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_3",
+          "type": "ambulance_active",
+          "stopped_s": 11,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_4",
+          "type": "police_active",
+          "stopped_s": 2,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        }
+      ],
+      "data_kind": "synthetic; uncalibrated",
+      "phase_schema": "987687213d0ee72b",
+      "scenario_profile": "five_blocks_v1",
+      "scenario_schema": "ea08127ad2158a99",
+      "network_audit": {
+        "central_crossings": 422,
+        "central_crossings_after_prior_signal": 422,
+        "by_camera": [
+          {
+            "camera": "C1",
+            "central_crossings": 112,
+            "with_prior_signal": 112,
+            "arrivals_per_10s": {
+              "70": 1,
+              "80": 1,
+              "110": 3,
+              "160": 2,
+              "170": 8,
+              "260": 9,
+              "270": 4,
+              "310": 1,
+              "420": 8,
+              "430": 3,
+              "440": 1,
+              "470": 3,
+              "480": 2,
+              "520": 1,
+              "530": 4,
+              "540": 4,
+              "550": 3,
+              "560": 1,
+              "620": 3,
+              "630": 5,
+              "640": 5,
+              "650": 4,
+              "660": 3,
+              "670": 1,
+              "690": 5,
+              "700": 2,
+              "830": 4,
+              "840": 4,
+              "850": 2,
+              "860": 5,
+              "980": 4,
+              "990": 4,
+              "1000": 1,
+              "1010": 1
+            }
+          },
+          {
+            "camera": "C2",
+            "central_crossings": 110,
+            "with_prior_signal": 110,
+            "arrivals_per_10s": {
+              "180": 2,
+              "190": 10,
+              "240": 1,
+              "250": 3,
+              "320": 2,
+              "330": 1,
+              "340": 3,
+              "350": 1,
+              "360": 1,
+              "370": 2,
+              "380": 1,
+              "490": 3,
+              "500": 9,
+              "580": 10,
+              "590": 7,
+              "740": 5,
+              "750": 3,
+              "760": 4,
+              "770": 5,
+              "780": 4,
+              "790": 7,
+              "800": 1,
+              "910": 6,
+              "920": 4,
+              "930": 5,
+              "940": 7,
+              "1030": 3
+            }
+          },
+          {
+            "camera": "C3",
+            "central_crossings": 99,
+            "with_prior_signal": 99,
+            "arrivals_per_10s": {
+              "210": 4,
+              "310": 4,
+              "320": 1,
+              "390": 2,
+              "400": 9,
+              "470": 6,
+              "480": 3,
+              "510": 1,
+              "520": 2,
+              "530": 4,
+              "540": 4,
+              "550": 2,
+              "560": 1,
+              "600": 3,
+              "610": 4,
+              "620": 6,
+              "630": 7,
+              "640": 1,
+              "800": 1,
+              "810": 7,
+              "820": 11,
+              "830": 1,
+              "960": 8,
+              "970": 4,
+              "990": 1,
+              "1060": 2
+            }
+          },
+          {
+            "camera": "C4",
+            "central_crossings": 101,
+            "with_prior_signal": 101,
+            "arrivals_per_10s": {
+              "90": 1,
+              "100": 3,
+              "130": 3,
+              "140": 1,
+              "230": 1,
+              "240": 5,
+              "250": 1,
+              "280": 2,
+              "290": 8,
+              "360": 1,
+              "440": 4,
+              "450": 10,
+              "460": 3,
+              "490": 2,
+              "500": 6,
+              "710": 5,
+              "720": 10,
+              "730": 3,
+              "740": 9,
+              "750": 5,
+              "760": 1,
+              "880": 2,
+              "890": 10,
+              "900": 1,
+              "910": 4
+            }
+          }
+        ],
+        "upstream_red_waiters": {
+          "joinedS_263381649_263384427": 124,
+          "GS_cluster_10313721312_10313721313": 155,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 127,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 79,
+          "263383329": 2,
+          "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more": 3
+        },
+        "upstream_red_stopped_vehicle_seconds": {
+          "joinedS_263381649_263384427": 3296,
+          "GS_cluster_10313721312_10313721313": 4059,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 3086,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 2125,
+          "263383329": 2,
+          "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more": 90
+        },
+        "crossings_by_tls": {
+          "263383329": 101,
+          "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more": 254,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 265,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 265,
+          "GS_cluster_10313721312_10313721313": 254,
+          "joinedS_263381649_263384427": 260
+        }
+      },
+      "neighbor_programs": "SUMO-generated fixed cycles; no municipal timings; emergency priority only at central junction",
+      "controller": "fixed",
+      "seed": 201,
+      "passed": true,
+      "trace_audit": {
+        "passed": true,
+        "errors": [],
+        "samples": 1200,
+        "paired_through_samples": 383,
+        "turn_bottleneck_relief_samples": 0,
+        "blocked_output_samples": 0
+      }
+    },
+    {
+      "horizon_s": 1200,
+      "departed": 692,
+      "arrived": 689,
+      "still_in_network": 3,
+      "pending_departures": 0,
+      "observed_mean_queue_vehicles": 25.308,
+      "observed_max_queue_vehicles": 76,
+      "observed_mean_turn_queue_vehicles": 9.518,
+      "observed_max_turn_queue_vehicles": 30,
+      "network_stopped_vehicle_seconds": 49135,
+      "mean_stopped_s_per_departed_vehicle": 71.004,
+      "colliding_vehicle_count": 0,
+      "teleports": 0,
+      "reward": -843.26,
+      "emergencies": [
+        {
+          "id": "special_1",
+          "type": "ambulance_active",
+          "stopped_s": 79,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_2",
+          "type": "police_active",
+          "stopped_s": 20,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_3",
+          "type": "ambulance_active",
+          "stopped_s": 24,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_4",
+          "type": "police_active",
+          "stopped_s": 7,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        }
+      ],
+      "data_kind": "synthetic; uncalibrated",
+      "phase_schema": "987687213d0ee72b",
+      "scenario_profile": "five_blocks_v1",
+      "scenario_schema": "ea08127ad2158a99",
+      "network_audit": {
+        "central_crossings": 473,
+        "central_crossings_after_prior_signal": 473,
+        "by_camera": [
+          {
+            "camera": "C1",
+            "central_crossings": 121,
+            "with_prior_signal": 121,
+            "arrivals_per_10s": {
+              "70": 3,
+              "80": 1,
+              "100": 4,
+              "110": 1,
+              "120": 1,
+              "130": 2,
+              "270": 5,
+              "280": 3,
+              "290": 4,
+              "300": 2,
+              "310": 1,
+              "320": 3,
+              "500": 5,
+              "510": 4,
+              "520": 6,
+              "530": 5,
+              "540": 6,
+              "550": 4,
+              "560": 3,
+              "570": 10,
+              "580": 10,
+              "590": 1,
+              "620": 2,
+              "630": 5,
+              "640": 4,
+              "650": 1,
+              "840": 6,
+              "850": 11,
+              "860": 1,
+              "880": 1,
+              "890": 2,
+              "900": 1,
+              "1090": 3
+            }
+          },
+          {
+            "camera": "C2",
+            "central_crossings": 128,
+            "with_prior_signal": 128,
+            "arrivals_per_10s": {
+              "80": 2,
+              "150": 4,
+              "160": 2,
+              "170": 4,
+              "180": 2,
+              "190": 1,
+              "330": 5,
+              "340": 5,
+              "350": 3,
+              "360": 4,
+              "370": 5,
+              "380": 2,
+              "390": 1,
+              "400": 2,
+              "420": 1,
+              "600": 3,
+              "610": 4,
+              "650": 1,
+              "660": 9,
+              "670": 10,
+              "680": 9,
+              "690": 8,
+              "700": 9,
+              "710": 9,
+              "740": 4,
+              "780": 2,
+              "790": 4,
+              "940": 5,
+              "950": 7,
+              "1010": 1
+            }
+          },
+          {
+            "camera": "C3",
+            "central_crossings": 115,
+            "with_prior_signal": 115,
+            "arrivals_per_10s": {
+              "100": 1,
+              "210": 8,
+              "220": 3,
+              "270": 4,
+              "280": 2,
+              "430": 8,
+              "440": 8,
+              "450": 2,
+              "460": 1,
+              "500": 1,
+              "510": 1,
+              "520": 3,
+              "530": 3,
+              "540": 4,
+              "550": 3,
+              "560": 1,
+              "620": 2,
+              "630": 6,
+              "640": 4,
+              "650": 1,
+              "720": 5,
+              "730": 8,
+              "880": 11,
+              "890": 8,
+              "900": 5,
+              "910": 4,
+              "920": 3,
+              "980": 5
+            }
+          },
+          {
+            "camera": "C4",
+            "central_crossings": 109,
+            "with_prior_signal": 109,
+            "arrivals_per_10s": {
+              "150": 5,
+              "230": 3,
+              "240": 7,
+              "330": 6,
+              "360": 1,
+              "370": 4,
+              "380": 3,
+              "460": 4,
+              "470": 7,
+              "480": 9,
+              "490": 8,
+              "600": 3,
+              "610": 4,
+              "740": 2,
+              "750": 5,
+              "760": 5,
+              "770": 5,
+              "780": 5,
+              "790": 3,
+              "810": 7,
+              "820": 3,
+              "1010": 5,
+              "1020": 3,
+              "1060": 2
+            }
+          }
+        ],
+        "upstream_red_waiters": {
+          "joinedS_263381649_263384427": 122,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 83,
+          "GS_cluster_10313721312_10313721313": 155,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 103,
+          "263383329": 1
+        },
+        "upstream_red_stopped_vehicle_seconds": {
+          "joinedS_263381649_263384427": 3544,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 2363,
+          "GS_cluster_10313721312_10313721313": 4140,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 2626,
+          "263383329": 2
+        },
+        "crossings_by_tls": {
+          "GS_cluster_10313721312_10313721313": 284,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 272,
+          "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more": 295,
+          "263383329": 109,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 279,
+          "joinedS_263381649_263384427": 273
+        }
+      },
+      "neighbor_programs": "SUMO-generated fixed cycles; no municipal timings; emergency priority only at central junction",
+      "controller": "adaptive",
+      "seed": 202,
+      "passed": true,
+      "trace_audit": {
+        "passed": true,
+        "errors": [],
+        "samples": 1200,
+        "paired_through_samples": 447,
+        "turn_bottleneck_relief_samples": 20,
+        "blocked_output_samples": 0
+      }
+    },
+    {
+      "horizon_s": 1200,
+      "departed": 692,
+      "arrived": 692,
+      "still_in_network": 0,
+      "pending_departures": 0,
+      "observed_mean_queue_vehicles": 22.232,
+      "observed_max_queue_vehicles": 74,
+      "observed_mean_turn_queue_vehicles": 8.64,
+      "observed_max_turn_queue_vehicles": 26,
+      "network_stopped_vehicle_seconds": 44410,
+      "mean_stopped_s_per_departed_vehicle": 64.176,
+      "colliding_vehicle_count": 0,
+      "teleports": 0,
+      "reward": -748.12,
+      "emergencies": [
+        {
+          "id": "special_1",
+          "type": "ambulance_active",
+          "stopped_s": 8,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_2",
+          "type": "police_active",
+          "stopped_s": 15,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_3",
+          "type": "ambulance_active",
+          "stopped_s": 18,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_4",
+          "type": "police_active",
+          "stopped_s": 8,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        }
+      ],
+      "data_kind": "synthetic; uncalibrated",
+      "phase_schema": "987687213d0ee72b",
+      "scenario_profile": "five_blocks_v1",
+      "scenario_schema": "ea08127ad2158a99",
+      "network_audit": {
+        "central_crossings": 473,
+        "central_crossings_after_prior_signal": 473,
+        "by_camera": [
+          {
+            "camera": "C1",
+            "central_crossings": 121,
+            "with_prior_signal": 121,
+            "arrivals_per_10s": {
+              "70": 3,
+              "80": 1,
+              "110": 4,
+              "120": 1,
+              "130": 1,
+              "140": 2,
+              "260": 4,
+              "270": 4,
+              "280": 4,
+              "290": 6,
+              "450": 5,
+              "460": 5,
+              "470": 5,
+              "480": 10,
+              "490": 6,
+              "520": 3,
+              "530": 6,
+              "540": 4,
+              "550": 4,
+              "560": 2,
+              "630": 2,
+              "640": 5,
+              "650": 5,
+              "660": 3,
+              "670": 1,
+              "680": 3,
+              "840": 8,
+              "850": 8,
+              "890": 2,
+              "900": 1,
+              "910": 2,
+              "920": 1
+            }
+          },
+          {
+            "camera": "C2",
+            "central_crossings": 128,
+            "with_prior_signal": 128,
+            "arrivals_per_10s": {
+              "80": 2,
+              "100": 1,
+              "160": 4,
+              "170": 3,
+              "180": 2,
+              "190": 3,
+              "310": 6,
+              "320": 2,
+              "330": 3,
+              "340": 4,
+              "350": 4,
+              "360": 4,
+              "370": 2,
+              "380": 2,
+              "500": 5,
+              "510": 4,
+              "560": 1,
+              "570": 8,
+              "580": 10,
+              "700": 4,
+              "710": 3,
+              "720": 4,
+              "730": 6,
+              "740": 5,
+              "750": 9,
+              "760": 5,
+              "780": 1,
+              "860": 4,
+              "870": 9,
+              "880": 2,
+              "940": 3,
+              "950": 1,
+              "1010": 2
+            }
+          },
+          {
+            "camera": "C3",
+            "central_crossings": 115,
+            "with_prior_signal": 115,
+            "arrivals_per_10s": {
+              "110": 1,
+              "210": 8,
+              "220": 3,
+              "260": 3,
+              "270": 3,
+              "400": 8,
+              "410": 4,
+              "450": 5,
+              "460": 2,
+              "520": 2,
+              "530": 5,
+              "540": 4,
+              "550": 3,
+              "560": 1,
+              "590": 1,
+              "600": 3,
+              "630": 4,
+              "640": 6,
+              "650": 3,
+              "790": 9,
+              "800": 10,
+              "840": 8,
+              "850": 5,
+              "890": 5,
+              "900": 2,
+              "910": 1,
+              "960": 2,
+              "970": 2,
+              "980": 2
+            }
+          },
+          {
+            "camera": "C4",
+            "central_crossings": 109,
+            "with_prior_signal": 109,
+            "arrivals_per_10s": {
+              "90": 1,
+              "160": 4,
+              "230": 3,
+              "240": 7,
+              "310": 6,
+              "360": 1,
+              "420": 2,
+              "430": 11,
+              "440": 1,
+              "490": 1,
+              "500": 4,
+              "510": 4,
+              "620": 8,
+              "700": 1,
+              "710": 7,
+              "720": 1,
+              "740": 3,
+              "750": 4,
+              "760": 5,
+              "770": 4,
+              "780": 3,
+              "810": 3,
+              "820": 11,
+              "830": 4,
+              "940": 7,
+              "950": 1,
+              "990": 2
+            }
+          }
+        ],
+        "upstream_red_waiters": {
+          "joinedS_263381649_263384427": 134,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 80,
+          "GS_cluster_10313721312_10313721313": 157,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 109,
+          "263383329": 1
+        },
+        "upstream_red_stopped_vehicle_seconds": {
+          "joinedS_263381649_263384427": 3806,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 2138,
+          "GS_cluster_10313721312_10313721313": 4608,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 2411,
+          "263383329": 1
+        },
+        "crossings_by_tls": {
+          "GS_cluster_10313721312_10313721313": 284,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 272,
+          "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more": 295,
+          "263383329": 109,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 279,
+          "joinedS_263381649_263384427": 273
+        }
+      },
+      "neighbor_programs": "SUMO-generated fixed cycles; no municipal timings; emergency priority only at central junction",
+      "controller": "fixed",
+      "seed": 202,
+      "passed": true,
+      "trace_audit": {
+        "passed": true,
+        "errors": [],
+        "samples": 1200,
+        "paired_through_samples": 399,
+        "turn_bottleneck_relief_samples": 0,
+        "blocked_output_samples": 0
+      }
+    },
+    {
+      "horizon_s": 1200,
+      "departed": 651,
+      "arrived": 650,
+      "still_in_network": 1,
+      "pending_departures": 0,
+      "observed_mean_queue_vehicles": 25.047,
+      "observed_max_queue_vehicles": 72,
+      "observed_mean_turn_queue_vehicles": 9.98,
+      "observed_max_turn_queue_vehicles": 26,
+      "network_stopped_vehicle_seconds": 47961,
+      "mean_stopped_s_per_departed_vehicle": 73.673,
+      "colliding_vehicle_count": 0,
+      "teleports": 0,
+      "reward": -848.56,
+      "emergencies": [
+        {
+          "id": "special_1",
+          "type": "ambulance_active",
+          "stopped_s": 79,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_2",
+          "type": "police_active",
+          "stopped_s": 31,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_3",
+          "type": "ambulance_active",
+          "stopped_s": 17,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_4",
+          "type": "police_active",
+          "stopped_s": 1,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        }
+      ],
+      "data_kind": "synthetic; uncalibrated",
+      "phase_schema": "987687213d0ee72b",
+      "scenario_profile": "five_blocks_v1",
+      "scenario_schema": "ea08127ad2158a99",
+      "network_audit": {
+        "central_crossings": 452,
+        "central_crossings_after_prior_signal": 452,
+        "by_camera": [
+          {
+            "camera": "C1",
+            "central_crossings": 103,
+            "with_prior_signal": 103,
+            "arrivals_per_10s": {
+              "70": 1,
+              "130": 2,
+              "140": 1,
+              "260": 6,
+              "270": 5,
+              "280": 5,
+              "290": 4,
+              "300": 3,
+              "380": 6,
+              "390": 4,
+              "500": 8,
+              "510": 1,
+              "520": 2,
+              "530": 4,
+              "620": 2,
+              "630": 6,
+              "640": 5,
+              "650": 4,
+              "660": 4,
+              "670": 1,
+              "680": 6,
+              "700": 3,
+              "890": 9,
+              "900": 5,
+              "910": 1,
+              "940": 3,
+              "950": 2
+            }
+          },
+          {
+            "camera": "C2",
+            "central_crossings": 122,
+            "with_prior_signal": 122,
+            "arrivals_per_10s": {
+              "160": 5,
+              "170": 3,
+              "180": 1,
+              "190": 2,
+              "330": 4,
+              "340": 5,
+              "350": 3,
+              "360": 5,
+              "370": 2,
+              "420": 8,
+              "430": 5,
+              "440": 5,
+              "610": 6,
+              "710": 5,
+              "720": 8,
+              "730": 7,
+              "740": 6,
+              "750": 8,
+              "760": 4,
+              "770": 4,
+              "780": 5,
+              "790": 1,
+              "980": 9,
+              "990": 10,
+              "1000": 1
+            }
+          },
+          {
+            "camera": "C3",
+            "central_crossings": 125,
+            "with_prior_signal": 125,
+            "arrivals_per_10s": {
+              "220": 7,
+              "250": 1,
+              "260": 4,
+              "280": 5,
+              "450": 5,
+              "460": 12,
+              "470": 8,
+              "480": 3,
+              "520": 4,
+              "530": 2,
+              "620": 2,
+              "630": 5,
+              "640": 5,
+              "650": 5,
+              "660": 4,
+              "670": 3,
+              "800": 11,
+              "810": 11,
+              "820": 9,
+              "830": 4,
+              "890": 6,
+              "900": 3,
+              "910": 1,
+              "920": 1,
+              "1030": 4
+            }
+          },
+          {
+            "camera": "C4",
+            "central_crossings": 102,
+            "with_prior_signal": 102,
+            "arrivals_per_10s": {
+              "100": 3,
+              "110": 7,
+              "120": 2,
+              "160": 1,
+              "310": 5,
+              "320": 4,
+              "330": 6,
+              "340": 5,
+              "350": 2,
+              "360": 3,
+              "370": 2,
+              "540": 7,
+              "550": 9,
+              "560": 9,
+              "570": 8,
+              "580": 1,
+              "590": 2,
+              "740": 6,
+              "750": 4,
+              "760": 3,
+              "770": 3,
+              "850": 5,
+              "860": 3,
+              "1070": 2
+            }
+          }
+        ],
+        "upstream_red_waiters": {
+          "joinedS_263381649_263384427": 119,
+          "GS_cluster_10313721312_10313721313": 155,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 80,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 129,
+          "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more": 2
+        },
+        "upstream_red_stopped_vehicle_seconds": {
+          "joinedS_263381649_263384427": 3510,
+          "GS_cluster_10313721312_10313721313": 3557,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 2090,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 2965,
+          "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more": 89
+        },
+        "crossings_by_tls": {
+          "263383329": 102,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 267,
+          "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more": 272,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 277,
+          "GS_cluster_10313721312_10313721313": 277,
+          "joinedS_263381649_263384427": 252
+        }
+      },
+      "neighbor_programs": "SUMO-generated fixed cycles; no municipal timings; emergency priority only at central junction",
+      "controller": "adaptive",
+      "seed": 203,
+      "passed": true,
+      "trace_audit": {
+        "passed": true,
+        "errors": [],
+        "samples": 1200,
+        "paired_through_samples": 362,
+        "turn_bottleneck_relief_samples": 0,
+        "blocked_output_samples": 0
+      }
+    },
+    {
+      "horizon_s": 1200,
+      "departed": 651,
+      "arrived": 651,
+      "still_in_network": 0,
+      "pending_departures": 0,
+      "observed_mean_queue_vehicles": 20.843,
+      "observed_max_queue_vehicles": 65,
+      "observed_mean_turn_queue_vehicles": 8.23,
+      "observed_max_turn_queue_vehicles": 25,
+      "network_stopped_vehicle_seconds": 41834,
+      "mean_stopped_s_per_departed_vehicle": 64.261,
+      "colliding_vehicle_count": 0,
+      "teleports": 0,
+      "reward": -703.28,
+      "emergencies": [
+        {
+          "id": "special_1",
+          "type": "ambulance_active",
+          "stopped_s": 14,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_2",
+          "type": "police_active",
+          "stopped_s": 26,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_3",
+          "type": "ambulance_active",
+          "stopped_s": 13,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        },
+        {
+          "id": "special_4",
+          "type": "police_active",
+          "stopped_s": 1,
+          "departed": true,
+          "arrived": true,
+          "censored_at_horizon": false
+        }
+      ],
+      "data_kind": "synthetic; uncalibrated",
+      "phase_schema": "987687213d0ee72b",
+      "scenario_profile": "five_blocks_v1",
+      "scenario_schema": "ea08127ad2158a99",
+      "network_audit": {
+        "central_crossings": 452,
+        "central_crossings_after_prior_signal": 452,
+        "by_camera": [
+          {
+            "camera": "C1",
+            "central_crossings": 103,
+            "with_prior_signal": 103,
+            "arrivals_per_10s": {
+              "70": 1,
+              "130": 2,
+              "140": 1,
+              "230": 2,
+              "240": 4,
+              "250": 3,
+              "280": 2,
+              "290": 11,
+              "300": 4,
+              "420": 3,
+              "430": 5,
+              "440": 2,
+              "470": 3,
+              "480": 4,
+              "520": 2,
+              "530": 5,
+              "540": 4,
+              "550": 2,
+              "560": 2,
+              "630": 6,
+              "640": 3,
+              "680": 9,
+              "790": 4,
+              "800": 9,
+              "810": 1,
+              "840": 2,
+              "940": 4,
+              "990": 2,
+              "1000": 1
+            }
+          },
+          {
+            "camera": "C2",
+            "central_crossings": 122,
+            "with_prior_signal": 122,
+            "arrivals_per_10s": {
+              "160": 5,
+              "170": 3,
+              "180": 1,
+              "190": 2,
+              "310": 4,
+              "320": 4,
+              "330": 3,
+              "340": 5,
+              "350": 3,
+              "360": 1,
+              "370": 2,
+              "380": 1,
+              "500": 7,
+              "510": 4,
+              "590": 10,
+              "600": 9,
+              "700": 5,
+              "710": 10,
+              "720": 3,
+              "740": 2,
+              "750": 6,
+              "760": 3,
+              "770": 8,
+              "780": 7,
+              "890": 3,
+              "900": 5,
+              "910": 1,
+              "920": 5
+            }
+          },
+          {
+            "camera": "C3",
+            "central_crossings": 125,
+            "with_prior_signal": 125,
+            "arrivals_per_10s": {
+              "210": 7,
+              "400": 7,
+              "410": 9,
+              "420": 4,
+              "430": 2,
+              "440": 2,
+              "520": 2,
+              "530": 4,
+              "540": 6,
+              "550": 6,
+              "560": 4,
+              "570": 1,
+              "610": 4,
+              "620": 4,
+              "630": 5,
+              "640": 5,
+              "730": 8,
+              "790": 2,
+              "800": 5,
+              "810": 3,
+              "870": 9,
+              "880": 11,
+              "940": 4,
+              "950": 4,
+              "960": 2,
+              "1020": 5
+            }
+          },
+          {
+            "camera": "C4",
+            "central_crossings": 102,
+            "with_prior_signal": 102,
+            "arrivals_per_10s": {
+              "100": 3,
+              "110": 7,
+              "120": 2,
+              "160": 1,
+              "260": 8,
+              "270": 10,
+              "280": 1,
+              "310": 4,
+              "320": 2,
+              "360": 2,
+              "370": 1,
+              "450": 9,
+              "460": 7,
+              "470": 2,
+              "500": 2,
+              "650": 4,
+              "660": 10,
+              "670": 4,
+              "700": 3,
+              "720": 1,
+              "740": 2,
+              "750": 4,
+              "760": 1,
+              "820": 7,
+              "890": 3,
+              "970": 2
+            }
+          }
+        ],
+        "upstream_red_waiters": {
+          "joinedS_263381649_263384427": 121,
+          "GS_cluster_10313721312_10313721313": 153,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 84,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 121,
+          "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more": 2
+        },
+        "upstream_red_stopped_vehicle_seconds": {
+          "joinedS_263381649_263384427": 2879,
+          "GS_cluster_10313721312_10313721313": 3815,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 2228,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 3058,
+          "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more": 89
+        },
+        "crossings_by_tls": {
+          "263383329": 102,
+          "cluster_1425922069_1425922099_262729477_262729478_#2more": 267,
+          "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more": 272,
+          "GS_cluster_1425922073_1425922080_263109777_263109778_#2more": 277,
+          "GS_cluster_10313721312_10313721313": 277,
+          "joinedS_263381649_263384427": 252
+        }
+      },
+      "neighbor_programs": "SUMO-generated fixed cycles; no municipal timings; emergency priority only at central junction",
+      "controller": "fixed",
+      "seed": 203,
+      "passed": true,
+      "trace_audit": {
+        "passed": true,
+        "errors": [],
+        "samples": 1200,
+        "paired_through_samples": 358,
+        "turn_bottleneck_relief_samples": 10,
+        "blocked_output_samples": 0
+      }
+    }
+  ],
+  "limits": [
+    "La asociación de puntos OSM a controles es espacial, no una inspección física.",
+    "Planes vecinos y conexiones de carriles generados por SUMO; no se dispone de tiempos municipales.",
+    "Demanda sintética sin conteos locales, peatones, buses ni oclusiones de cámara.",
+    "La prioridad de emergencias se conserva sólo en el cruce central; vecinos con ciclos fijos.",
+    "Cinco cruces de calles por sentido, con margen; el acceso este añade un cruce para incluir TLS previo.",
+    "No comparar estas colas directamente con el piloto corto: cambió la red y la demanda."
+  ]
+}

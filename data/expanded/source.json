@@ -1,0 +1,14 @@
+{
+  "source_url": "https://www.openstreetmap.org/api/0.6/map?bbox=-77.0665,-12.1075,-77.042,-12.0825",
+  "bbox_lonlat": [
+    -77.0665,
+    -12.1075,
+    -77.042,
+    -12.0825
+  ],
+  "downloaded_at_utc": "2026-10-05T02:45:06.883301+00:00",
+  "source": "© OpenStreetMap contributors — ODbL 1.0",
+  "source_license_url": "https://www.openstreetmap.org/copyright",
+  "bytes": 11431231,
+  "osm_signal_nodes": 152
+}

@@ -25,6 +25,7 @@ class Learner:
         self.rng = random.Random(seed)
         self.updates = 0
         self.schema = None
+        self.scenario_schema = None
 
     def select(self, key, epsilon=0):
         values = self.q.get(key)
@@ -45,6 +46,7 @@ class Learner:
         path.write_text(json.dumps({"algorithm": "tabular Q-learning; semi-Markov timing",
                                     "durations_s": DURATIONS, "updates": self.updates,
                                     "phase_schema": self.schema,
+                                    "scenario_schema": self.scenario_schema,
                                     "q": self.q, "scope": "Initial synthetic experiment; no field validation."}, indent=2))
 
     @classmethod
@@ -53,9 +55,12 @@ class Learner:
         if payload.get("durations_s") != list(DURATIONS) or (layout and payload.get("phase_schema") != layout.schema):
             raise ValueError("El modelo no corresponde a las fases actuales. Ejecuta: python -m pilot.cli train")
         learner = cls()
+        if layout is not None and payload.get("scenario_schema") != getattr(layout, "scenario_schema", None):
+            raise ValueError("El modelo pertenece a otro escenario. Valida la red ampliada antes de volver a entrenar.")
         learner.q = payload["q"]
         learner.updates = payload["updates"]
         learner.schema = payload.get("phase_schema")
+        learner.scenario_schema = payload.get("scenario_schema")
         return learner
 
 
@@ -64,6 +69,10 @@ def run_episode(layout, directory, seed, horizon, controller="adaptive", learner
         if learner.schema not in (None, layout.schema):
             raise ValueError("Modelo entrenado para otro plan de movimientos.")
         learner.schema = layout.schema
+        scenario = getattr(layout, "scenario_schema", None)
+        if learner.scenario_schema != scenario and not (train and learner.updates == 0):
+            raise ValueError("Modelo incompatible con la geometría y rutas del escenario ampliado.")
+        learner.scenario_schema = scenario
     simulation = Simulation(layout, directory, seed, horizon, trace)
     try:
         while simulation.time < horizon:

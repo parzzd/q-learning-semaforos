@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checks": [
+    "cinco cámaras, doce movimientos y seis controles vecinos; sin modelo antiguo",
+    "reproducción y pausa avanzan el registro",
+    "doce tiempos centrales y seis estados/tiempos vecinos coinciden con SUMO",
+    "acercar al cruce, arrastrar y restablecer el mapa",
+    "comparación por reglas/verde fijo y salto a emergencia registrada",
+    "ancho móvil de 390 px sin desbordamiento"
+  ],
+  "browser_errors": {
+    "success": true,
+    "data": {
+      "errors": []
+    },
+    "error": null
+  },
+  "source": "actual SUMO trace, seed 201, 1200 s, adaptive/fixed"
+}

@@ -51,8 +51,9 @@ def extend(edge, backwards, distance=240):
 
 
 class Layout:
-    def __init__(self):
-        self.net = sumolib.net.readNet(str(DATA / "pilot.net.xml"), withPrograms=True)
+    def __init__(self, net_file=None):
+        self.net_file = Path(net_file) if net_file else DATA / "pilot.net.xml"
+        self.net = sumolib.net.readNet(str(self.net_file), withPrograms=True)
         self.node = self.net.getNode(TLS_ID)
         self.center = self.node.getCoord()
         self.tls = self.net.getTLS(TLS_ID)

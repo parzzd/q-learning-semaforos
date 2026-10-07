@@ -1,0 +1,39 @@
+tls_id,streets,longitude,latitude,osm_tag_associations,corridor_active,program_source
+108009631,Avenida Aurelio Miró Quesada / Avenida Las Flores,-77.04693596647616,-12.09893396609769,1,False,generated_by_SUMO; not_municipal
+108009633,Avenida Aurelio Miró Quesada / Calle Los Nogales,-77.04478378387327,-12.0993493955478,1,False,generated_by_SUMO; not_municipal
+108041441,Avenida Las Flores / Calle José Choquehuanca,-77.04677915484005,-12.09803610975431,1,False,generated_by_SUMO; not_municipal
+262730023,Calle General José Granda / Calle Las Moreras,-77.05140016502787,-12.097544776916907,1,False,generated_by_SUMO; not_municipal
+262730104,Avenida Nicolás de Ribera / Calle Los Eucaliptos,-77.04798298065741,-12.09747736054655,1,False,generated_by_SUMO; not_municipal
+262730330,Avenida Jorge Basadre Grohmann / Avenida Las Flores,-77.0470463998936,-12.096164172498417,1,False,generated_by_SUMO; not_municipal
+262730332,Avenida Jorge Basadre Grohmann / Calle Los Nogales,-77.04476897370799,-12.095843469750395,1,False,generated_by_SUMO; not_municipal
+262730334,Avenida Jorge Basadre Grohmann / Calle Los Robles,-77.04250387921807,-12.0955257296929,1,False,generated_by_SUMO; not_municipal
+262730717,Avenida Nicolás de Ribera / Calle Los Laureles,-77.04571622905007,-12.097124684518846,1,False,generated_by_SUMO; not_municipal
+263111211,Avenida Dos de Mayo / Avenida Guillermo Prescott / Avenida Las Flores,-77.04752778558299,-12.09258707972025,1,False,generated_by_SUMO; not_municipal
+263111592,Avenida Dos de Mayo / Calle Los Álamos,-77.04218937349842,-12.091842325107333,1,False,generated_by_SUMO; not_municipal
+263383329,Avenida Javier Prado Oeste,-77.05950075880634,-12.093522031710599,4,True,generated_by_SUMO; not_municipal
+263384067,Avenida Javier Prado Oeste / Jirón Trujillo,-77.06197448791634,-12.092772780666435,2,False,generated_by_SUMO; not_municipal
+263387635,Avenida Gregorio Escobedo / Jirón Diego de Almagro,-77.05484013970317,-12.086636070383028,2,False,generated_by_SUMO; not_municipal
+4139135554,Avenida Las Flores / Avenida Nicolás de Ribera,-77.04685991901113,-12.097292679147571,1,False,generated_by_SUMO; not_municipal
+GS_cluster_10009794302_10010083804_10313727029_10313727030_#2more,Avenida Faustino Sanchez Carrión / Avenida Gregorio Escobedo / Avenida Juan de Aliaga,-77.05771298877598,-12.09006000012605,4,False,generated_by_SUMO; not_municipal
+GS_cluster_10242875195_10242875196_10242875197_10242875198,Avenida Coronel Pedro Portillo / Avenida General Juan Antonio Pezet,-77.05148665211019,-12.102957628576888,4,False,generated_by_SUMO; not_municipal
+GS_cluster_10313721312_10313721313,Avenida Javier Prado Oeste / Avenida Las Flores,-77.0472897849057,-12.094222456895698,4,True,generated_by_SUMO; not_municipal
+GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more,Avenida Faustino Sanchez Carrión / Avenida General Salaverry,-77.05325563710292,-12.093022460573582,4,True,generated_by_SUMO; not_municipal
+GS_cluster_1425922073_1425922080_263109777_263109778_#2more,Avenida Cádiz / Avenida Eduardo Avaroa / Avenida General Salaverry,-77.05072007908225,-12.08806233232812,4,True,generated_by_SUMO; not_municipal
+GS_cluster_1432407581_1432407586_1432407598_1432407601,Avenida Belén / Avenida General Juan Antonio Pezet,-77.04797678541856,-12.102897595883476,3,False,generated_by_SUMO; not_municipal
+GS_cluster_262727870_262727871_262727976_262727977_#5more,Avenida Augusto Pérez Araníbar / Avenida General Salaverry,-77.0582907537891,-12.102817871415152,4,False,generated_by_SUMO; not_municipal
+GS_cluster_263111215_263111216,Avenida Cádiz / Avenida César Vallejo / Avenida Guillermo Prescott,-77.04815843159643,-12.088241378189535,4,False,generated_by_SUMO; not_municipal
+GS_cluster_263387436_263387437_263387630_4578541299,Avenida Giuseppe Garibaldi / Avenida Gregorio Escobedo / Jirón Huiracocha,-77.05164715347189,-12.08414266510829,3,False,generated_by_SUMO; not_municipal
+GS_cluster_263389687_263389733,Avenida San Felipe / Jirón Huiracocha,-77.05212493587375,-12.083149115205472,3,False,generated_by_SUMO; not_municipal
+JP_SALAVERRY,Avenida General Salaverry / Avenida Javier Prado Oeste,-77.05437521502027,-12.095182486599946,4,True,generated_by_SUMO; not_municipal
+cluster_10242875199_10242875200_10537552592_1425921988_#2more,Avenida General Juan Antonio Pezet / Avenida General Salaverry,-77.05749294921732,-12.10126193512605,4,False,generated_by_SUMO; not_municipal
+cluster_10978241117_12941806527_1335966916_2073408891_#8more,Avenida General César Canevaro / Avenida General Salaverry / Avenida Guillermo Prescott / Calle Daniel Olaechea / Calle Luis M. Sánchez Cerro,-77.04875357730616,-12.085241700393055,5,False,generated_by_SUMO; not_municipal
+cluster_12231774452_12231774453_12431359307_12431359309_#8more,Avenida Alberto del Campo / Avenida Juan de Aliaga / Jirón Felix Dibos,-77.0596761699848,-12.095968572207617,3,False,generated_by_SUMO; not_municipal
+cluster_13565832800_13565875501_13565875502_1943098881_#3more,Avenida Brasil / Avenida de la Policía / Jirón Cabo Nicolás Gutarra,-77.0616206745611,-12.08454210233043,4,False,generated_by_SUMO; not_municipal
+cluster_1425922069_1425922099_262729477_262729478_#2more,Avenida Alberto del Campo / Avenida General Salaverry,-77.05578930450295,-12.097961776281867,4,True,generated_by_SUMO; not_municipal
+cluster_1943089978_1943098864_1943098874_1943098893_#6more,Avenida Brasil / Avenida Javier Prado Oeste / Jirón Junín,-77.06592515925857,-12.08980067758187,5,False,generated_by_SUMO; not_municipal
+cluster_262727876_262727967,Avenida Augusto Pérez Araníbar / Avenida Octavio Espinosa y Gonzales,-77.0544381039942,-12.107137827795276,6,False,generated_by_SUMO; not_municipal
+cluster_263122086_263122147,Avenida General César Canevaro / Jirón Manco Segundo / Jirón Pachacútec,-77.04625423630185,-12.085133217494239,2,False,generated_by_SUMO; not_municipal
+joinedS_108009619_262728248,Avenida Aurelio Miró Quesada / Avenida Coronel Pedro Portillo / Calle Las Moreras,-77.05099823945874,-12.098961786632868,2,False,generated_by_SUMO; not_municipal
+joinedS_263381649_263384427,Avenida Javier Prado Oeste / Calle Nicanor Rocca de Vergallo,-77.05783556397552,-12.093718521704284,2,True,generated_by_SUMO; not_municipal
+joinedS_cluster_10010083800_606182738_606182739_cluster_10010083801_3465594394_606182740,Avenida de La Marina / Paseo de la Libertad,-77.06624396839231,-12.083411472650303,5,False,generated_by_SUMO; not_municipal
+joinedS_cluster_263384347_263384436_cluster_263384348_263384435,Avenida Javier Prado Oeste / Avenida Parque Gonzales Prada,-77.06412501281577,-12.091328182433275,4,False,generated_by_SUMO; not_municipal

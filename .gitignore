@@ -20,4 +20,5 @@ __pycache__/
 outputs/episodes/
 outputs/evaluation/
 outputs/visual/
+outputs/expanded/runs/
 outputs/**/*.log

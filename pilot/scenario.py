@@ -6,6 +6,8 @@ import xml.etree.ElementTree as ET
 
 def generate(layout, directory: Path, seed: int, horizon: int):
     """Demanda reproducible, giros, emergencias activas e inactivas y una salida bloqueada."""
+    if hasattr(layout, "generate_demand"):
+        return layout.generate_demand(directory, seed, horizon)
     directory.mkdir(parents=True, exist_ok=True)
     rng = random.Random(seed)
     root = ET.Element("routes")

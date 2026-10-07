@@ -6,7 +6,7 @@ from pathlib import Path
 import traci
 import traci.constants as tc
 
-from .network import DATA, TLS_ID, binary
+from .network import TLS_ID, binary
 from .scenario import generate
 
 DURATIONS = (10, 20, 30, 40, 50, 60)
@@ -22,7 +22,7 @@ class Simulation:
         self.log = (directory / "sumo.log").open("w")
         self.label = f"pilot_{id(self)}"
         traci.start([
-            binary("sumo"), "--net-file", str(DATA / "pilot.net.xml"),
+            binary("sumo"), "--net-file", str(layout.net_file),
             "--route-files", str(route_file), "--seed", str(seed),
             "--step-length", "1", "--time-to-teleport", "-1",
             "--collision.action", "warn", "--collision.check-junctions", "true",
@@ -52,6 +52,7 @@ class Simulation:
         self.trace = [] if trace else None
         self.decisions = []
         self.total_reward = 0
+        self.network_audit = layout.make_audit() if hasattr(layout, "make_audit") else None
         self.conn.trafficlight.setRedYellowGreenState(TLS_ID, "r" * len(layout.phases[0]))
 
     def _tick(self):
@@ -70,6 +71,8 @@ class Simulation:
         self.collisions.update(self.conn.simulation.getCollidingVehiclesIDList())
         self.teleports += len(self.conn.simulation.getStartingTeleportIDList())
         observation = self.observe()
+        if self.network_audit is not None:
+            self.network_audit.tick(self)
         queue = sum(observation["queues"])
         self.queue_integral += queue
         self.max_queue = max(self.max_queue, queue)
@@ -94,6 +97,8 @@ class Simulation:
                               "type": self.annotations.get(vehicle_id, {}).get("type", "car")}
                              for vehicle_id, values in self.snapshots.items()],
             })
+            if self.network_audit is not None:
+                self.trace[-1]["neighbor_signals"] = self.network_audit.signal_snapshot(self)
         return reward
 
     def observe(self):
@@ -290,6 +295,8 @@ class Simulation:
             "data_kind": "synthetic; uncalibrated",
             "phase_schema": self.layout.schema,
         }
+        if self.network_audit is not None:
+            metrics.update(self.network_audit.metrics(self))
         self.conn.close()
         self.log.close()
         (self.directory / "metrics.json").write_text(json.dumps(metrics, ensure_ascii=False, indent=2))

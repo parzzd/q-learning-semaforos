@@ -20,6 +20,46 @@ son sintéticos; el modelo no está calibrado ni validado para operar semáforos
 - `requirements-lock.txt`: versiones exactas del entorno usado para este experimento.
 - `outputs/simulacion.html`: visor autónomo con reproducción y comparación de controladores.
 
+## Escenario ampliado: cinco cuadras y semáforos anteriores
+
+Abre **`outputs/expanded/simulacion.html`** para revisar la red ampliada. Tiene
+cinco cruces con calles transversales por acceso y salida, más un margen de
+al menos 100 m. El acceso este se extiende hasta el semáforo de Las Flores.
+Los vehículos se insertan entre 596 y 1 053 m antes del cruce central y atraviesan
+uno o dos semáforos previos. Las cinco cámaras conservan su cobertura local.
+
+Se importaron 1 806 tramos y 38 controles semafóricos desde el extracto OSM;
+**seis vecinos y el central** intervienen en los corredores del ensayo.
+Hay 12 rutas que atraviesan el cruce central y 10 rutas de tráfico lateral.
+Los estados y tiempos de N1–N6 se muestran en el visor, con zoom y arrastre.
+Se compara el controlador por reglas con un verde central fijo de 20 s, usando
+la misma demanda. No se volvió a entrenar el modelo anterior.
+
+- `data/expanded/signals.json` y `.csv`: coordenadas, calles, enlaces y asociación con puntos OSM.
+- `data/expanded/corridors.json`: cuadras, rutas y semáforos atravesados.
+- `outputs/expanded/mapa_corredores.png`: mapa de los corredores y controles.
+- `outputs/expanded/validation.md` y `.json`: pruebas y resultados por semilla.
+
+Para reproducir la extracción y validación, desde la raíz del proyecto:
+
+```bash
+.venv/bin/python scripts/build_expanded.py
+.venv/bin/python scripts/validate_expanded.py --seconds 1200 --seeds 201,202,203
+```
+
+`build_expanded.py --refresh` vuelve a descargar OSM. Sin ese argumento reutiliza
+el extracto incluido. `validate_expanded.py --reuse` revisa grabaciones locales
+si coinciden la red, las rutas, la semilla, el controlador y la duración.
+Las grabaciones de trabajo en `outputs/expanded/runs/` se regeneran y se excluyen
+de Git; el visor autónomo conserva los dos ensayos de la primera semilla.
+
+Esta validación comprueba conexiones, fases, tiempos coordinados y llegadas
+desde señales anteriores en SUMO. **La presencia se toma de OSM y los planes
+vecinos se generan en SUMO; no son tiempos municipales verificados.** La demanda
+sigue siendo sintética y la prioridad de emergencias se aplica en el cruce central.
+El modelo del piloto corto se rechaza para esta red mediante una firma del
+escenario; la siguiente etapa de entrenamiento queda pendiente de revisar los resultados.
+
 ## Revisar la simulación visual
 
 ![Vista del simulador con cinco cámaras virtuales](outputs/simulacion_preview.png)

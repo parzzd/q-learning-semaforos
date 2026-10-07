@@ -1,0 +1,8875 @@
+{
+  "source": {
+    "source_url": "https://www.openstreetmap.org/api/0.6/map?bbox=-77.0665,-12.1075,-77.042,-12.0825",
+    "bbox_lonlat": [
+      -77.0665,
+      -12.1075,
+      -77.042,
+      -12.0825
+    ],
+    "downloaded_at_utc": "2026-10-05T02:45:06.883301+00:00",
+    "source": "© OpenStreetMap contributors — ODbL 1.0",
+    "source_license_url": "https://www.openstreetmap.org/copyright",
+    "bytes": 11431231,
+    "osm_signal_nodes": 152
+  },
+  "osm_nodes": [
+    {
+      "osm_id": "108009619",
+      "lonlat": [
+        -77.0508474,
+        -12.0989508
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "no"
+      },
+      "xy": [
+        2348.2847691507195,
+        1267.4238817314617
+      ]
+    },
+    {
+      "osm_id": "108009631",
+      "lonlat": [
+        -77.046936,
+        -12.098934
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "yes"
+      },
+      "xy": [
+        2774.156377923151,
+        1272.476221579127
+      ]
+    },
+    {
+      "osm_id": "108009633",
+      "lonlat": [
+        -77.0447838,
+        -12.0993494
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "no"
+      },
+      "xy": [
+        3008.8382477639825,
+        1228.2694942522794
+      ]
+    },
+    {
+      "osm_id": "108041441",
+      "lonlat": [
+        -77.0467792,
+        -12.0980361
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "no"
+      },
+      "xy": [
+        2790.4850747481105,
+        1371.9510424216278
+      ]
+    },
+    {
+      "osm_id": "108171106",
+      "lonlat": [
+        -77.0355752,
+        -12.0847955
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        3999.5035405612434,
+        2846.0417568148114
+      ]
+    },
+    {
+      "osm_id": "108215809",
+      "lonlat": [
+        -77.0513401,
+        -12.1029221
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "no"
+      },
+      "xy": [
+        2297.93731762236,
+        827.6208622553386
+      ]
+    },
+    {
+      "osm_id": "182472512",
+      "lonlat": [
+        -77.0543509,
+        -12.0953751
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1963.8377253758372,
+        1660.1883632349782
+      ]
+    },
+    {
+      "osm_id": "182472515",
+      "lonlat": [
+        -77.0592639,
+        -12.0936465
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1427.4443548329873,
+        1847.4225780193228
+      ]
+    },
+    {
+      "osm_id": "262724824",
+      "lonlat": [
+        -77.0482476,
+        -12.1093819
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2640.0145824121428,
+        115.41093239421025
+      ]
+    },
+    {
+      "osm_id": "262725530",
+      "lonlat": [
+        -77.0513587,
+        -12.1102297
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2301.986090637336,
+        19.063639586325735
+      ]
+    },
+    {
+      "osm_id": "262727876",
+      "lonlat": [
+        -77.0544771,
+        -12.1071739
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1959.91413805302,
+        354.61687418539077
+      ]
+    },
+    {
+      "osm_id": "262727877",
+      "lonlat": [
+        -77.0539315,
+        -12.1077624
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2019.8089451997657,
+        289.94969362812117
+      ]
+    },
+    {
+      "osm_id": "262727964",
+      "lonlat": [
+        -77.0537738,
+        -12.1077748
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2036.9896218889044,
+        288.70686365198344
+      ]
+    },
+    {
+      "osm_id": "262727965",
+      "lonlat": [
+        -77.0538482,
+        -12.1076967
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2028.8239588213037,
+        297.2872391860001
+      ]
+    },
+    {
+      "osm_id": "262727967",
+      "lonlat": [
+        -77.0543992,
+        -12.1071018
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1968.3358818104025,
+        362.6581359973643
+      ]
+    },
+    {
+      "osm_id": "262728119",
+      "lonlat": [
+        -77.0514412,
+        -12.103122
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "no"
+      },
+      "xy": [
+        2287.0954914386966,
+        805.4204616188072
+      ]
+    },
+    {
+      "osm_id": "262728225",
+      "lonlat": [
+        -77.0515286,
+        -12.1027978
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward",
+        "traffic_signals:sound": "no"
+      },
+      "xy": [
+        2277.3098249448813,
+        841.2197653860785
+      ]
+    },
+    {
+      "osm_id": "262728226",
+      "lonlat": [
+        -77.0516776,
+        -12.1029772
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "no"
+      },
+      "xy": [
+        2261.2355368541903,
+        821.2483835152816
+      ]
+    },
+    {
+      "osm_id": "262728248",
+      "lonlat": [
+        -77.0511492,
+        -12.0989728
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "no"
+      },
+      "xy": [
+        2315.442069124838,
+        1264.7430520195048
+      ]
+    },
+    {
+      "osm_id": "262728310",
+      "lonlat": [
+        -77.0574764,
+        -12.1014456
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1628.5749749144888,
+        985.9620920056477
+      ]
+    },
+    {
+      "osm_id": "262728323",
+      "lonlat": [
+        -77.0572712,
+        -12.1013147
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1650.8086271402426,
+        1000.6137011754327
+      ]
+    },
+    {
+      "osm_id": "262728324",
+      "lonlat": [
+        -77.0575717,
+        -12.101202
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1617.9954517275328,
+        1012.836902217241
+      ]
+    },
+    {
+      "osm_id": "262729477",
+      "lonlat": [
+        -77.0556761,
+        -12.0979492
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1821.6856882575084,
+        1374.2942224708386
+      ]
+    },
+    {
+      "osm_id": "262729478",
+      "lonlat": [
+        -77.0558518,
+        -12.0978647
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1802.4844331024215,
+        1383.4997345136944
+      ]
+    },
+    {
+      "osm_id": "262729544",
+      "lonlat": [
+        -77.0559039,
+        -12.0979738
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1796.9023951516137,
+        1371.3857707045972
+      ]
+    },
+    {
+      "osm_id": "262729545",
+      "lonlat": [
+        -77.0557321,
+        -12.0980579
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1815.67866521416,
+        1362.2213262286969
+      ]
+    },
+    {
+      "osm_id": "262729963",
+      "lonlat": [
+        -77.0546369,
+        -12.0951852
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1932.5386813206133,
+        1680.9655973296613
+      ]
+    },
+    {
+      "osm_id": "262729979",
+      "lonlat": [
+        -77.0543997,
+        -12.0949875
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1958.2017936111079,
+        1703.034078341443
+      ]
+    },
+    {
+      "osm_id": "262729996",
+      "lonlat": [
+        -77.0540871,
+        -12.0950903
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1992.3247513652896,
+        1691.9156832727604
+      ]
+    },
+    {
+      "osm_id": "262730023",
+      "lonlat": [
+        -77.0514002,
+        -12.0975448
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "no"
+      },
+      "xy": [
+        2286.926211271377,
+        1422.53741741064
+      ]
+    },
+    {
+      "osm_id": "262730104",
+      "lonlat": [
+        -77.047983,
+        -12.0974774
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "yes"
+      },
+      "xy": [
+        2658.947926621826,
+        1432.7856189401355
+      ]
+    },
+    {
+      "osm_id": "262730330",
+      "lonlat": [
+        -77.0470464,
+        -12.0961642
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2759.840011204884,
+        1578.846957037691
+      ]
+    },
+    {
+      "osm_id": "262730332",
+      "lonlat": [
+        -77.044769,
+        -12.0958435
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        3007.547162256029,
+        1616.1866316595115
+      ]
+    },
+    {
+      "osm_id": "262730334",
+      "lonlat": [
+        -77.0425039,
+        -12.0955257
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        3253.917712627386,
+        1653.19326841156
+      ]
+    },
+    {
+      "osm_id": "262730339",
+      "lonlat": [
+        -77.038354,
+        -12.0949432
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        3705.294809606101,
+        1721.016199027421
+      ]
+    },
+    {
+      "osm_id": "262730717",
+      "lonlat": [
+        -77.0457163,
+        -12.0971247
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "no"
+      },
+      "xy": [
+        2905.462287534203,
+        1473.6582292795647
+      ]
+    },
+    {
+      "osm_id": "262730858",
+      "lonlat": [
+        -77.0472608,
+        -12.0944217
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights",
+        "traffic_signals:direction": "forward"
+      },
+      "xy": [
+        2735.0511319593643,
+        1771.4686547042802
+      ]
+    },
+    {
+      "osm_id": "262730859",
+      "lonlat": [
+        -77.0473167,
+        -12.094038
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights",
+        "traffic_signals:direction": "backward"
+      },
+      "xy": [
+        2728.6464907836053,
+        1813.8770333779976
+      ]
+    },
+    {
+      "osm_id": "263109773",
+      "lonlat": [
+        -77.053244,
+        -12.0932401
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2082.5879826574237,
+        1897.3190170840826
+      ]
+    },
+    {
+      "osm_id": "263109774",
+      "lonlat": [
+        -77.0530444,
+        -12.0930586
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2104.170754526567,
+        1917.5641367833596
+      ]
+    },
+    {
+      "osm_id": "263110070",
+      "lonlat": [
+        -77.0532614,
+        -12.0928106
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2080.3364391206414,
+        1944.826391431503
+      ]
+    },
+    {
+      "osm_id": "263110071",
+      "lonlat": [
+        -77.0534726,
+        -12.0929825
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2057.4826027654926,
+        1925.6339502718765
+      ]
+    },
+    {
+      "osm_id": "263110816",
+      "lonlat": [
+        -77.048835,
+        -12.085071
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2555.8925271988264,
+        2804.7805148113985
+      ]
+    },
+    {
+      "osm_id": "263111211",
+      "lonlat": [
+        -77.0475278,
+        -12.0925871
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2704.458446998615,
+        1974.2377444172744
+      ]
+    },
+    {
+      "osm_id": "263111584",
+      "lonlat": [
+        -77.0347082,
+        -12.0907985
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        4098.850920220546,
+        2182.5553384248633
+      ]
+    },
+    {
+      "osm_id": "263111592",
+      "lonlat": [
+        -77.0421894,
+        -12.0918423
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        3285.1170936086564,
+        2060.99275640375
+      ]
+    },
+    {
+      "osm_id": "263114110",
+      "lonlat": [
+        -77.038291,
+        -12.0892034
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "xy": [
+        3707.4197206354584,
+        2356.1363964898046
+      ]
+    },
+    {
+      "osm_id": "263114440",
+      "lonlat": [
+        -77.035027,
+        -12.0886237
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        4062.3474183182116,
+        2422.923043814022
+      ]
+    },
+    {
+      "osm_id": "263114445",
+      "lonlat": [
+        -77.0383045,
+        -12.0890873
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "xy": [
+        3705.854004500259,
+        2368.9710967359133
+      ]
+    },
+    {
+      "osm_id": "263121078",
+      "lonlat": [
+        -77.0354212,
+        -12.0858529
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        4017.1428449489176,
+        2729.172799779102
+      ]
+    },
+    {
+      "osm_id": "263122086",
+      "lonlat": [
+        -77.0462481,
+        -12.0851773
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2837.6646587412106,
+        2795.1275547973346
+      ]
+    },
+    {
+      "osm_id": "263122094",
+      "lonlat": [
+        -77.0398899,
+        -12.0842968
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        3529.2722137977835,
+        2897.7197475414723
+      ]
+    },
+    {
+      "osm_id": "263122147",
+      "lonlat": [
+        -77.0462604,
+        -12.0850891
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2836.2523290661047,
+        2804.876294142101
+      ]
+    },
+    {
+      "osm_id": "263357751",
+      "lonlat": [
+        -77.03589,
+        -12.0826112
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        3963.427092771919,
+        3087.4638488197234
+      ]
+    },
+    {
+      "osm_id": "263357995",
+      "lonlat": [
+        -77.0419411,
+        -12.0828938
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        3304.7613202592474,
+        3051.2858998661395
+      ]
+    },
+    {
+      "osm_id": "263375075",
+      "lonlat": [
+        -77.0595779,
+        -12.0960966
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1395.2968803377007,
+        1576.0750734498724
+      ]
+    },
+    {
+      "osm_id": "263377071",
+      "lonlat": [
+        -77.0597118,
+        -12.0959954
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1380.6327952339198,
+        1587.162416122621
+      ]
+    },
+    {
+      "osm_id": "263381649",
+      "lonlat": [
+        -77.0578694,
+        -12.093807
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1579.419435250864,
+        1830.8076438731514
+      ]
+    },
+    {
+      "osm_id": "263383329",
+      "lonlat": [
+        -77.0595008,
+        -12.093522
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1401.5454881528276,
+        1861.003474807134
+      ]
+    },
+    {
+      "osm_id": "263383496",
+      "lonlat": [
+        -77.0591291,
+        -12.0933991
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1441.9159833343583,
+        1874.9065695903264
+      ]
+    },
+    {
+      "osm_id": "263383554",
+      "lonlat": [
+        -77.0593437,
+        -12.0932568
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1418.430427159241,
+        1890.4752442841418
+      ]
+    },
+    {
+      "osm_id": "263384067",
+      "lonlat": [
+        -77.0619745,
+        -12.0927728
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "xy": [
+        1131.5687003874336,
+        1941.8678509218153
+      ]
+    },
+    {
+      "osm_id": "263384344",
+      "lonlat": [
+        -77.0659606,
+        -12.0899938
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        695.21237718052,
+        2246.072851126315
+      ]
+    },
+    {
+      "osm_id": "263384347",
+      "lonlat": [
+        -77.0643035,
+        -12.091322
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "xy": [
+        876.7598659251234,
+        2100.477319624042
+      ]
+    },
+    {
+      "osm_id": "263384348",
+      "lonlat": [
+        -77.0640781,
+        -12.0914956
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "xy": [
+        901.4480514900642,
+        2081.45469932165
+      ]
+    },
+    {
+      "osm_id": "263384427",
+      "lonlat": [
+        -77.0578018,
+        -12.0936301
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1586.632769660675,
+        1850.436034657061
+      ]
+    },
+    {
+      "osm_id": "263384435",
+      "lonlat": [
+        -77.063949,
+        -12.0913349
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "xy": [
+        915.3711511568981,
+        2099.3414242204744
+      ]
+    },
+    {
+      "osm_id": "263384436",
+      "lonlat": [
+        -77.0641695,
+        -12.0911602
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "xy": [
+        891.2155924348044,
+        2118.4897941378877
+      ]
+    },
+    {
+      "osm_id": "263384439",
+      "lonlat": [
+        -77.0658376,
+        -12.0898386
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        708.4758458852884,
+        2263.346113755135
+      ]
+    },
+    {
+      "osm_id": "263384503",
+      "lonlat": [
+        -77.0579063,
+        -12.0900437
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1572.2672874704585,
+        2247.165104900254
+      ]
+    },
+    {
+      "osm_id": "263384504",
+      "lonlat": [
+        -77.0577763,
+        -12.0902573
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1586.6004984233878,
+        2223.638017390389
+      ]
+    },
+    {
+      "osm_id": "263384565",
+      "lonlat": [
+        -77.0575303,
+        -12.0900979
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1613.2540414694813,
+        2241.4762888222467
+      ]
+    },
+    {
+      "osm_id": "263384566",
+      "lonlat": [
+        -77.0576377,
+        -12.0898512
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1601.354143225879,
+        2268.6842303683516
+      ]
+    },
+    {
+      "osm_id": "263386171",
+      "lonlat": [
+        -77.0685663,
+        -12.0931485
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        414.12404871353647,
+        1894.8760364728514
+      ]
+    },
+    {
+      "osm_id": "263387635",
+      "lonlat": [
+        -77.0548402,
+        -12.0866361
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "xy": [
+        1903.2934589865035,
+        2626.7066737315618
+      ]
+    },
+    {
+      "osm_id": "263387779",
+      "lonlat": [
+        -77.0615359,
+        -12.0846329
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1172.5367926566396,
+        2842.863305700943
+      ]
+    },
+    {
+      "osm_id": "263389383",
+      "lonlat": [
+        -77.0572941,
+        -12.0814914
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1631.8110150508,
+        3193.9293099802453
+      ]
+    },
+    {
+      "osm_id": "263389384",
+      "lonlat": [
+        -77.0572592,
+        -12.0814136
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1635.5465822411352,
+        3202.566000697203
+      ]
+    },
+    {
+      "osm_id": "263389691",
+      "lonlat": [
+        -77.0487871,
+        -12.0820248
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2558.5842640541377,
+        3141.8623156812973
+      ]
+    },
+    {
+      "osm_id": "263389698",
+      "lonlat": [
+        -77.0461251,
+        -12.0823516
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2848.719626647944,
+        3107.8730747345835
+      ]
+    },
+    {
+      "osm_id": "316801728",
+      "lonlat": [
+        -77.0717618,
+        -12.0971543
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        69.53579133289168,
+        1449.01847210899
+      ]
+    },
+    {
+      "osm_id": "503687605",
+      "lonlat": [
+        -77.0616211,
+        -12.0844066
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1163.0706855672179,
+        2867.832237032475
+      ]
+    },
+    {
+      "osm_id": "605673316",
+      "lonlat": [
+        -77.0688432,
+        -12.0875093
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "xy": [
+        379.25230807613116,
+        2518.5971062490717
+      ]
+    },
+    {
+      "osm_id": "605673321",
+      "lonlat": [
+        -77.0689279,
+        -12.0874801
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "xy": [
+        370.0049655045732,
+        2521.758170737885
+      ]
+    },
+    {
+      "osm_id": "605673826",
+      "lonlat": [
+        -77.0659589,
+        -12.0896489
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        695.1091599081992,
+        2284.2356424729805
+      ]
+    },
+    {
+      "osm_id": "606182738",
+      "lonlat": [
+        -77.0663228,
+        -12.0833067
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        650.1834276482114,
+        2985.6677146251313
+      ]
+    },
+    {
+      "osm_id": "606182739",
+      "lonlat": [
+        -77.0663844,
+        -12.0834601
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        643.6039648552542,
+        2968.6441422135103
+      ]
+    },
+    {
+      "osm_id": "606182740",
+      "lonlat": [
+        -77.0661707,
+        -12.08354
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        666.9406348843477,
+        2959.9793754771817
+      ]
+    },
+    {
+      "osm_id": "606182866",
+      "lonlat": [
+        -77.0694176,
+        -12.0980336
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        325.5213306316291,
+        1353.6622559798416
+      ]
+    },
+    {
+      "osm_id": "638351769",
+      "lonlat": [
+        -77.0600081,
+        -12.0792273
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1334.3954838706995,
+        3442.2157552535646
+      ]
+    },
+    {
+      "osm_id": "1273561061",
+      "lonlat": [
+        -77.0391587,
+        -12.1034602
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "no"
+      },
+      "xy": [
+        3624.708537527651,
+        778.0148099085782
+      ]
+    },
+    {
+      "osm_id": "1943098871",
+      "lonlat": [
+        -77.0686425,
+        -12.0931234
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        405.8058635876514,
+        1897.5904396928381
+      ]
+    },
+    {
+      "osm_id": "1943098874",
+      "lonlat": [
+        -77.065889,
+        -12.0896838
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        702.7496041749837,
+        2280.431643836433
+      ]
+    },
+    {
+      "osm_id": "1943098881",
+      "lonlat": [
+        -77.0615898,
+        -12.0844841
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1166.5435597033356,
+        2859.2829745158087
+      ]
+    },
+    {
+      "osm_id": "2055741703",
+      "lonlat": [
+        -77.0600499,
+        -12.0792839
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1329.8909447265905,
+        3435.9190232728142
+      ]
+    },
+    {
+      "osm_id": "2060102887",
+      "lonlat": [
+        -77.0584908,
+        -12.0809163
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1501.0227201876114,
+        3256.580793021014
+      ]
+    },
+    {
+      "osm_id": "2886079202",
+      "lonlat": [
+        -77.0483449,
+        -12.1092868
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2629.341720892873,
+        125.85367597546428
+      ]
+    },
+    {
+      "osm_id": "3104396886",
+      "lonlat": [
+        -77.0487797,
+        -12.0774666
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2555.614379923849,
+        3646.2041862455662
+      ]
+    },
+    {
+      "osm_id": "3465594394",
+      "lonlat": [
+        -77.0661123,
+        -12.0833764
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        673.1631345198257,
+        2978.1288860738277
+      ]
+    },
+    {
+      "osm_id": "3992462856",
+      "lonlat": [
+        -77.0584933,
+        -12.0807934
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1500.6481985159917,
+        3270.1769252913073
+      ]
+    },
+    {
+      "osm_id": "4139135543",
+      "lonlat": [
+        -77.0400583,
+        -12.0951826
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        3519.9212244386435,
+        1693.1437374562956
+      ]
+    },
+    {
+      "osm_id": "4139135554",
+      "lonlat": [
+        -77.04686,
+        -12.0972927
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2781.0711989137926,
+        1454.137626760872
+      ]
+    },
+    {
+      "osm_id": "4143584334",
+      "lonlat": [
+        -77.0615701,
+        -12.0845387
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1168.7342160541448,
+        2853.2579515657853
+      ]
+    },
+    {
+      "osm_id": "4172197555",
+      "lonlat": [
+        -77.0486661,
+        -12.0849189
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2574.157804434595,
+        2821.7471597215626
+      ]
+    },
+    {
+      "osm_id": "4214554097",
+      "lonlat": [
+        -77.0480633,
+        -12.0881541
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2642.4763167838682,
+        2464.2843551463448
+      ]
+    },
+    {
+      "osm_id": "4214554098",
+      "lonlat": [
+        -77.0482583,
+        -12.0883221
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2621.382477990992,
+        2445.537198900478
+      ]
+    },
+    {
+      "osm_id": "4214554099",
+      "lonlat": [
+        -77.0481376,
+        -12.0884093
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2634.5974467385677,
+        2435.9875045889057
+      ]
+    },
+    {
+      "osm_id": "4264725536",
+      "lonlat": [
+        -77.0595642,
+        -12.0960328
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1396.7354078163044,
+        1583.14543012972
+      ]
+    },
+    {
+      "osm_id": "4318884492",
+      "lonlat": [
+        -77.0540033,
+        -12.1076849
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2011.92686327931,
+        298.4658083743416
+      ]
+    },
+    {
+      "osm_id": "4318884493",
+      "lonlat": [
+        -77.0536994,
+        -12.1078617
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2045.1626038657269,
+        279.1528181133326
+      ]
+    },
+    {
+      "osm_id": "4323994177",
+      "lonlat": [
+        -77.0659959,
+        -12.0899157
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        691.3033448268543,
+        2254.6851686541922
+      ]
+    },
+    {
+      "osm_id": "4347743561",
+      "lonlat": [
+        -77.060048,
+        -12.0824987
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1332.7756642596214,
+        3080.2210785429925
+      ]
+    },
+    {
+      "osm_id": "4347743562",
+      "lonlat": [
+        -77.0599912,
+        -12.0825495
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1339.0029646375333,
+        3074.6469125235453
+      ]
+    },
+    {
+      "osm_id": "4347743563",
+      "lonlat": [
+        -77.059994,
+        -12.0826381
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1338.7718805302284,
+        3064.8415255281143
+      ]
+    },
+    {
+      "osm_id": "4347743564",
+      "lonlat": [
+        -77.0599405,
+        -12.0827007
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1344.649668408616,
+        3057.9590498793405
+      ]
+    },
+    {
+      "osm_id": "4347780300",
+      "lonlat": [
+        -77.055113,
+        -12.1063311
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1889.9754158395226,
+        447.34680763073266
+      ]
+    },
+    {
+      "osm_id": "4558013249",
+      "lonlat": [
+        -77.0583626,
+        -12.1031794
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1533.5286665729363,
+        793.3999347500503
+      ]
+    },
+    {
+      "osm_id": "4558013250",
+      "lonlat": [
+        -77.0585733,
+        -12.1027584
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1510.2361639876617,
+        839.8083448549733
+      ]
+    },
+    {
+      "osm_id": "4558013251",
+      "lonlat": [
+        -77.0582795,
+        -12.1025896
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1542.085019560589,
+        858.7261876252014
+      ]
+    },
+    {
+      "osm_id": "4558013252",
+      "lonlat": [
+        -77.0581257,
+        -12.1030573
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1559.2210211381316,
+        807.103984851623
+      ]
+    },
+    {
+      "osm_id": "4578541392",
+      "lonlat": [
+        -77.0507934,
+        -12.0826957
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2340.6745169007336,
+        3065.9947592113167
+      ]
+    },
+    {
+      "osm_id": "4578554731",
+      "lonlat": [
+        -77.0459645,
+        -12.0828083
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2866.5851746405824,
+        3057.472970229108
+      ]
+    },
+    {
+      "osm_id": "4578581775",
+      "lonlat": [
+        -77.048861,
+        -12.0853711
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "traffic_signals:direction": "forward"
+      },
+      "xy": [
+        2553.310120396607,
+        2771.5551409365144
+      ]
+    },
+    {
+      "osm_id": "4578581776",
+      "lonlat": [
+        -77.0484009,
+        -12.0853836
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2603.4201386829955,
+        2770.547307188157
+      ]
+    },
+    {
+      "osm_id": "4578585825",
+      "lonlat": [
+        -77.0504786,
+        -12.0880426
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2379.3877246766933,
+        2474.6504171164706
+      ]
+    },
+    {
+      "osm_id": "4578585826",
+      "lonlat": [
+        -77.0507367,
+        -12.0878533
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2351.1267583437148,
+        2495.3845642593224
+      ]
+    },
+    {
+      "osm_id": "4578585838",
+      "lonlat": [
+        -77.0506692,
+        -12.0882041
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2358.767723579018,
+        2456.625826115487
+      ]
+    },
+    {
+      "osm_id": "4578585840",
+      "lonlat": [
+        -77.0510314,
+        -12.0881945
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2319.3206592151546,
+        2457.3922467788216
+      ]
+    },
+    {
+      "osm_id": "4580596368",
+      "lonlat": [
+        -77.0481798,
+        -12.0880735
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2629.724136855162,
+        2473.107231344795
+      ]
+    },
+    {
+      "osm_id": "4580606966",
+      "lonlat": [
+        -77.0669999,
+        -12.083076
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        576.2607484588516,
+        3010.6365195880644
+      ]
+    },
+    {
+      "osm_id": "5163760910",
+      "lonlat": [
+        -77.0482011,
+        -12.1029448
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2639.7354566135327,
+        827.6740293717012
+      ]
+    },
+    {
+      "osm_id": "5163760911",
+      "lonlat": [
+        -77.0479261,
+        -12.1030853
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2669.794413533935,
+        812.3530899502803
+      ]
+    },
+    {
+      "osm_id": "5163760912",
+      "lonlat": [
+        -77.0478434,
+        -12.102851
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2678.6045503945206,
+        838.344428626122
+      ]
+    },
+    {
+      "osm_id": "5481469502",
+      "lonlat": [
+        -77.0515237,
+        -12.084018
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2262.2493260370684,
+        2919.094239005819
+      ]
+    },
+    {
+      "osm_id": "5481469503",
+      "lonlat": [
+        -77.0514966,
+        -12.0843157
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2265.4472368779243,
+        2886.177695971448
+      ]
+    },
+    {
+      "osm_id": "5481469504",
+      "lonlat": [
+        -77.0518174,
+        -12.0843403
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2230.535979294742,
+        2883.1938785419334
+      ]
+    },
+    {
+      "osm_id": "5481469505",
+      "lonlat": [
+        -77.0522585,
+        -12.0832582
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2181.606771416089,
+        3002.561342123896
+      ]
+    },
+    {
+      "osm_id": "5481469506",
+      "lonlat": [
+        -77.0520094,
+        -12.0830406
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2208.5506201118114,
+        3026.840903677279
+      ]
+    },
+    {
+      "osm_id": "5481469507",
+      "lonlat": [
+        -77.0520478,
+        -12.0832982
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        2204.5830293233157,
+        2998.3076810278
+      ]
+    },
+    {
+      "osm_id": "6131131883",
+      "lonlat": [
+        -77.0622187,
+        -12.0928631
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "xy": [
+        1105.0539920789306,
+        1931.6760724785272
+      ]
+    },
+    {
+      "osm_id": "9114867983",
+      "lonlat": [
+        -77.0485464,
+        -12.0855775
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "traffic_signals:direction": "forward"
+      },
+      "xy": [
+        2587.73751334165,
+        2748.9748543300666
+      ]
+    },
+    {
+      "osm_id": "10313721314",
+      "lonlat": [
+        -77.0471847,
+        -12.0941325
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights",
+        "traffic_signals:direction": "forward"
+      },
+      "xy": [
+        2743.0976226672065,
+        1803.5288555889856
+      ]
+    },
+    {
+      "osm_id": "10313721315",
+      "lonlat": [
+        -77.0474354,
+        -12.094318
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "xy": [
+        2715.9538875723956,
+        1782.800004489487
+      ]
+    },
+    {
+      "osm_id": "10537552592",
+      "lonlat": [
+        -77.0575913,
+        -12.1012381
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "xy": [
+        1615.8914333646535,
+        1008.8265676845331
+      ]
+    },
+    {
+      "osm_id": "10700043201",
+      "lonlat": [
+        -77.0671578,
+        -12.0914686
+      ],
+      "tags": {
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "no",
+        "traffic_signals:vibration": "no"
+      },
+      "xy": [
+        566.0854994381662,
+        2081.908538934542
+      ]
+    },
+    {
+      "osm_id": "10700043202",
+      "lonlat": [
+        -77.0672251,
+        -12.0914077
+      ],
+      "tags": {
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "no",
+        "traffic_signals:vibration": "no"
+      },
+      "xy": [
+        558.7064336205367,
+        2088.591405342333
+      ]
+    },
+    {
+      "osm_id": "10700043203",
+      "lonlat": [
+        -77.0672678,
+        -12.0913711
+      ],
+      "tags": {
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "no",
+        "traffic_signals:vibration": "no"
+      },
+      "xy": [
+        554.0263236208702,
+        2092.6058531536255
+      ]
+    },
+    {
+      "osm_id": "10771225072",
+      "lonlat": [
+        -77.0504802,
+        -12.0948812
+      ],
+      "tags": {
+        "highway": "traffic_signals"
+      },
+      "xy": [
+        2384.88821869361,
+        1718.0002258690074
+      ]
+    },
+    {
+      "osm_id": "10771225073",
+      "lonlat": [
+        -77.0504762,
+        -12.0945854
+      ],
+      "tags": {
+        "highway": "traffic_signals"
+      },
+      "xy": [
+        2385.0782365393243,
+        1750.7319443067536
+      ]
+    },
+    {
+      "osm_id": "10771225074",
+      "lonlat": [
+        -77.0509318,
+        -12.0947978
+      ],
+      "tags": {
+        "highway": "traffic_signals"
+      },
+      "xy": [
+        2335.646553395374,
+        1726.8589988227468
+      ]
+    },
+    {
+      "osm_id": "10771225075",
+      "lonlat": [
+        -77.0511143,
+        -12.0945374
+      ],
+      "tags": {
+        "highway": "traffic_signals"
+      },
+      "xy": [
+        2315.5588425824535,
+        1755.521555711981
+      ]
+    },
+    {
+      "osm_id": "10915417066",
+      "lonlat": [
+        -77.0547195,
+        -12.0866711
+      ],
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "xy": [
+        1916.465393842489,
+        2622.932868180098
+      ]
+    }
+  ],
+  "osm_nodes_not_associated": [
+    "108171106",
+    "262724824",
+    "262725530",
+    "262730339",
+    "263111584",
+    "263114110",
+    "263114440",
+    "263114445",
+    "263121078",
+    "263122094",
+    "263357751",
+    "263357995",
+    "263386171",
+    "263389383",
+    "263389384",
+    "263389691",
+    "263389698",
+    "316801728",
+    "605673316",
+    "605673321",
+    "606182866",
+    "638351769",
+    "1273561061",
+    "1943098871",
+    "2055741703",
+    "2060102887",
+    "2886079202",
+    "3104396886",
+    "3992462856",
+    "4139135543",
+    "4318884493",
+    "4347743561",
+    "4347743562",
+    "4347743563",
+    "4347743564",
+    "4347780300",
+    "4578541392",
+    "4578554731",
+    "10700043201",
+    "10700043202",
+    "10700043203",
+    "10771225072",
+    "10771225073",
+    "10771225074",
+    "10771225075"
+  ],
+  "association_method": "Nearest imported control within 110 m; spatial association, not field validation.",
+  "signals": [
+    {
+      "id": "108009631",
+      "xy": [
+        2774.16,
+        1272.48
+      ],
+      "lonlat": [
+        -77.04693596647616,
+        -12.09893396609769
+      ],
+      "roads": [
+        "Avenida Aurelio Miró Quesada",
+        "Avenida Las Flores"
+      ],
+      "nodes": [
+        "108009631"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2770.73,
+            1280.47
+          ],
+          "link": 0,
+          "lane": "-1449698446#0_0"
+        },
+        {
+          "xy": [
+            2773.88,
+            1279.9
+          ],
+          "link": 1,
+          "lane": "-1449698446#0_1"
+        },
+        {
+          "xy": [
+            2784.71,
+            1272.28
+          ],
+          "link": 2,
+          "lane": "-426905949#4_0"
+        },
+        {
+          "xy": [
+            2784.71,
+            1272.28
+          ],
+          "link": 3,
+          "lane": "-426905949#4_0"
+        },
+        {
+          "xy": [
+            2763.09,
+            1269.57
+          ],
+          "link": 4,
+          "lane": "426905949#3_0"
+        },
+        {
+          "xy": [
+            2763.65,
+            1272.72
+          ],
+          "link": 5,
+          "lane": "426905949#3_1"
+        },
+        {
+          "xy": [
+            2763.65,
+            1272.72
+          ],
+          "link": 6,
+          "lane": "426905949#3_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "108009631",
+          "distance_m": 0.0
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "rrGGGGg",
+          "duration_s": 39
+        },
+        {
+          "state": "rryyyyy",
+          "duration_s": 4
+        },
+        {
+          "state": "rrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "GGGrrrr",
+          "duration_s": 39
+        },
+        {
+          "state": "yyyrrrr",
+          "duration_s": 4
+        },
+        {
+          "state": "rrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "108009633",
+      "xy": [
+        3008.84,
+        1228.27
+      ],
+      "lonlat": [
+        -77.04478378387327,
+        -12.0993493955478
+      ],
+      "roads": [
+        "Avenida Aurelio Miró Quesada",
+        "Calle Los Nogales"
+      ],
+      "nodes": [
+        "108009633"
+      ],
+      "heads": [
+        {
+          "xy": [
+            3008.53,
+            1235.64
+          ],
+          "link": 0,
+          "lane": "-24267118#1_0"
+        },
+        {
+          "xy": [
+            3008.53,
+            1235.64
+          ],
+          "link": 1,
+          "lane": "-24267118#1_0"
+        },
+        {
+          "xy": [
+            3016.21,
+            1228.58
+          ],
+          "link": 2,
+          "lane": "-426905949#6_0"
+        },
+        {
+          "xy": [
+            3016.21,
+            1228.58
+          ],
+          "link": 3,
+          "lane": "-426905949#6_0"
+        },
+        {
+          "xy": [
+            3000.9,
+            1224.82
+          ],
+          "link": 4,
+          "lane": "426905949#5_0"
+        },
+        {
+          "xy": [
+            3001.47,
+            1227.97
+          ],
+          "link": 5,
+          "lane": "426905949#5_1"
+        },
+        {
+          "xy": [
+            3001.47,
+            1227.97
+          ],
+          "link": 6,
+          "lane": "426905949#5_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "108009633",
+          "distance_m": 0.0
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "rrGGGGg",
+          "duration_s": 39
+        },
+        {
+          "state": "rryyyyy",
+          "duration_s": 4
+        },
+        {
+          "state": "rrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "GGGrrrr",
+          "duration_s": 39
+        },
+        {
+          "state": "yyyrrrr",
+          "duration_s": 4
+        },
+        {
+          "state": "rrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "108041441",
+      "xy": [
+        2790.49,
+        1371.95
+      ],
+      "lonlat": [
+        -77.04677915484005,
+        -12.09803610975431
+      ],
+      "roads": [
+        "Avenida Las Flores",
+        "Calle José Choquehuanca"
+      ],
+      "nodes": [
+        "108041441"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2785.89,
+            1380.79
+          ],
+          "link": 0,
+          "lane": "-1449698446#1_0"
+        },
+        {
+          "xy": [
+            2789.11,
+            1380.59
+          ],
+          "link": 1,
+          "lane": "-1449698446#1_1"
+        },
+        {
+          "xy": [
+            2789.11,
+            1380.59
+          ],
+          "link": 2,
+          "lane": "-1449698446#1_1"
+        },
+        {
+          "xy": [
+            2793.75,
+            1362.1
+          ],
+          "link": 3,
+          "lane": "1449698446#0_0"
+        },
+        {
+          "xy": [
+            2793.75,
+            1362.1
+          ],
+          "link": 4,
+          "lane": "1449698446#0_0"
+        },
+        {
+          "xy": [
+            2790.59,
+            1362.61
+          ],
+          "link": 5,
+          "lane": "1449698446#0_1"
+        },
+        {
+          "xy": [
+            2779.17,
+            1368.95
+          ],
+          "link": 6,
+          "lane": "426905952#0_0"
+        },
+        {
+          "xy": [
+            2779.17,
+            1368.95
+          ],
+          "link": 7,
+          "lane": "426905952#0_0"
+        },
+        {
+          "xy": [
+            2778.78,
+            1372.12
+          ],
+          "link": 8,
+          "lane": "426905952#0_1"
+        },
+        {
+          "xy": [
+            2778.78,
+            1372.12
+          ],
+          "link": 9,
+          "lane": "426905952#0_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "108041441",
+          "distance_m": 0.0
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGgGGGrrrr",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyyyyrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrrrrGGGG",
+          "duration_s": 40
+        },
+        {
+          "state": "rrrrrryyyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "262730023",
+      "xy": [
+        2286.93,
+        1422.54
+      ],
+      "lonlat": [
+        -77.05140016502787,
+        -12.097544776916907
+      ],
+      "roads": [
+        "Calle General José Granda",
+        "Calle Las Moreras"
+      ],
+      "nodes": [
+        "262730023"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2289.46,
+            1417.17
+          ],
+          "link": 0,
+          "lane": "24267057#0_0"
+        },
+        {
+          "xy": [
+            2289.46,
+            1417.17
+          ],
+          "link": 1,
+          "lane": "24267057#0_0"
+        },
+        {
+          "xy": [
+            2286.3,
+            1416.64
+          ],
+          "link": 2,
+          "lane": "24267057#0_1"
+        },
+        {
+          "xy": [
+            2279.76,
+            1421.69
+          ],
+          "link": 3,
+          "lane": "430822930#1_0"
+        },
+        {
+          "xy": [
+            2279.76,
+            1421.69
+          ],
+          "link": 4,
+          "lane": "430822930#1_0"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "262730023",
+          "distance_m": 0.0
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGGrr",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrGG",
+          "duration_s": 40
+        },
+        {
+          "state": "rrryy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "262730104",
+      "xy": [
+        2658.95,
+        1432.79
+      ],
+      "lonlat": [
+        -77.04798298065741,
+        -12.09747736054655
+      ],
+      "roads": [
+        "Avenida Nicolás de Ribera",
+        "Calle Los Eucaliptos"
+      ],
+      "nodes": [
+        "262730104"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2663.51,
+            1436.59
+          ],
+          "link": 0,
+          "lane": "-1449698444#1_0"
+        },
+        {
+          "xy": [
+            2656.52,
+            1438.2
+          ],
+          "link": 1,
+          "lane": "1449698445#1_0"
+        },
+        {
+          "xy": [
+            2659.68,
+            1438.68
+          ],
+          "link": 2,
+          "lane": "1449698445#1_1"
+        },
+        {
+          "xy": [
+            2659.68,
+            1438.68
+          ],
+          "link": 3,
+          "lane": "1449698445#1_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "262730104",
+          "distance_m": 0.0
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "Grrr",
+          "duration_s": 40
+        },
+        {
+          "state": "yrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rGGG",
+          "duration_s": 40
+        },
+        {
+          "state": "ryyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "262730330",
+      "xy": [
+        2759.84,
+        1578.85
+      ],
+      "lonlat": [
+        -77.0470463998936,
+        -12.096164172498417
+      ],
+      "roads": [
+        "Avenida Jorge Basadre Grohmann",
+        "Avenida Las Flores"
+      ],
+      "nodes": [
+        "262730330"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2749.99,
+            1572.55
+          ],
+          "link": 8,
+          "lane": "-1469334618#0_0"
+        },
+        {
+          "xy": [
+            2749.99,
+            1572.55
+          ],
+          "link": 9,
+          "lane": "-1469334618#0_0"
+        },
+        {
+          "xy": [
+            2749.53,
+            1575.72
+          ],
+          "link": 10,
+          "lane": "-1469334618#0_1"
+        },
+        {
+          "xy": [
+            2749.53,
+            1575.72
+          ],
+          "link": 11,
+          "lane": "-1469334618#0_1"
+        },
+        {
+          "xy": [
+            2753.16,
+            1588.44
+          ],
+          "link": 12,
+          "lane": "-370644921#4_0"
+        },
+        {
+          "xy": [
+            2753.16,
+            1588.44
+          ],
+          "link": 13,
+          "lane": "-370644921#4_0"
+        },
+        {
+          "xy": [
+            2756.3,
+            1589.03
+          ],
+          "link": 14,
+          "lane": "-370644921#4_1"
+        },
+        {
+          "xy": [
+            2756.3,
+            1589.03
+          ],
+          "link": 15,
+          "lane": "-370644921#4_1"
+        },
+        {
+          "xy": [
+            2766.61,
+            1569.28
+          ],
+          "link": 4,
+          "lane": "1469334617#1_0"
+        },
+        {
+          "xy": [
+            2766.61,
+            1569.28
+          ],
+          "link": 5,
+          "lane": "1469334617#1_0"
+        },
+        {
+          "xy": [
+            2763.47,
+            1568.65
+          ],
+          "link": 6,
+          "lane": "1469334617#1_1"
+        },
+        {
+          "xy": [
+            2763.47,
+            1568.65
+          ],
+          "link": 7,
+          "lane": "1469334617#1_1"
+        },
+        {
+          "xy": [
+            2769.72,
+            1585.2
+          ],
+          "link": 0,
+          "lane": "465801063#8_0"
+        },
+        {
+          "xy": [
+            2769.72,
+            1585.2
+          ],
+          "link": 1,
+          "lane": "465801063#8_0"
+        },
+        {
+          "xy": [
+            2770.2,
+            1582.03
+          ],
+          "link": 2,
+          "lane": "465801063#8_1"
+        },
+        {
+          "xy": [
+            2770.2,
+            1582.03
+          ],
+          "link": 3,
+          "lane": "465801063#8_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "262730330",
+          "distance_m": 0.0
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "rrrrGGGgrrrrGGGg",
+          "duration_s": 40
+        },
+        {
+          "state": "rrrryyyyrrrryyyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "GGGgrrrrGGGgrrrr",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyyrrrryyyyrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "262730332",
+      "xy": [
+        3007.55,
+        1616.19
+      ],
+      "lonlat": [
+        -77.04476897370799,
+        -12.095843469750395
+      ],
+      "roads": [
+        "Avenida Jorge Basadre Grohmann",
+        "Calle Los Nogales"
+      ],
+      "nodes": [
+        "262730332"
+      ],
+      "heads": [
+        {
+          "xy": [
+            3004.42,
+            1626.23
+          ],
+          "link": 11,
+          "lane": "-24267118#7_0"
+        },
+        {
+          "xy": [
+            3004.42,
+            1626.23
+          ],
+          "link": 12,
+          "lane": "-24267118#7_0"
+        },
+        {
+          "xy": [
+            3004.42,
+            1626.23
+          ],
+          "link": 13,
+          "lane": "-24267118#7_0"
+        },
+        {
+          "xy": [
+            3001.15,
+            1610.36
+          ],
+          "link": 7,
+          "lane": "-465801063#7_0"
+        },
+        {
+          "xy": [
+            3001.15,
+            1610.36
+          ],
+          "link": 8,
+          "lane": "-465801063#7_0"
+        },
+        {
+          "xy": [
+            3000.67,
+            1613.52
+          ],
+          "link": 9,
+          "lane": "-465801063#7_1"
+        },
+        {
+          "xy": [
+            3000.67,
+            1613.52
+          ],
+          "link": 10,
+          "lane": "-465801063#7_1"
+        },
+        {
+          "xy": [
+            3010.71,
+            1606.15
+          ],
+          "link": 4,
+          "lane": "24267118#4_0"
+        },
+        {
+          "xy": [
+            3010.71,
+            1606.15
+          ],
+          "link": 5,
+          "lane": "24267118#4_0"
+        },
+        {
+          "xy": [
+            3010.71,
+            1606.15
+          ],
+          "link": 6,
+          "lane": "24267118#4_0"
+        },
+        {
+          "xy": [
+            3013.96,
+            1622.01
+          ],
+          "link": 0,
+          "lane": "465801063#4_0"
+        },
+        {
+          "xy": [
+            3013.96,
+            1622.01
+          ],
+          "link": 1,
+          "lane": "465801063#4_0"
+        },
+        {
+          "xy": [
+            3014.44,
+            1618.84
+          ],
+          "link": 2,
+          "lane": "465801063#4_1"
+        },
+        {
+          "xy": [
+            3014.44,
+            1618.84
+          ],
+          "link": 3,
+          "lane": "465801063#4_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "262730332",
+          "distance_m": 0.0
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGGgrrrGGGgrrr",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyyrrryyyyrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrrGGgrrrrGGg",
+          "duration_s": 40
+        },
+        {
+          "state": "rrrryyyrrrryyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "262730334",
+      "xy": [
+        3253.92,
+        1653.19
+      ],
+      "lonlat": [
+        -77.04250387921807,
+        -12.0955257296929
+      ],
+      "roads": [
+        "Avenida Jorge Basadre Grohmann",
+        "Calle Los Robles"
+      ],
+      "nodes": [
+        "262730334"
+      ],
+      "heads": [
+        {
+          "xy": [
+            3250.73,
+            1663.24
+          ],
+          "link": 11,
+          "lane": "-24267124#2_0"
+        },
+        {
+          "xy": [
+            3250.73,
+            1663.24
+          ],
+          "link": 12,
+          "lane": "-24267124#2_0"
+        },
+        {
+          "xy": [
+            3250.73,
+            1663.24
+          ],
+          "link": 13,
+          "lane": "-24267124#2_0"
+        },
+        {
+          "xy": [
+            3247.47,
+            1647.37
+          ],
+          "link": 7,
+          "lane": "-465801063#3_0"
+        },
+        {
+          "xy": [
+            3247.47,
+            1647.37
+          ],
+          "link": 8,
+          "lane": "-465801063#3_0"
+        },
+        {
+          "xy": [
+            3246.99,
+            1650.54
+          ],
+          "link": 9,
+          "lane": "-465801063#3_1"
+        },
+        {
+          "xy": [
+            3246.99,
+            1650.54
+          ],
+          "link": 10,
+          "lane": "-465801063#3_1"
+        },
+        {
+          "xy": [
+            3257.13,
+            1643.14
+          ],
+          "link": 4,
+          "lane": "24267124#1_0"
+        },
+        {
+          "xy": [
+            3257.13,
+            1643.14
+          ],
+          "link": 5,
+          "lane": "24267124#1_0"
+        },
+        {
+          "xy": [
+            3257.13,
+            1643.14
+          ],
+          "link": 6,
+          "lane": "24267124#1_0"
+        },
+        {
+          "xy": [
+            3260.4,
+            1659.01
+          ],
+          "link": 0,
+          "lane": "465801063#2_0"
+        },
+        {
+          "xy": [
+            3260.4,
+            1659.01
+          ],
+          "link": 1,
+          "lane": "465801063#2_0"
+        },
+        {
+          "xy": [
+            3260.87,
+            1655.85
+          ],
+          "link": 2,
+          "lane": "465801063#2_1"
+        },
+        {
+          "xy": [
+            3260.87,
+            1655.85
+          ],
+          "link": 3,
+          "lane": "465801063#2_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "262730334",
+          "distance_m": 0.0
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGGgrrrGGGgrrr",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyyrrryyyyrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrrGGgrrrrGGg",
+          "duration_s": 40
+        },
+        {
+          "state": "rrrryyyrrrryyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "262730717",
+      "xy": [
+        2905.47,
+        1473.66
+      ],
+      "lonlat": [
+        -77.04571622905007,
+        -12.097124684518846
+      ],
+      "roads": [
+        "Avenida Nicolás de Ribera",
+        "Calle Los Laureles"
+      ],
+      "nodes": [
+        "262730717"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2902.83,
+            1480.55
+          ],
+          "link": 9,
+          "lane": "-24267116#3_0"
+        },
+        {
+          "xy": [
+            2902.83,
+            1480.55
+          ],
+          "link": 10,
+          "lane": "-24267116#3_0"
+        },
+        {
+          "xy": [
+            2902.83,
+            1480.55
+          ],
+          "link": 11,
+          "lane": "-24267116#3_0"
+        },
+        {
+          "xy": [
+            2912.36,
+            1476.3
+          ],
+          "link": 0,
+          "lane": "-412502896#1_0"
+        },
+        {
+          "xy": [
+            2912.36,
+            1476.3
+          ],
+          "link": 1,
+          "lane": "-412502896#1_0"
+        },
+        {
+          "xy": [
+            2912.36,
+            1476.3
+          ],
+          "link": 2,
+          "lane": "-412502896#1_0"
+        },
+        {
+          "xy": [
+            2908.11,
+            1466.77
+          ],
+          "link": 3,
+          "lane": "24267116#2_0"
+        },
+        {
+          "xy": [
+            2908.11,
+            1466.77
+          ],
+          "link": 4,
+          "lane": "24267116#2_0"
+        },
+        {
+          "xy": [
+            2908.11,
+            1466.77
+          ],
+          "link": 5,
+          "lane": "24267116#2_0"
+        },
+        {
+          "xy": [
+            2898.58,
+            1471.01
+          ],
+          "link": 6,
+          "lane": "412502896#0_0"
+        },
+        {
+          "xy": [
+            2898.58,
+            1471.01
+          ],
+          "link": 7,
+          "lane": "412502896#0_0"
+        },
+        {
+          "xy": [
+            2898.58,
+            1471.01
+          ],
+          "link": 8,
+          "lane": "412502896#0_0"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "262730717",
+          "distance_m": 0.0
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGgrrrGGgrrr",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyrrryyyrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrGGgrrrGGg",
+          "duration_s": 40
+        },
+        {
+          "state": "rrryyyrrryyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "263111211",
+      "xy": [
+        2704.46,
+        1974.24
+      ],
+      "lonlat": [
+        -77.04752778558299,
+        -12.09258707972025
+      ],
+      "roads": [
+        "Avenida Dos de Mayo",
+        "Avenida Guillermo Prescott",
+        "Avenida Las Flores"
+      ],
+      "nodes": [
+        "263111211"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2698.63,
+            1980.67
+          ],
+          "link": 7,
+          "lane": "-1469334619_0"
+        },
+        {
+          "xy": [
+            2701.79,
+            1981.15
+          ],
+          "link": 8,
+          "lane": "-1469334619_1"
+        },
+        {
+          "xy": [
+            2701.79,
+            1981.15
+          ],
+          "link": 9,
+          "lane": "-1469334619_1"
+        },
+        {
+          "xy": [
+            2710.29,
+            1967.82
+          ],
+          "link": 0,
+          "lane": "1151015874#0_0"
+        },
+        {
+          "xy": [
+            2710.29,
+            1967.82
+          ],
+          "link": 1,
+          "lane": "1151015874#0_0"
+        },
+        {
+          "xy": [
+            2707.12,
+            1967.34
+          ],
+          "link": 2,
+          "lane": "1151015874#0_1"
+        },
+        {
+          "xy": [
+            2694.39,
+            1971.14
+          ],
+          "link": 3,
+          "lane": "24295062#2_0"
+        },
+        {
+          "xy": [
+            2694.39,
+            1971.14
+          ],
+          "link": 4,
+          "lane": "24295062#2_0"
+        },
+        {
+          "xy": [
+            2693.92,
+            1974.31
+          ],
+          "link": 5,
+          "lane": "24295062#2_1"
+        },
+        {
+          "xy": [
+            2693.92,
+            1974.31
+          ],
+          "link": 6,
+          "lane": "24295062#2_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "263111211",
+          "distance_m": 0.0
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGGrrrrGGg",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyrrrryyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrGGGGrrr",
+          "duration_s": 40
+        },
+        {
+          "state": "rrryyyyrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "263111592",
+      "xy": [
+        3285.12,
+        2060.99
+      ],
+      "lonlat": [
+        -77.04218937349842,
+        -12.091842325107333
+      ],
+      "roads": [
+        "Avenida Dos de Mayo",
+        "Calle Los Álamos"
+      ],
+      "nodes": [
+        "263111592"
+      ],
+      "heads": [
+        {
+          "xy": [
+            3278.22,
+            2058.35
+          ],
+          "link": 2,
+          "lane": "1119216592#9_0"
+        },
+        {
+          "xy": [
+            3277.75,
+            2061.52
+          ],
+          "link": 3,
+          "lane": "1119216592#9_1"
+        },
+        {
+          "xy": [
+            3277.75,
+            2061.52
+          ],
+          "link": 4,
+          "lane": "1119216592#9_1"
+        },
+        {
+          "xy": [
+            3282.46,
+            2067.88
+          ],
+          "link": 5,
+          "lane": "413487856#1_0"
+        },
+        {
+          "xy": [
+            3287.82,
+            2054.1
+          ],
+          "link": 0,
+          "lane": "413487857_0"
+        },
+        {
+          "xy": [
+            3284.66,
+            2053.6
+          ],
+          "link": 1,
+          "lane": "413487857_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "263111592",
+          "distance_m": 0.0
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGrrrr",
+          "duration_s": 25
+        },
+        {
+          "state": "yyrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrGGGr",
+          "duration_s": 25
+        },
+        {
+          "state": "rryyyr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrrrG",
+          "duration_s": 25
+        },
+        {
+          "state": "rrrrry",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "263383329",
+      "xy": [
+        1401.55,
+        1861.0
+      ],
+      "lonlat": [
+        -77.05950075880634,
+        -12.093522031710599
+      ],
+      "roads": [
+        "Avenida Javier Prado Oeste"
+      ],
+      "nodes": [
+        "263383329"
+      ],
+      "heads": [
+        {
+          "xy": [
+            1399.53,
+            1859.71
+          ],
+          "link": 0,
+          "lane": "1340344534#6_0"
+        },
+        {
+          "xy": [
+            1400.04,
+            1862.87
+          ],
+          "link": 1,
+          "lane": "1340344534#6_1"
+        },
+        {
+          "xy": [
+            1400.04,
+            1862.87
+          ],
+          "link": 2,
+          "lane": "1340344534#6_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "182472515",
+          "distance_m": 29.2
+        },
+        {
+          "osm_id": "263383329",
+          "distance_m": 0.0
+        },
+        {
+          "osm_id": "263383496",
+          "distance_m": 42.7
+        },
+        {
+          "osm_id": "263383554",
+          "distance_m": 34.0
+        }
+      ],
+      "focus": true,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGG",
+          "duration_s": 85
+        },
+        {
+          "state": "yyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "263384067",
+      "xy": [
+        1131.57,
+        1941.87
+      ],
+      "lonlat": [
+        -77.06197448791634,
+        -12.092772780666435
+      ],
+      "roads": [
+        "Avenida Javier Prado Oeste",
+        "Jirón Trujillo"
+      ],
+      "nodes": [
+        "263384067"
+      ],
+      "heads": [
+        {
+          "xy": [
+            1132.1,
+            1949.88
+          ],
+          "link": 0,
+          "lane": "1335131480_0"
+        },
+        {
+          "xy": [
+            1132.1,
+            1949.88
+          ],
+          "link": 1,
+          "lane": "1335131480_0"
+        },
+        {
+          "xy": [
+            1135.2,
+            1949.05
+          ],
+          "link": 2,
+          "lane": "1335131480_1"
+        },
+        {
+          "xy": [
+            1139.38,
+            1940.52
+          ],
+          "link": 3,
+          "lane": "315475398#6_0"
+        },
+        {
+          "xy": [
+            1138.22,
+            1937.54
+          ],
+          "link": 4,
+          "lane": "315475398#6_1"
+        },
+        {
+          "xy": [
+            1138.22,
+            1937.54
+          ],
+          "link": 5,
+          "lane": "315475398#6_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "263384067",
+          "distance_m": 0.0
+        },
+        {
+          "osm_id": "6131131883",
+          "distance_m": 28.4
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGGrrr",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrGGG",
+          "duration_s": 40
+        },
+        {
+          "state": "rrryyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "263387635",
+      "xy": [
+        1903.3,
+        2626.71
+      ],
+      "lonlat": [
+        -77.05484013970317,
+        -12.086636070383028
+      ],
+      "roads": [
+        "Avenida Gregorio Escobedo",
+        "Jirón Diego de Almagro"
+      ],
+      "nodes": [
+        "263387635"
+      ],
+      "heads": [
+        {
+          "xy": [
+            1896.11,
+            2630.41
+          ],
+          "link": 2,
+          "lane": "1423869589#2_0"
+        },
+        {
+          "xy": [
+            1898.11,
+            2632.91
+          ],
+          "link": 3,
+          "lane": "1423869589#2_1"
+        },
+        {
+          "xy": [
+            1907.38,
+            2632.14
+          ],
+          "link": 0,
+          "lane": "24306322#8_0"
+        },
+        {
+          "xy": [
+            1909.41,
+            2629.66
+          ],
+          "link": 1,
+          "lane": "24306322#8_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "263387635",
+          "distance_m": 0.0
+        },
+        {
+          "osm_id": "10915417066",
+          "distance_m": 13.7
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGrr",
+          "duration_s": 40
+        },
+        {
+          "state": "yyrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrGG",
+          "duration_s": 40
+        },
+        {
+          "state": "rryy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "4139135554",
+      "xy": [
+        2781.08,
+        1454.14
+      ],
+      "lonlat": [
+        -77.04685991901113,
+        -12.097292679147571
+      ],
+      "roads": [
+        "Avenida Las Flores",
+        "Avenida Nicolás de Ribera"
+      ],
+      "nodes": [
+        "4139135554"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2774.78,
+            1460.59
+          ],
+          "link": 10,
+          "lane": "-1469334617#0_0"
+        },
+        {
+          "xy": [
+            2774.78,
+            1460.59
+          ],
+          "link": 11,
+          "lane": "-1469334617#0_0"
+        },
+        {
+          "xy": [
+            2777.9,
+            1461.3
+          ],
+          "link": 12,
+          "lane": "-1469334617#0_1"
+        },
+        {
+          "xy": [
+            2777.9,
+            1461.3
+          ],
+          "link": 13,
+          "lane": "-1469334617#0_1"
+        },
+        {
+          "xy": [
+            2791.11,
+            1457.26
+          ],
+          "link": 0,
+          "lane": "-412502896#0_0"
+        },
+        {
+          "xy": [
+            2791.11,
+            1457.26
+          ],
+          "link": 1,
+          "lane": "-412502896#0_0"
+        },
+        {
+          "xy": [
+            2791.11,
+            1457.26
+          ],
+          "link": 2,
+          "lane": "-412502896#0_0"
+        },
+        {
+          "xy": [
+            2770.78,
+            1450.97
+          ],
+          "link": 7,
+          "lane": "1449698444#0_0"
+        },
+        {
+          "xy": [
+            2770.78,
+            1450.97
+          ],
+          "link": 8,
+          "lane": "1449698444#0_0"
+        },
+        {
+          "xy": [
+            2770.78,
+            1450.97
+          ],
+          "link": 9,
+          "lane": "1449698444#0_0"
+        },
+        {
+          "xy": [
+            2786.85,
+            1447.63
+          ],
+          "link": 3,
+          "lane": "1449698446#1_0"
+        },
+        {
+          "xy": [
+            2786.85,
+            1447.63
+          ],
+          "link": 4,
+          "lane": "1449698446#1_0"
+        },
+        {
+          "xy": [
+            2783.68,
+            1447.19
+          ],
+          "link": 5,
+          "lane": "1449698446#1_1"
+        },
+        {
+          "xy": [
+            2783.68,
+            1447.19
+          ],
+          "link": 6,
+          "lane": "1449698446#1_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "4139135554",
+          "distance_m": 0.0
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "rrrGGGgrrrGGGg",
+          "duration_s": 40
+        },
+        {
+          "state": "rrryyyyrrryyyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "GGgrrrrGGgrrrr",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyrrrryyyrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "GS_cluster_10009794302_10010083804_10313727029_10313727030_#2more",
+      "xy": [
+        1593.33,
+        2245.52
+      ],
+      "lonlat": [
+        -77.05771298877598,
+        -12.09006000012605
+      ],
+      "roads": [
+        "Avenida Faustino Sanchez Carrión",
+        "Avenida Gregorio Escobedo",
+        "Avenida Juan de Aliaga"
+      ],
+      "nodes": [
+        "cluster_10009794302_10010083804_10313727029_10313727030_#2more"
+      ],
+      "heads": [
+        {
+          "xy": [
+            1589.48,
+            2225.05
+          ],
+          "link": 9,
+          "lane": "1343544509_0"
+        },
+        {
+          "xy": [
+            1589.48,
+            2225.05
+          ],
+          "link": 10,
+          "lane": "1343544509_0"
+        },
+        {
+          "xy": [
+            1586.82,
+            2226.82
+          ],
+          "link": 11,
+          "lane": "1343544509_1"
+        },
+        {
+          "xy": [
+            1586.82,
+            2226.82
+          ],
+          "link": 12,
+          "lane": "1343544509_1"
+        },
+        {
+          "xy": [
+            1574.2,
+            2242.05
+          ],
+          "link": 13,
+          "lane": "1343544512_0"
+        },
+        {
+          "xy": [
+            1574.2,
+            2242.05
+          ],
+          "link": 14,
+          "lane": "1343544512_0"
+        },
+        {
+          "xy": [
+            1575.97,
+            2244.71
+          ],
+          "link": 15,
+          "lane": "1343544512_1"
+        },
+        {
+          "xy": [
+            1577.75,
+            2247.37
+          ],
+          "link": 16,
+          "lane": "1343544512_2"
+        },
+        {
+          "xy": [
+            1610.83,
+            2246.95
+          ],
+          "link": 4,
+          "lane": "1343544514_0"
+        },
+        {
+          "xy": [
+            1610.83,
+            2246.95
+          ],
+          "link": 5,
+          "lane": "1343544514_0"
+        },
+        {
+          "xy": [
+            1609.07,
+            2244.28
+          ],
+          "link": 6,
+          "lane": "1343544514_1"
+        },
+        {
+          "xy": [
+            1607.3,
+            2241.61
+          ],
+          "link": 7,
+          "lane": "1343544514_2"
+        },
+        {
+          "xy": [
+            1607.3,
+            2241.61
+          ],
+          "link": 8,
+          "lane": "1343544514_2"
+        },
+        {
+          "xy": [
+            1595.93,
+            2263.65
+          ],
+          "link": 0,
+          "lane": "1343544516_0"
+        },
+        {
+          "xy": [
+            1595.93,
+            2263.65
+          ],
+          "link": 1,
+          "lane": "1343544516_0"
+        },
+        {
+          "xy": [
+            1598.59,
+            2261.87
+          ],
+          "link": 2,
+          "lane": "1343544516_1"
+        },
+        {
+          "xy": [
+            1598.59,
+            2261.87
+          ],
+          "link": 3,
+          "lane": "1343544516_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "263384503",
+          "distance_m": 21.1
+        },
+        {
+          "osm_id": "263384504",
+          "distance_m": 22.9
+        },
+        {
+          "osm_id": "263384565",
+          "distance_m": 20.3
+        },
+        {
+          "osm_id": "263384566",
+          "distance_m": 24.5
+        }
+      ],
+      "focus": false,
+      "generated_location": true,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "rrrrGGGGrrrrrGGGr",
+          "duration_s": 35
+        },
+        {
+          "state": "rrrryyyyrrrrryyyr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrGrrrrrrrG",
+          "duration_s": 8
+        },
+        {
+          "state": "rrrrrrrryrrrrrrry",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "GGGgrrrrrGGGgrrrr",
+          "duration_s": 34
+        },
+        {
+          "state": "yyyyrrrrryyyyrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "GS_cluster_10242875195_10242875196_10242875197_10242875198",
+      "xy": [
+        2282.01,
+        823.57
+      ],
+      "lonlat": [
+        -77.05148665211019,
+        -12.102957628576888
+      ],
+      "roads": [
+        "Avenida Coronel Pedro Portillo",
+        "Avenida General Juan Antonio Pezet"
+      ],
+      "nodes": [
+        "cluster_10242875195_10242875196_10242875197_10242875198"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2295.56,
+            829.29
+          ],
+          "link": 4,
+          "lane": "1342057998_0"
+        },
+        {
+          "xy": [
+            2295.56,
+            829.29
+          ],
+          "link": 5,
+          "lane": "1342057998_0"
+        },
+        {
+          "xy": [
+            2295.44,
+            826.09
+          ],
+          "link": 6,
+          "lane": "1342057998_1"
+        },
+        {
+          "xy": [
+            2295.44,
+            826.09
+          ],
+          "link": 7,
+          "lane": "1342057998_1"
+        },
+        {
+          "xy": [
+            2275.18,
+            835.58
+          ],
+          "link": 0,
+          "lane": "1342058000_0"
+        },
+        {
+          "xy": [
+            2275.18,
+            835.58
+          ],
+          "link": 1,
+          "lane": "1342058000_0"
+        },
+        {
+          "xy": [
+            2278.34,
+            835.1
+          ],
+          "link": 2,
+          "lane": "1342058000_1"
+        },
+        {
+          "xy": [
+            2278.34,
+            835.1
+          ],
+          "link": 3,
+          "lane": "1342058000_1"
+        },
+        {
+          "xy": [
+            2267.16,
+            818.7
+          ],
+          "link": 12,
+          "lane": "1342058002_0"
+        },
+        {
+          "xy": [
+            2267.16,
+            818.7
+          ],
+          "link": 13,
+          "lane": "1342058002_0"
+        },
+        {
+          "xy": [
+            2267.56,
+            821.88
+          ],
+          "link": 14,
+          "lane": "1342058002_1"
+        },
+        {
+          "xy": [
+            2267.56,
+            821.88
+          ],
+          "link": 15,
+          "lane": "1342058002_1"
+        },
+        {
+          "xy": [
+            2289.56,
+            813.72
+          ],
+          "link": 8,
+          "lane": "1342058004_0"
+        },
+        {
+          "xy": [
+            2289.56,
+            813.72
+          ],
+          "link": 9,
+          "lane": "1342058004_0"
+        },
+        {
+          "xy": [
+            2286.02,
+            810.57
+          ],
+          "link": 10,
+          "lane": "1342058004_1"
+        },
+        {
+          "xy": [
+            2286.02,
+            810.57
+          ],
+          "link": 11,
+          "lane": "1342058004_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "108215809",
+          "distance_m": 16.4
+        },
+        {
+          "osm_id": "262728119",
+          "distance_m": 18.8
+        },
+        {
+          "osm_id": "262728225",
+          "distance_m": 18.3
+        },
+        {
+          "osm_id": "262728226",
+          "distance_m": 20.9
+        }
+      ],
+      "focus": false,
+      "generated_location": true,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGGgrrrrGGGgrrrr",
+          "duration_s": 39
+        },
+        {
+          "state": "yyyyrrrryyyyrrrr",
+          "duration_s": 4
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrrGGGgrrrrGGGg",
+          "duration_s": 39
+        },
+        {
+          "state": "rrrryyyyrrrryyyy",
+          "duration_s": 4
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "GS_cluster_10313721312_10313721313",
+      "xy": [
+        2731.73,
+        1793.49
+      ],
+      "lonlat": [
+        -77.0472897849057,
+        -12.094222456895698
+      ],
+      "roads": [
+        "Avenida Javier Prado Oeste",
+        "Avenida Las Flores"
+      ],
+      "nodes": [
+        "cluster_10313721312_10313721313"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2724.2,
+            1811.2
+          ],
+          "link": 14,
+          "lane": "-1151015874#4_0"
+        },
+        {
+          "xy": [
+            2724.2,
+            1811.2
+          ],
+          "link": 15,
+          "lane": "-1151015874#4_0"
+        },
+        {
+          "xy": [
+            2727.37,
+            1811.68
+          ],
+          "link": 16,
+          "lane": "-1151015874#4_1"
+        },
+        {
+          "xy": [
+            2727.37,
+            1811.68
+          ],
+          "link": 17,
+          "lane": "-1151015874#4_1"
+        },
+        {
+          "xy": [
+            2727.37,
+            1811.68
+          ],
+          "link": 18,
+          "lane": "-1151015874#4_1"
+        },
+        {
+          "xy": [
+            2723.32,
+            1779.06
+          ],
+          "link": 9,
+          "lane": "1339934560#0_0"
+        },
+        {
+          "xy": [
+            2723.32,
+            1779.06
+          ],
+          "link": 10,
+          "lane": "1339934560#0_0"
+        },
+        {
+          "xy": [
+            2722.85,
+            1782.23
+          ],
+          "link": 11,
+          "lane": "1339934560#0_1"
+        },
+        {
+          "xy": [
+            2722.38,
+            1785.39
+          ],
+          "link": 12,
+          "lane": "1339934560#0_2"
+        },
+        {
+          "xy": [
+            2721.92,
+            1788.56
+          ],
+          "link": 13,
+          "lane": "1339934560#0_3"
+        },
+        {
+          "xy": [
+            2740.08,
+            1807.93
+          ],
+          "link": 0,
+          "lane": "1339934562#0_0"
+        },
+        {
+          "xy": [
+            2740.57,
+            1804.77
+          ],
+          "link": 1,
+          "lane": "1339934562#0_1"
+        },
+        {
+          "xy": [
+            2741.07,
+            1801.6
+          ],
+          "link": 2,
+          "lane": "1339934562#0_2"
+        },
+        {
+          "xy": [
+            2741.56,
+            1798.44
+          ],
+          "link": 3,
+          "lane": "1339934562#0_3"
+        },
+        {
+          "xy": [
+            2739.26,
+            1775.79
+          ],
+          "link": 4,
+          "lane": "370644921#0_0"
+        },
+        {
+          "xy": [
+            2739.26,
+            1775.79
+          ],
+          "link": 5,
+          "lane": "370644921#0_0"
+        },
+        {
+          "xy": [
+            2736.1,
+            1775.31
+          ],
+          "link": 6,
+          "lane": "370644921#0_1"
+        },
+        {
+          "xy": [
+            2736.1,
+            1775.31
+          ],
+          "link": 7,
+          "lane": "370644921#0_1"
+        },
+        {
+          "xy": [
+            2736.1,
+            1775.31
+          ],
+          "link": 8,
+          "lane": "370644921#0_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "262730858",
+          "distance_m": 22.3
+        },
+        {
+          "osm_id": "262730859",
+          "distance_m": 20.6
+        },
+        {
+          "osm_id": "10313721314",
+          "distance_m": 15.2
+        },
+        {
+          "osm_id": "10313721315",
+          "distance_m": 19.1
+        }
+      ],
+      "focus": true,
+      "generated_location": true,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGGrrrrrrGGGGrrrrrr",
+          "duration_s": 35
+        },
+        {
+          "state": "yyyrrrrrryyyyrrrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrGrrrrrrrrrGrrrrr",
+          "duration_s": 8
+        },
+        {
+          "state": "rrryrrrrrrrrryrrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrrGGGggrrrrrGGGgg",
+          "duration_s": 34
+        },
+        {
+          "state": "rrrryyyyyrrrrryyyyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "GS_cluster_10313727017_10313727018_10313727019_10313727020_#2more",
+      "xy": [
+        2081.14,
+        1921.39
+      ],
+      "lonlat": [
+        -77.05325563710292,
+        -12.093022460573582
+      ],
+      "roads": [
+        "Avenida Faustino Sanchez Carrión",
+        "Avenida General Salaverry"
+      ],
+      "nodes": [
+        "cluster_10313727017_10313727018_10313727019_10313727020_#2more"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2078.44,
+            1944.61
+          ],
+          "link": 0,
+          "lane": "1343402192#0_0"
+        },
+        {
+          "xy": [
+            2078.44,
+            1944.61
+          ],
+          "link": 1,
+          "lane": "1343402192#0_0"
+        },
+        {
+          "xy": [
+            2081.31,
+            1943.19
+          ],
+          "link": 2,
+          "lane": "1343402192#0_1"
+        },
+        {
+          "xy": [
+            2081.31,
+            1943.19
+          ],
+          "link": 3,
+          "lane": "1343402192#0_1"
+        },
+        {
+          "xy": [
+            2085.62,
+            1899.8
+          ],
+          "link": 9,
+          "lane": "1343402195_0"
+        },
+        {
+          "xy": [
+            2085.62,
+            1899.8
+          ],
+          "link": 10,
+          "lane": "1343402195_0"
+        },
+        {
+          "xy": [
+            2082.79,
+            1901.29
+          ],
+          "link": 11,
+          "lane": "1343402195_1"
+        },
+        {
+          "xy": [
+            2082.79,
+            1901.29
+          ],
+          "link": 12,
+          "lane": "1343402195_1"
+        },
+        {
+          "xy": [
+            2058.58,
+            1923.03
+          ],
+          "link": 13,
+          "lane": "1343402197#0_0"
+        },
+        {
+          "xy": [
+            2058.58,
+            1923.03
+          ],
+          "link": 14,
+          "lane": "1343402197#0_0"
+        },
+        {
+          "xy": [
+            2060.27,
+            1925.74
+          ],
+          "link": 15,
+          "lane": "1343402197#0_1"
+        },
+        {
+          "xy": [
+            2060.27,
+            1925.74
+          ],
+          "link": 16,
+          "lane": "1343402197#0_1"
+        },
+        {
+          "xy": [
+            2104.31,
+            1921.29
+          ],
+          "link": 4,
+          "lane": "1343402201_0"
+        },
+        {
+          "xy": [
+            2104.31,
+            1921.29
+          ],
+          "link": 5,
+          "lane": "1343402201_0"
+        },
+        {
+          "xy": [
+            2102.56,
+            1918.62
+          ],
+          "link": 6,
+          "lane": "1343402201_1"
+        },
+        {
+          "xy": [
+            2100.8,
+            1915.94
+          ],
+          "link": 7,
+          "lane": "1343402201_2"
+        },
+        {
+          "xy": [
+            2100.8,
+            1915.94
+          ],
+          "link": 8,
+          "lane": "1343402201_2"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "263109773",
+          "distance_m": 24.1
+        },
+        {
+          "osm_id": "263109774",
+          "distance_m": 23.3
+        },
+        {
+          "osm_id": "263110070",
+          "distance_m": 23.5
+        },
+        {
+          "osm_id": "263110071",
+          "distance_m": 24.0
+        }
+      ],
+      "focus": true,
+      "generated_location": true,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "rrrrGGGGgrrrrGGGg",
+          "duration_s": 40
+        },
+        {
+          "state": "rrrryyyyyrrrryyyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "GGGgrrrrrGGGgrrrr",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyyrrrrryyyyrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "GS_cluster_1425922073_1425922080_263109777_263109778_#2more",
+      "xy": [
+        2353.11,
+        2472.27
+      ],
+      "lonlat": [
+        -77.05072007908225,
+        -12.08806233232812
+      ],
+      "roads": [
+        "Avenida Cádiz",
+        "Avenida Eduardo Avaroa",
+        "Avenida General Salaverry"
+      ],
+      "nodes": [
+        "cluster_1425922073_1425922080_263109777_263109778_#2more"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2377.15,
+            2477.24
+          ],
+          "link": 4,
+          "lane": "118847787#4_0"
+        },
+        {
+          "xy": [
+            2377.15,
+            2477.24
+          ],
+          "link": 5,
+          "lane": "118847787#4_0"
+        },
+        {
+          "xy": [
+            2376.63,
+            2474.01
+          ],
+          "link": 6,
+          "lane": "118847787#4_1"
+        },
+        {
+          "xy": [
+            2376.63,
+            2474.01
+          ],
+          "link": 7,
+          "lane": "118847787#4_1"
+        },
+        {
+          "xy": [
+            2326.36,
+            2459.15
+          ],
+          "link": 12,
+          "lane": "274608160#0_0"
+        },
+        {
+          "xy": [
+            2326.36,
+            2459.15
+          ],
+          "link": 13,
+          "lane": "274608160#0_0"
+        },
+        {
+          "xy": [
+            2325.84,
+            2462.45
+          ],
+          "link": 14,
+          "lane": "274608160#0_1"
+        },
+        {
+          "xy": [
+            2325.84,
+            2462.45
+          ],
+          "link": 15,
+          "lane": "274608160#0_1"
+        },
+        {
+          "xy": [
+            2349.85,
+            2496.42
+          ],
+          "link": 0,
+          "lane": "284919923#0_0"
+        },
+        {
+          "xy": [
+            2349.85,
+            2496.42
+          ],
+          "link": 1,
+          "lane": "284919923#0_0"
+        },
+        {
+          "xy": [
+            2352.71,
+            2494.98
+          ],
+          "link": 2,
+          "lane": "284919923#0_1"
+        },
+        {
+          "xy": [
+            2352.71,
+            2494.98
+          ],
+          "link": 3,
+          "lane": "284919923#0_1"
+        },
+        {
+          "xy": [
+            2353.82,
+            2443.01
+          ],
+          "link": 8,
+          "lane": "338419486#9_0"
+        },
+        {
+          "xy": [
+            2353.82,
+            2443.01
+          ],
+          "link": 9,
+          "lane": "338419486#9_0"
+        },
+        {
+          "xy": [
+            2350.96,
+            2444.43
+          ],
+          "link": 10,
+          "lane": "338419486#9_1"
+        },
+        {
+          "xy": [
+            2350.96,
+            2444.43
+          ],
+          "link": 11,
+          "lane": "338419486#9_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "4578585825",
+          "distance_m": 26.4
+        },
+        {
+          "osm_id": "4578585826",
+          "distance_m": 23.2
+        },
+        {
+          "osm_id": "4578585838",
+          "distance_m": 16.6
+        },
+        {
+          "osm_id": "4578585840",
+          "distance_m": 36.9
+        }
+      ],
+      "focus": true,
+      "generated_location": true,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGGgrrrrGGGgrrrr",
+          "duration_s": 37
+        },
+        {
+          "state": "yyyyrrrryyyyrrrr",
+          "duration_s": 6
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrrGGGgrrrrGGGg",
+          "duration_s": 37
+        },
+        {
+          "state": "rrrryyyyrrrryyyy",
+          "duration_s": 6
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "GS_cluster_1432407581_1432407586_1432407598_1432407601",
+      "xy": [
+        2664.12,
+        833.08
+      ],
+      "lonlat": [
+        -77.04797678541856,
+        -12.102897595883476
+      ],
+      "roads": [
+        "Avenida Belén",
+        "Avenida General Juan Antonio Pezet"
+      ],
+      "nodes": [
+        "cluster_1432407581_1432407586_1432407598_1432407601"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2652.08,
+            826.39
+          ],
+          "link": 8,
+          "lane": "1119404349#2_0"
+        },
+        {
+          "xy": [
+            2652.08,
+            826.39
+          ],
+          "link": 9,
+          "lane": "1119404349#2_0"
+        },
+        {
+          "xy": [
+            2651.99,
+            829.59
+          ],
+          "link": 10,
+          "lane": "1119404349#2_1"
+        },
+        {
+          "xy": [
+            2651.99,
+            829.59
+          ],
+          "link": 11,
+          "lane": "1119404349#2_1"
+        },
+        {
+          "xy": [
+            2676.05,
+            839.85
+          ],
+          "link": 0,
+          "lane": "11988366#2_0"
+        },
+        {
+          "xy": [
+            2676.18,
+            836.66
+          ],
+          "link": 1,
+          "lane": "11988366#2_1"
+        },
+        {
+          "xy": [
+            2676.18,
+            836.66
+          ],
+          "link": 2,
+          "lane": "11988366#2_1"
+        },
+        {
+          "xy": [
+            2676.18,
+            836.66
+          ],
+          "link": 3,
+          "lane": "11988366#2_1"
+        },
+        {
+          "xy": [
+            2671.16,
+            821.34
+          ],
+          "link": 4,
+          "lane": "621555853#2_0"
+        },
+        {
+          "xy": [
+            2667.96,
+            821.25
+          ],
+          "link": 5,
+          "lane": "621555853#2_1"
+        },
+        {
+          "xy": [
+            2667.96,
+            821.25
+          ],
+          "link": 6,
+          "lane": "621555853#2_1"
+        },
+        {
+          "xy": [
+            2667.96,
+            821.25
+          ],
+          "link": 7,
+          "lane": "621555853#2_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "5163760910",
+          "distance_m": 25.0
+        },
+        {
+          "osm_id": "5163760911",
+          "distance_m": 21.5
+        },
+        {
+          "osm_id": "5163760912",
+          "distance_m": 15.4
+        }
+      ],
+      "focus": false,
+      "generated_location": true,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGggrrrrGGGg",
+          "duration_s": 39
+        },
+        {
+          "state": "yyyyrrrryyyy",
+          "duration_s": 4
+        },
+        {
+          "state": "rrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrrGGGgGrrr",
+          "duration_s": 39
+        },
+        {
+          "state": "rrrryyyyyrrr",
+          "duration_s": 4
+        },
+        {
+          "state": "rrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "GS_cluster_262727870_262727871_262727976_262727977_#5more",
+      "xy": [
+        1541.05,
+        833.46
+      ],
+      "lonlat": [
+        -77.0582907537891,
+        -12.102817871415152
+      ],
+      "roads": [
+        "Avenida Augusto Pérez Araníbar",
+        "Avenida General Salaverry"
+      ],
+      "nodes": [
+        "cluster_262727870_262727871_262727976_262727977_#5more"
+      ],
+      "heads": [
+        {
+          "xy": [
+            1557.43,
+            811.45
+          ],
+          "link": 4,
+          "lane": "1315441500#2_0"
+        },
+        {
+          "xy": [
+            1557.43,
+            811.45
+          ],
+          "link": 5,
+          "lane": "1315441500#2_0"
+        },
+        {
+          "xy": [
+            1555.08,
+            809.27
+          ],
+          "link": 6,
+          "lane": "1315441500#2_1"
+        },
+        {
+          "xy": [
+            1555.08,
+            809.27
+          ],
+          "link": 7,
+          "lane": "1315441500#2_1"
+        },
+        {
+          "xy": [
+            1538.15,
+            854.25
+          ],
+          "link": 0,
+          "lane": "284908041#0_0"
+        },
+        {
+          "xy": [
+            1538.15,
+            854.25
+          ],
+          "link": 1,
+          "lane": "284908041#0_0"
+        },
+        {
+          "xy": [
+            1541.01,
+            852.83
+          ],
+          "link": 2,
+          "lane": "284908041#0_1"
+        },
+        {
+          "xy": [
+            1541.01,
+            852.83
+          ],
+          "link": 3,
+          "lane": "284908041#0_1"
+        },
+        {
+          "xy": [
+            1537.31,
+            798.25
+          ],
+          "link": 8,
+          "lane": "436947863#1_0"
+        },
+        {
+          "xy": [
+            1537.31,
+            798.25
+          ],
+          "link": 9,
+          "lane": "436947863#1_0"
+        },
+        {
+          "xy": [
+            1534.62,
+            800.1
+          ],
+          "link": 10,
+          "lane": "436947863#1_1"
+        },
+        {
+          "xy": [
+            1534.62,
+            800.1
+          ],
+          "link": 11,
+          "lane": "436947863#1_1"
+        },
+        {
+          "xy": [
+            1514.04,
+            833.24
+          ],
+          "link": 12,
+          "lane": "574876817#0_0"
+        },
+        {
+          "xy": [
+            1514.04,
+            833.24
+          ],
+          "link": 13,
+          "lane": "574876817#0_0"
+        },
+        {
+          "xy": [
+            1516.42,
+            835.38
+          ],
+          "link": 14,
+          "lane": "574876817#0_1"
+        },
+        {
+          "xy": [
+            1516.42,
+            835.38
+          ],
+          "link": 15,
+          "lane": "574876817#0_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "4558013249",
+          "distance_m": 40.8
+        },
+        {
+          "osm_id": "4558013250",
+          "distance_m": 31.5
+        },
+        {
+          "osm_id": "4558013251",
+          "distance_m": 25.3
+        },
+        {
+          "osm_id": "4558013252",
+          "distance_m": 32.0
+        }
+      ],
+      "focus": false,
+      "generated_location": true,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "rrrrGGGgrrrrGGGg",
+          "duration_s": 40
+        },
+        {
+          "state": "rrrryyyyrrrryyyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "GGGgrrrrGGGgrrrr",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyyrrrryyyyrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "GS_cluster_263111215_263111216",
+      "xy": [
+        2632.19,
+        2454.55
+      ],
+      "lonlat": [
+        -77.04815843159643,
+        -12.088241378189535
+      ],
+      "roads": [
+        "Avenida Cádiz",
+        "Avenida César Vallejo",
+        "Avenida Guillermo Prescott"
+      ],
+      "nodes": [
+        "cluster_263111215_263111216"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2625.53,
+            2468.85
+          ],
+          "link": 12,
+          "lane": "-1294649342#3_0"
+        },
+        {
+          "xy": [
+            2625.53,
+            2468.85
+          ],
+          "link": 13,
+          "lane": "-1294649342#3_0"
+        },
+        {
+          "xy": [
+            2628.69,
+            2469.33
+          ],
+          "link": 14,
+          "lane": "-1294649342#3_1"
+        },
+        {
+          "xy": [
+            2628.69,
+            2469.33
+          ],
+          "link": 15,
+          "lane": "-1294649342#3_1"
+        },
+        {
+          "xy": [
+            2638.74,
+            2440.64
+          ],
+          "link": 4,
+          "lane": "210938090#5_0"
+        },
+        {
+          "xy": [
+            2638.74,
+            2440.64
+          ],
+          "link": 5,
+          "lane": "210938090#5_0"
+        },
+        {
+          "xy": [
+            2635.58,
+            2440.17
+          ],
+          "link": 6,
+          "lane": "210938090#5_1"
+        },
+        {
+          "xy": [
+            2635.58,
+            2440.17
+          ],
+          "link": 7,
+          "lane": "210938090#5_1"
+        },
+        {
+          "xy": [
+            2622.83,
+            2444.12
+          ],
+          "link": 8,
+          "lane": "284919925#4_0"
+        },
+        {
+          "xy": [
+            2622.83,
+            2444.12
+          ],
+          "link": 9,
+          "lane": "284919925#4_0"
+        },
+        {
+          "xy": [
+            2622.3,
+            2447.27
+          ],
+          "link": 10,
+          "lane": "284919925#4_1"
+        },
+        {
+          "xy": [
+            2622.3,
+            2447.27
+          ],
+          "link": 11,
+          "lane": "284919925#4_1"
+        },
+        {
+          "xy": [
+            2641.38,
+            2465.73
+          ],
+          "link": 0,
+          "lane": "326569518#0_0"
+        },
+        {
+          "xy": [
+            2641.38,
+            2465.73
+          ],
+          "link": 1,
+          "lane": "326569518#0_0"
+        },
+        {
+          "xy": [
+            2641.86,
+            2462.57
+          ],
+          "link": 2,
+          "lane": "326569518#0_1"
+        },
+        {
+          "xy": [
+            2641.86,
+            2462.57
+          ],
+          "link": 3,
+          "lane": "326569518#0_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "4214554097",
+          "distance_m": 14.2
+        },
+        {
+          "osm_id": "4214554098",
+          "distance_m": 14.1
+        },
+        {
+          "osm_id": "4214554099",
+          "distance_m": 18.7
+        },
+        {
+          "osm_id": "4580596368",
+          "distance_m": 18.7
+        }
+      ],
+      "focus": false,
+      "generated_location": true,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGGgrrrrGGGgrrrr",
+          "duration_s": 37
+        },
+        {
+          "state": "yyyyrrrryyyyrrrr",
+          "duration_s": 6
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrrGGGgrrrrGGGg",
+          "duration_s": 37
+        },
+        {
+          "state": "rrrryyyyrrrryyyy",
+          "duration_s": 6
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "GS_cluster_263387436_263387437_263387630_4578541299",
+      "xy": [
+        2248.91,
+        2905.2
+      ],
+      "lonlat": [
+        -77.05164715347189,
+        -12.08414266510829
+      ],
+      "roads": [
+        "Avenida Giuseppe Garibaldi",
+        "Avenida Gregorio Escobedo",
+        "Jirón Huiracocha"
+      ],
+      "nodes": [
+        "cluster_263387436_263387437_263387630_4578541299"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2243.41,
+            2891.24
+          ],
+          "link": 7,
+          "lane": "118847791#4_0"
+        },
+        {
+          "xy": [
+            2243.41,
+            2891.24
+          ],
+          "link": 8,
+          "lane": "118847791#4_0"
+        },
+        {
+          "xy": [
+            2241.4,
+            2893.73
+          ],
+          "link": 9,
+          "lane": "118847791#4_1"
+        },
+        {
+          "xy": [
+            2256.07,
+            2917.37
+          ],
+          "link": 0,
+          "lane": "24306982#0_0"
+        },
+        {
+          "xy": [
+            2256.07,
+            2917.37
+          ],
+          "link": 1,
+          "lane": "24306982#0_0"
+        },
+        {
+          "xy": [
+            2256.98,
+            2914.3
+          ],
+          "link": 2,
+          "lane": "24306982#0_1"
+        },
+        {
+          "xy": [
+            2256.98,
+            2914.3
+          ],
+          "link": 3,
+          "lane": "24306982#0_1"
+        },
+        {
+          "xy": [
+            2260.6,
+            2894.98
+          ],
+          "link": 4,
+          "lane": "279876625#0_0"
+        },
+        {
+          "xy": [
+            2260.6,
+            2894.98
+          ],
+          "link": 5,
+          "lane": "279876625#0_0"
+        },
+        {
+          "xy": [
+            2260.6,
+            2894.98
+          ],
+          "link": 6,
+          "lane": "279876625#0_0"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "5481469502",
+          "distance_m": 19.3
+        },
+        {
+          "osm_id": "5481469503",
+          "distance_m": 25.2
+        },
+        {
+          "osm_id": "5481469504",
+          "distance_m": 28.7
+        }
+      ],
+      "focus": false,
+      "generated_location": true,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGGGrrrrrr",
+          "duration_s": 25
+        },
+        {
+          "state": "yyyyrrrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrrrrrGGG",
+          "duration_s": 25
+        },
+        {
+          "state": "rrrrrrryyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrrGGGGrr",
+          "duration_s": 25
+        },
+        {
+          "state": "rrrryyyyrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "GS_cluster_263389687_263389733",
+      "xy": [
+        2196.06,
+        3014.74
+      ],
+      "lonlat": [
+        -77.05212493587375,
+        -12.083149115205472
+      ],
+      "roads": [
+        "Avenida San Felipe",
+        "Jirón Huiracocha"
+      ],
+      "nodes": [
+        "cluster_263389687_263389733"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2200.7,
+            3025.22
+          ],
+          "link": 0,
+          "lane": "280234032#1_0"
+        },
+        {
+          "xy": [
+            2200.7,
+            3025.22
+          ],
+          "link": 1,
+          "lane": "280234032#1_0"
+        },
+        {
+          "xy": [
+            2201.87,
+            3022.24
+          ],
+          "link": 2,
+          "lane": "280234032#1_1"
+        },
+        {
+          "xy": [
+            2203.77,
+            3003.3
+          ],
+          "link": 3,
+          "lane": "339389800#0_0"
+        },
+        {
+          "xy": [
+            2203.77,
+            3003.3
+          ],
+          "link": 4,
+          "lane": "339389800#0_0"
+        },
+        {
+          "xy": [
+            2200.94,
+            3001.81
+          ],
+          "link": 5,
+          "lane": "339389800#0_1"
+        },
+        {
+          "xy": [
+            2200.94,
+            3001.81
+          ],
+          "link": 6,
+          "lane": "339389800#0_1"
+        },
+        {
+          "xy": [
+            2191.58,
+            3004.66
+          ],
+          "link": 7,
+          "lane": "522298553#10_0"
+        },
+        {
+          "xy": [
+            2190.36,
+            3007.62
+          ],
+          "link": 8,
+          "lane": "522298553#10_1"
+        },
+        {
+          "xy": [
+            2190.36,
+            3007.62
+          ],
+          "link": 9,
+          "lane": "522298553#10_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "5481469505",
+          "distance_m": 18.9
+        },
+        {
+          "osm_id": "5481469506",
+          "distance_m": 17.4
+        },
+        {
+          "osm_id": "5481469507",
+          "distance_m": 18.5
+        }
+      ],
+      "focus": false,
+      "generated_location": true,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGGrrrrGGg",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyrrrryyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrGGGGrrr",
+          "duration_s": 40
+        },
+        {
+          "state": "rrryyyyrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "JP_SALAVERRY",
+      "xy": [
+        1961.03,
+        1681.48
+      ],
+      "lonlat": [
+        -77.05437521502027,
+        -12.095182486599946
+      ],
+      "roads": [
+        "Avenida General Salaverry",
+        "Avenida Javier Prado Oeste"
+      ],
+      "nodes": [
+        "JP_SALAVERRY"
+      ],
+      "heads": [
+        {
+          "xy": [
+            1964.33,
+            1657.59
+          ],
+          "link": 10,
+          "lane": "1338097859#2_0"
+        },
+        {
+          "xy": [
+            1964.33,
+            1657.59
+          ],
+          "link": 11,
+          "lane": "1338097859#2_0"
+        },
+        {
+          "xy": [
+            1961.45,
+            1658.98
+          ],
+          "link": 12,
+          "lane": "1338097859#2_1"
+        },
+        {
+          "xy": [
+            1961.45,
+            1658.98
+          ],
+          "link": 13,
+          "lane": "1338097859#2_1"
+        },
+        {
+          "xy": [
+            1961.45,
+            1658.98
+          ],
+          "link": 14,
+          "lane": "1338097859#2_1"
+        },
+        {
+          "xy": [
+            1960.02,
+            1710.52
+          ],
+          "link": 0,
+          "lane": "284905870#0_0"
+        },
+        {
+          "xy": [
+            1960.02,
+            1710.52
+          ],
+          "link": 1,
+          "lane": "284905870#0_0"
+        },
+        {
+          "xy": [
+            1962.88,
+            1709.09
+          ],
+          "link": 2,
+          "lane": "284905870#0_1"
+        },
+        {
+          "xy": [
+            1962.88,
+            1709.09
+          ],
+          "link": 3,
+          "lane": "284905870#0_1"
+        },
+        {
+          "xy": [
+            1962.88,
+            1709.09
+          ],
+          "link": 4,
+          "lane": "284905870#0_1"
+        },
+        {
+          "xy": [
+            1988.4,
+            1692.93
+          ],
+          "link": 5,
+          "lane": "314735739#4_0"
+        },
+        {
+          "xy": [
+            1988.4,
+            1692.93
+          ],
+          "link": 6,
+          "lane": "314735739#4_0"
+        },
+        {
+          "xy": [
+            1988.88,
+            1689.77
+          ],
+          "link": 7,
+          "lane": "314735739#4_1"
+        },
+        {
+          "xy": [
+            1988.88,
+            1689.77
+          ],
+          "link": 8,
+          "lane": "314735739#4_1"
+        },
+        {
+          "xy": [
+            1988.88,
+            1689.77
+          ],
+          "link": 9,
+          "lane": "314735739#4_1"
+        },
+        {
+          "xy": [
+            1936.92,
+            1677.06
+          ],
+          "link": 15,
+          "lane": "315553414#13_0"
+        },
+        {
+          "xy": [
+            1936.92,
+            1677.06
+          ],
+          "link": 16,
+          "lane": "315553414#13_0"
+        },
+        {
+          "xy": [
+            1938.34,
+            1679.93
+          ],
+          "link": 17,
+          "lane": "315553414#13_1"
+        },
+        {
+          "xy": [
+            1938.34,
+            1679.93
+          ],
+          "link": 18,
+          "lane": "315553414#13_1"
+        },
+        {
+          "xy": [
+            1938.34,
+            1679.93
+          ],
+          "link": 19,
+          "lane": "315553414#13_1"
+        },
+        {
+          "xy": [
+            1938.34,
+            1679.93
+          ],
+          "link": 20,
+          "lane": "315553414#13_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "182472512",
+          "distance_m": 21.5
+        },
+        {
+          "osm_id": "262729963",
+          "distance_m": 28.5
+        },
+        {
+          "osm_id": "262729979",
+          "distance_m": 21.7
+        },
+        {
+          "osm_id": "262729996",
+          "distance_m": 33.0
+        }
+      ],
+      "focus": true,
+      "generated_location": true,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "rrrrrGGGggrrrrrGGGGgg",
+          "duration_s": 40
+        },
+        {
+          "state": "rrrrryyyyyrrrrryyyyyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "GGGggrrrrrGGGggrrrrrr",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyyyrrrrryyyyyrrrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "cluster_10242875199_10242875200_10537552592_1425921988_#2more",
+      "xy": [
+        1626.62,
+        1006.27
+      ],
+      "lonlat": [
+        -77.05749294921732,
+        -12.10126193512605
+      ],
+      "roads": [
+        "Avenida General Juan Antonio Pezet",
+        "Avenida General Salaverry"
+      ],
+      "nodes": [
+        "cluster_10242875199_10242875200_10537552592_1425921988_#2more"
+      ],
+      "heads": [
+        {
+          "xy": [
+            1632.74,
+            990.74
+          ],
+          "link": 8,
+          "lane": "279895894#3_0"
+        },
+        {
+          "xy": [
+            1632.74,
+            990.74
+          ],
+          "link": 9,
+          "lane": "279895894#3_0"
+        },
+        {
+          "xy": [
+            1629.88,
+            992.18
+          ],
+          "link": 10,
+          "lane": "279895894#3_1"
+        },
+        {
+          "xy": [
+            1629.88,
+            992.18
+          ],
+          "link": 11,
+          "lane": "279895894#3_1"
+        },
+        {
+          "xy": [
+            1621.14,
+            1022.72
+          ],
+          "link": 0,
+          "lane": "338024836#5_0"
+        },
+        {
+          "xy": [
+            1621.14,
+            1022.72
+          ],
+          "link": 1,
+          "lane": "338024836#5_0"
+        },
+        {
+          "xy": [
+            1624.01,
+            1021.3
+          ],
+          "link": 2,
+          "lane": "338024836#5_1"
+        },
+        {
+          "xy": [
+            1624.01,
+            1021.3
+          ],
+          "link": 3,
+          "lane": "338024836#5_1"
+        },
+        {
+          "xy": [
+            1646.09,
+            1004.6
+          ],
+          "link": 4,
+          "lane": "621552643#3_0"
+        },
+        {
+          "xy": [
+            1646.09,
+            1004.6
+          ],
+          "link": 5,
+          "lane": "621552643#3_0"
+        },
+        {
+          "xy": [
+            1644.62,
+            1001.73
+          ],
+          "link": 6,
+          "lane": "621552643#3_1"
+        },
+        {
+          "xy": [
+            1644.62,
+            1001.73
+          ],
+          "link": 7,
+          "lane": "621552643#3_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "262728310",
+          "distance_m": 20.4
+        },
+        {
+          "osm_id": "262728323",
+          "distance_m": 24.8
+        },
+        {
+          "osm_id": "262728324",
+          "distance_m": 10.8
+        },
+        {
+          "osm_id": "10537552592",
+          "distance_m": 11.0
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGGgrrrrGGGg",
+          "duration_s": 39
+        },
+        {
+          "state": "yyyyrrrryyyy",
+          "duration_s": 4
+        },
+        {
+          "state": "rrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrrGGGGGrrr",
+          "duration_s": 39
+        },
+        {
+          "state": "rrrryyyyyrrr",
+          "duration_s": 4
+        },
+        {
+          "state": "rrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "cluster_10978241117_12941806527_1335966916_2073408891_#8more",
+      "xy": [
+        2564.9,
+        2785.96
+      ],
+      "lonlat": [
+        -77.04875357730616,
+        -12.085241700393055
+      ],
+      "roads": [
+        "Avenida General César Canevaro",
+        "Avenida General Salaverry",
+        "Avenida Guillermo Prescott",
+        "Calle Daniel Olaechea",
+        "Calle Luis M. Sánchez Cerro"
+      ],
+      "nodes": [
+        "cluster_10978241117_12941806527_1335966916_2073408891_#8more"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2561.02,
+            2811.85
+          ],
+          "link": 0,
+          "lane": "1343550115_0"
+        },
+        {
+          "xy": [
+            2561.02,
+            2811.85
+          ],
+          "link": 1,
+          "lane": "1343550115_0"
+        },
+        {
+          "xy": [
+            2561.02,
+            2811.85
+          ],
+          "link": 2,
+          "lane": "1343550115_0"
+        },
+        {
+          "xy": [
+            2563.18,
+            2809.49
+          ],
+          "link": 3,
+          "lane": "1343550115_1"
+        },
+        {
+          "xy": [
+            2563.18,
+            2809.49
+          ],
+          "link": 4,
+          "lane": "1343550115_1"
+        },
+        {
+          "xy": [
+            2563.18,
+            2809.49
+          ],
+          "link": 5,
+          "lane": "1343550115_1"
+        },
+        {
+          "xy": [
+            2556.06,
+            2772.23
+          ],
+          "link": 25,
+          "lane": "1343550116#0_0"
+        },
+        {
+          "xy": [
+            2556.06,
+            2772.23
+          ],
+          "link": 26,
+          "lane": "1343550116#0_0"
+        },
+        {
+          "xy": [
+            2556.06,
+            2772.23
+          ],
+          "link": 27,
+          "lane": "1343550116#0_0"
+        },
+        {
+          "xy": [
+            2553.53,
+            2774.23
+          ],
+          "link": 28,
+          "lane": "1343550116#0_1"
+        },
+        {
+          "xy": [
+            2553.53,
+            2774.23
+          ],
+          "link": 29,
+          "lane": "1343550116#0_1"
+        },
+        {
+          "xy": [
+            2553.53,
+            2774.23
+          ],
+          "link": 30,
+          "lane": "1343550116#0_1"
+        },
+        {
+          "xy": [
+            2594.9,
+            2770.9
+          ],
+          "link": 6,
+          "lane": "1343550118_0"
+        },
+        {
+          "xy": [
+            2594.9,
+            2770.9
+          ],
+          "link": 7,
+          "lane": "1343550118_0"
+        },
+        {
+          "xy": [
+            2594.9,
+            2770.9
+          ],
+          "link": 8,
+          "lane": "1343550118_0"
+        },
+        {
+          "xy": [
+            2595.44,
+            2767.75
+          ],
+          "link": 9,
+          "lane": "1343550118_1"
+        },
+        {
+          "xy": [
+            2595.44,
+            2767.75
+          ],
+          "link": 10,
+          "lane": "1343550118_1"
+        },
+        {
+          "xy": [
+            2595.44,
+            2767.75
+          ],
+          "link": 11,
+          "lane": "1343550118_1"
+        },
+        {
+          "xy": [
+            2592.26,
+            2752.05
+          ],
+          "link": 12,
+          "lane": "1343550120_0"
+        },
+        {
+          "xy": [
+            2592.26,
+            2752.05
+          ],
+          "link": 13,
+          "lane": "1343550120_0"
+        },
+        {
+          "xy": [
+            2592.26,
+            2752.05
+          ],
+          "link": 14,
+          "lane": "1343550120_0"
+        },
+        {
+          "xy": [
+            2589.15,
+            2751.14
+          ],
+          "link": 15,
+          "lane": "1343550120_1"
+        },
+        {
+          "xy": [
+            2589.15,
+            2751.14
+          ],
+          "link": 16,
+          "lane": "1343550120_1"
+        },
+        {
+          "xy": [
+            2589.15,
+            2751.14
+          ],
+          "link": 17,
+          "lane": "1343550120_1"
+        },
+        {
+          "xy": [
+            2589.15,
+            2751.14
+          ],
+          "link": 18,
+          "lane": "1343550120_1"
+        },
+        {
+          "xy": [
+            2575.17,
+            2762.37
+          ],
+          "link": 19,
+          "lane": "1343550121_0"
+        },
+        {
+          "xy": [
+            2575.17,
+            2762.37
+          ],
+          "link": 20,
+          "lane": "1343550121_0"
+        },
+        {
+          "xy": [
+            2575.17,
+            2762.37
+          ],
+          "link": 21,
+          "lane": "1343550121_0"
+        },
+        {
+          "xy": [
+            2575.17,
+            2762.37
+          ],
+          "link": 22,
+          "lane": "1343550121_0"
+        },
+        {
+          "xy": [
+            2575.17,
+            2762.37
+          ],
+          "link": 23,
+          "lane": "1343550121_0"
+        },
+        {
+          "xy": [
+            2575.17,
+            2762.37
+          ],
+          "link": 24,
+          "lane": "1343550121_0"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "263110816",
+          "distance_m": 20.9
+        },
+        {
+          "osm_id": "4172197555",
+          "distance_m": 37.0
+        },
+        {
+          "osm_id": "4578581775",
+          "distance_m": 18.5
+        },
+        {
+          "osm_id": "4578581776",
+          "distance_m": 41.5
+        },
+        {
+          "osm_id": "9114867983",
+          "distance_m": 43.5
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGGGrrrrrrrrrrrrrrrrrrrrrGGGGrr",
+          "duration_s": 14
+        },
+        {
+          "state": "yyyyrrrrrrrrrrrrrrrrrrrrryyyyrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrGGrrrrrrrrrrrrrrrrrrrrrrrGG",
+          "duration_s": 8
+        },
+        {
+          "state": "rrrryyrrrrrrrrrrrrrrrrrrrrrrryy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+          "duration_s": 4
+        },
+        {
+          "state": "rrrrrrGGGGGrrrrrrrrGGGrrrrrrrrr",
+          "duration_s": 16
+        },
+        {
+          "state": "rrrrrryyyyyrrrrrrrryyyrrrrrrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrGrrrrrrrrrrGGGrrrrrr",
+          "duration_s": 8
+        },
+        {
+          "state": "rrrrrrrrrrryrrrrrrrrrryyyrrrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrrrrrrrrrrGGGGGGGGrrrrrrrrrrr",
+          "duration_s": 16
+        },
+        {
+          "state": "rrrrrrrrrrrryyyyyyyyrrrrrrrrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+          "duration_s": 7
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "cluster_12231774452_12231774453_12431359307_12431359309_#8more",
+      "xy": [
+        1384.49,
+        1590.16
+      ],
+      "lonlat": [
+        -77.0596761699848,
+        -12.095968572207617
+      ],
+      "roads": [
+        "Avenida Alberto del Campo",
+        "Avenida Juan de Aliaga",
+        "Jirón Felix Dibos"
+      ],
+      "nodes": [
+        "cluster_12231774452_12231774453_12431359307_12431359309_#8more"
+      ],
+      "heads": [
+        {
+          "xy": [
+            1369.72,
+            1586.05
+          ],
+          "link": 12,
+          "lane": "-338024834#0_0"
+        },
+        {
+          "xy": [
+            1369.72,
+            1586.05
+          ],
+          "link": 13,
+          "lane": "-338024834#0_0"
+        },
+        {
+          "xy": [
+            1371.02,
+            1588.98
+          ],
+          "link": 14,
+          "lane": "-338024834#0_1"
+        },
+        {
+          "xy": [
+            1371.02,
+            1588.98
+          ],
+          "link": 15,
+          "lane": "-338024834#0_1"
+        },
+        {
+          "xy": [
+            1371.02,
+            1588.98
+          ],
+          "link": 16,
+          "lane": "-338024834#0_1"
+        },
+        {
+          "xy": [
+            1381.26,
+            1605.44
+          ],
+          "link": 0,
+          "lane": "1343532377#0_0"
+        },
+        {
+          "xy": [
+            1381.26,
+            1605.44
+          ],
+          "link": 1,
+          "lane": "1343532377#0_0"
+        },
+        {
+          "xy": [
+            1384.45,
+            1605.09
+          ],
+          "link": 2,
+          "lane": "1343532377#0_1"
+        },
+        {
+          "xy": [
+            1384.45,
+            1605.09
+          ],
+          "link": 3,
+          "lane": "1343532377#0_1"
+        },
+        {
+          "xy": [
+            1384.45,
+            1605.09
+          ],
+          "link": 4,
+          "lane": "1343532377#0_1"
+        },
+        {
+          "xy": [
+            1395.92,
+            1568.49
+          ],
+          "link": 8,
+          "lane": "1343540783#0_0"
+        },
+        {
+          "xy": [
+            1395.92,
+            1568.49
+          ],
+          "link": 9,
+          "lane": "1343540783#0_0"
+        },
+        {
+          "xy": [
+            1392.74,
+            1568.9
+          ],
+          "link": 10,
+          "lane": "1343540783#0_1"
+        },
+        {
+          "xy": [
+            1392.74,
+            1568.9
+          ],
+          "link": 11,
+          "lane": "1343540783#0_1"
+        },
+        {
+          "xy": [
+            1404.6,
+            1581.2
+          ],
+          "link": 5,
+          "lane": "427233656#0_0"
+        },
+        {
+          "xy": [
+            1404.6,
+            1581.2
+          ],
+          "link": 6,
+          "lane": "427233656#0_0"
+        },
+        {
+          "xy": [
+            1403.18,
+            1578.33
+          ],
+          "link": 7,
+          "lane": "427233656#0_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "263375075",
+          "distance_m": 17.8
+        },
+        {
+          "osm_id": "263377071",
+          "distance_m": 4.9
+        },
+        {
+          "osm_id": "4264725536",
+          "distance_m": 14.1
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGGggrrrGGGgrrrrr",
+          "duration_s": 35
+        },
+        {
+          "state": "yyyyyrrryyyyrrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrrrGGrrrrrGGGrr",
+          "duration_s": 34
+        },
+        {
+          "state": "rrrrryyrrrrryyyrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrGrrrrrrrGG",
+          "duration_s": 8
+        },
+        {
+          "state": "rrrrrrryrrrrrrryy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "cluster_13565832800_13565875501_13565875502_1943098881_#3more",
+      "xy": [
+        1163.23,
+        2852.84
+      ],
+      "lonlat": [
+        -77.0616206745611,
+        -12.08454210233043
+      ],
+      "roads": [
+        "Avenida Brasil",
+        "Avenida de la Policía",
+        "Jirón Cabo Nicolás Gutarra"
+      ],
+      "nodes": [
+        "cluster_13565832800_13565875501_13565875502_1943098881_#3more"
+      ],
+      "heads": [
+        {
+          "xy": [
+            1179.17,
+            2839.5
+          ],
+          "link": 3,
+          "lane": "24306707#7_0"
+        },
+        {
+          "xy": [
+            1179.17,
+            2839.5
+          ],
+          "link": 4,
+          "lane": "24306707#7_0"
+        },
+        {
+          "xy": [
+            1179.17,
+            2839.5
+          ],
+          "link": 5,
+          "lane": "24306707#7_0"
+        },
+        {
+          "xy": [
+            1179.17,
+            2839.5
+          ],
+          "link": 6,
+          "lane": "24306707#7_0"
+        },
+        {
+          "xy": [
+            1169.21,
+            2836.05
+          ],
+          "link": 7,
+          "lane": "284919932#2_0"
+        },
+        {
+          "xy": [
+            1169.21,
+            2836.05
+          ],
+          "link": 8,
+          "lane": "284919932#2_0"
+        },
+        {
+          "xy": [
+            1166.73,
+            2838.08
+          ],
+          "link": 9,
+          "lane": "284919932#2_1"
+        },
+        {
+          "xy": [
+            1166.73,
+            2838.08
+          ],
+          "link": 10,
+          "lane": "284919932#2_1"
+        },
+        {
+          "xy": [
+            1166.73,
+            2838.08
+          ],
+          "link": 11,
+          "lane": "284919932#2_1"
+        },
+        {
+          "xy": [
+            1165.3,
+            2873.27
+          ],
+          "link": 0,
+          "lane": "436924428#5_0"
+        },
+        {
+          "xy": [
+            1165.3,
+            2873.27
+          ],
+          "link": 1,
+          "lane": "436924428#5_0"
+        },
+        {
+          "xy": [
+            1167.82,
+            2871.29
+          ],
+          "link": 2,
+          "lane": "436924428#5_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "263387779",
+          "distance_m": 13.6
+        },
+        {
+          "osm_id": "503687605",
+          "distance_m": 15.0
+        },
+        {
+          "osm_id": "1943098881",
+          "distance_m": 7.2
+        },
+        {
+          "osm_id": "4143584334",
+          "distance_m": 5.5
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGGrrrrGGGgg",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyrrrryyyyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrGGGgGrrrr",
+          "duration_s": 40
+        },
+        {
+          "state": "rrryyyyyrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "cluster_1425922069_1425922099_262729477_262729478_#2more",
+      "xy": [
+        1809.37,
+        1372.81
+      ],
+      "lonlat": [
+        -77.05578930450295,
+        -12.097961776281867
+      ],
+      "roads": [
+        "Avenida Alberto del Campo",
+        "Avenida General Salaverry"
+      ],
+      "nodes": [
+        "cluster_1425922069_1425922099_262729477_262729478_#2more"
+      ],
+      "heads": [
+        {
+          "xy": [
+            1828.84,
+            1372.43
+          ],
+          "link": 4,
+          "lane": "1150534536_0"
+        },
+        {
+          "xy": [
+            1828.84,
+            1372.43
+          ],
+          "link": 5,
+          "lane": "1150534536_0"
+        },
+        {
+          "xy": [
+            1827.47,
+            1369.53
+          ],
+          "link": 6,
+          "lane": "1150534536_1"
+        },
+        {
+          "xy": [
+            1827.47,
+            1369.53
+          ],
+          "link": 7,
+          "lane": "1150534536_1"
+        },
+        {
+          "xy": [
+            1804.33,
+            1390.93
+          ],
+          "link": 0,
+          "lane": "1469334603_0"
+        },
+        {
+          "xy": [
+            1804.33,
+            1390.93
+          ],
+          "link": 1,
+          "lane": "1469334603_0"
+        },
+        {
+          "xy": [
+            1807.19,
+            1389.5
+          ],
+          "link": 2,
+          "lane": "1469334603_1"
+        },
+        {
+          "xy": [
+            1807.19,
+            1389.5
+          ],
+          "link": 3,
+          "lane": "1469334603_1"
+        },
+        {
+          "xy": [
+            1813.82,
+            1354.9
+          ],
+          "link": 8,
+          "lane": "284908053#4_0"
+        },
+        {
+          "xy": [
+            1813.82,
+            1354.9
+          ],
+          "link": 9,
+          "lane": "284908053#4_0"
+        },
+        {
+          "xy": [
+            1810.96,
+            1356.33
+          ],
+          "link": 10,
+          "lane": "284908053#4_1"
+        },
+        {
+          "xy": [
+            1810.96,
+            1356.33
+          ],
+          "link": 11,
+          "lane": "284908053#4_1"
+        },
+        {
+          "xy": [
+            1789.39,
+            1373.42
+          ],
+          "link": 12,
+          "lane": "338024837#5_0"
+        },
+        {
+          "xy": [
+            1789.39,
+            1373.42
+          ],
+          "link": 13,
+          "lane": "338024837#5_0"
+        },
+        {
+          "xy": [
+            1790.82,
+            1376.28
+          ],
+          "link": 14,
+          "lane": "338024837#5_1"
+        },
+        {
+          "xy": [
+            1790.82,
+            1376.28
+          ],
+          "link": 15,
+          "lane": "338024837#5_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "262729477",
+          "distance_m": 12.4
+        },
+        {
+          "osm_id": "262729478",
+          "distance_m": 12.7
+        },
+        {
+          "osm_id": "262729544",
+          "distance_m": 12.5
+        },
+        {
+          "osm_id": "262729545",
+          "distance_m": 12.3
+        }
+      ],
+      "focus": true,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "rrrrGGGgrrrrGGGg",
+          "duration_s": 40
+        },
+        {
+          "state": "rrrryyyyrrrryyyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "GGGgrrrrGGGgrrrr",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyyrrrryyyyrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "cluster_1943089978_1943098864_1943098874_1943098893_#6more",
+      "xy": [
+        698.91,
+        2267.47
+      ],
+      "lonlat": [
+        -77.06592515925857,
+        -12.08980067758187
+      ],
+      "roads": [
+        "Avenida Brasil",
+        "Avenida Javier Prado Oeste",
+        "Jirón Junín"
+      ],
+      "nodes": [
+        "cluster_1943089978_1943098864_1943098874_1943098893_#6more"
+      ],
+      "heads": [
+        {
+          "xy": [
+            716.13,
+            2259.32
+          ],
+          "link": 4,
+          "lane": "1338063381#12_0"
+        },
+        {
+          "xy": [
+            714.07,
+            2256.88
+          ],
+          "link": 5,
+          "lane": "1338063381#12_1"
+        },
+        {
+          "xy": [
+            686.93,
+            2285.68
+          ],
+          "link": 10,
+          "lane": "282564432#2_0"
+        },
+        {
+          "xy": [
+            686.93,
+            2285.68
+          ],
+          "link": 11,
+          "lane": "282564432#2_0"
+        },
+        {
+          "xy": [
+            688.09,
+            2288.67
+          ],
+          "link": 12,
+          "lane": "282564432#2_1"
+        },
+        {
+          "xy": [
+            688.09,
+            2288.67
+          ],
+          "link": 13,
+          "lane": "282564432#2_1"
+        },
+        {
+          "xy": [
+            692.15,
+            2239.19
+          ],
+          "link": 6,
+          "lane": "314358355#3_0"
+        },
+        {
+          "xy": [
+            692.15,
+            2239.19
+          ],
+          "link": 7,
+          "lane": "314358355#3_0"
+        },
+        {
+          "xy": [
+            689.65,
+            2241.2
+          ],
+          "link": 8,
+          "lane": "314358355#3_1"
+        },
+        {
+          "xy": [
+            689.65,
+            2241.2
+          ],
+          "link": 9,
+          "lane": "314358355#3_1"
+        },
+        {
+          "xy": [
+            697.85,
+            2290.14
+          ],
+          "link": 0,
+          "lane": "413030088#5_0"
+        },
+        {
+          "xy": [
+            700.31,
+            2288.09
+          ],
+          "link": 1,
+          "lane": "413030088#5_1"
+        },
+        {
+          "xy": [
+            700.31,
+            2288.09
+          ],
+          "link": 2,
+          "lane": "413030088#5_1"
+        },
+        {
+          "xy": [
+            700.31,
+            2288.09
+          ],
+          "link": 3,
+          "lane": "413030088#5_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "263384344",
+          "distance_m": 21.7
+        },
+        {
+          "osm_id": "263384439",
+          "distance_m": 10.4
+        },
+        {
+          "osm_id": "605673826",
+          "distance_m": 17.2
+        },
+        {
+          "osm_id": "1943098874",
+          "distance_m": 13.5
+        },
+        {
+          "osm_id": "4323994177",
+          "distance_m": 14.9
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GGggrrGGGgrrrr",
+          "duration_s": 35
+        },
+        {
+          "state": "yyyyrryyyyrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrrGrrrrrGGGr",
+          "duration_s": 34
+        },
+        {
+          "state": "rrrryrrrrryyyr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrGrrrrrrrG",
+          "duration_s": 8
+        },
+        {
+          "state": "rrrrryrrrrrrry",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "cluster_262727876_262727967",
+      "xy": [
+        1964.13,
+        358.64
+      ],
+      "lonlat": [
+        -77.0544381039942,
+        -12.107137827795276
+      ],
+      "roads": [
+        "Avenida Augusto Pérez Araníbar",
+        "Avenida Octavio Espinosa y Gonzales"
+      ],
+      "nodes": [
+        "cluster_262727876_262727967"
+      ],
+      "heads": [
+        {
+          "xy": [
+            1972.5,
+            368.79
+          ],
+          "link": 0,
+          "lane": "24266876#0_0"
+        },
+        {
+          "xy": [
+            1972.5,
+            368.79
+          ],
+          "link": 1,
+          "lane": "24266876#0_0"
+        },
+        {
+          "xy": [
+            1953.7,
+            358.97
+          ],
+          "link": 5,
+          "lane": "317137452#4_0"
+        },
+        {
+          "xy": [
+            1956.04,
+            361.15
+          ],
+          "link": 6,
+          "lane": "317137452#4_1"
+        },
+        {
+          "xy": [
+            1956.04,
+            361.15
+          ],
+          "link": 7,
+          "lane": "317137452#4_1"
+        },
+        {
+          "xy": [
+            1974.38,
+            358.49
+          ],
+          "link": 2,
+          "lane": "435198400#3_0"
+        },
+        {
+          "xy": [
+            1974.38,
+            358.49
+          ],
+          "link": 3,
+          "lane": "435198400#3_0"
+        },
+        {
+          "xy": [
+            1972.03,
+            356.31
+          ],
+          "link": 4,
+          "lane": "435198400#3_1"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "262727876",
+          "distance_m": 5.8
+        },
+        {
+          "osm_id": "262727877",
+          "distance_m": 88.4
+        },
+        {
+          "osm_id": "262727964",
+          "distance_m": 101.0
+        },
+        {
+          "osm_id": "262727965",
+          "distance_m": 89.2
+        },
+        {
+          "osm_id": "262727967",
+          "distance_m": 5.8
+        },
+        {
+          "osm_id": "4318884492",
+          "distance_m": 76.8
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "rrGGGGGg",
+          "duration_s": 40
+        },
+        {
+          "state": "rryyyyyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "GGGrrrrr",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyrrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "cluster_263122086_263122147",
+      "xy": [
+        2836.96,
+        2800.0
+      ],
+      "lonlat": [
+        -77.04625423630185,
+        -12.085133217494239
+      ],
+      "roads": [
+        "Avenida General César Canevaro",
+        "Jirón Manco Segundo",
+        "Jirón Pachacútec"
+      ],
+      "nodes": [
+        "cluster_263122086_263122147"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2845.65,
+            2807.88
+          ],
+          "link": 4,
+          "lane": "284927029#12_0"
+        },
+        {
+          "xy": [
+            2845.65,
+            2807.88
+          ],
+          "link": 5,
+          "lane": "284927029#12_0"
+        },
+        {
+          "xy": [
+            2846.13,
+            2804.71
+          ],
+          "link": 6,
+          "lane": "284927029#12_1"
+        },
+        {
+          "xy": [
+            2846.13,
+            2804.71
+          ],
+          "link": 7,
+          "lane": "284927029#12_1"
+        },
+        {
+          "xy": [
+            2830.67,
+            2792.52
+          ],
+          "link": 8,
+          "lane": "436277095#2_0"
+        },
+        {
+          "xy": [
+            2830.67,
+            2792.52
+          ],
+          "link": 9,
+          "lane": "436277095#2_0"
+        },
+        {
+          "xy": [
+            2830.2,
+            2795.68
+          ],
+          "link": 10,
+          "lane": "436277095#2_1"
+        },
+        {
+          "xy": [
+            2830.2,
+            2795.68
+          ],
+          "link": 11,
+          "lane": "436277095#2_1"
+        },
+        {
+          "xy": [
+            2841.64,
+            2813.5
+          ],
+          "link": 0,
+          "lane": "436762706#3_0"
+        },
+        {
+          "xy": [
+            2841.64,
+            2813.5
+          ],
+          "link": 1,
+          "lane": "436762706#3_0"
+        },
+        {
+          "xy": [
+            2841.64,
+            2813.5
+          ],
+          "link": 2,
+          "lane": "436762706#3_0"
+        },
+        {
+          "xy": [
+            2841.64,
+            2813.5
+          ],
+          "link": 3,
+          "lane": "436762706#3_0"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "263122086",
+          "distance_m": 4.9
+        },
+        {
+          "osm_id": "263122147",
+          "distance_m": 4.9
+        }
+      ],
+      "focus": false,
+      "generated_location": false,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "rrrrGGGgGGGg",
+          "duration_s": 40
+        },
+        {
+          "state": "rrrryyyyyyyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "GGGGrrrrrrrr",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyyrrrrrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "joinedS_108009619_262728248",
+      "xy": [
+        2331.87,
+        1266.085
+      ],
+      "lonlat": [
+        -77.05099823945874,
+        -12.098961786632868
+      ],
+      "roads": [
+        "Avenida Aurelio Miró Quesada",
+        "Avenida Coronel Pedro Portillo",
+        "Calle Las Moreras"
+      ],
+      "nodes": [
+        "108009619",
+        "262728248"
+      ],
+      "heads": [
+        {
+          "xy": [
+            2340.87,
+            1265.22
+          ],
+          "link": 3,
+          "lane": "-1150811346_0"
+        },
+        {
+          "xy": [
+            2340.87,
+            1265.22
+          ],
+          "link": 4,
+          "lane": "-1150811346_0"
+        },
+        {
+          "xy": [
+            2306.04,
+            1262.29
+          ],
+          "link": 12,
+          "lane": "-24266985#0_0"
+        },
+        {
+          "xy": [
+            2306.04,
+            1262.29
+          ],
+          "link": 13,
+          "lane": "-24266985#0_0"
+        },
+        {
+          "xy": [
+            2306.04,
+            1262.29
+          ],
+          "link": 14,
+          "lane": "-24266985#0_0"
+        },
+        {
+          "xy": [
+            2350.62,
+            1269.3
+          ],
+          "link": 0,
+          "lane": "-892629816_0"
+        },
+        {
+          "xy": [
+            2324.12,
+            1267.06
+          ],
+          "link": 5,
+          "lane": "1150811346_0"
+        },
+        {
+          "xy": [
+            2324.12,
+            1267.06
+          ],
+          "link": 6,
+          "lane": "1150811346_0"
+        },
+        {
+          "xy": [
+            2324.12,
+            1267.06
+          ],
+          "link": 7,
+          "lane": "1150811346_0"
+        },
+        {
+          "xy": [
+            2346.79,
+            1259.49
+          ],
+          "link": 1,
+          "lane": "1150811347#0_0"
+        },
+        {
+          "xy": [
+            2343.82,
+            1260.7
+          ],
+          "link": 2,
+          "lane": "1150811347#0_1"
+        },
+        {
+          "xy": [
+            2320.9,
+            1257.79
+          ],
+          "link": 8,
+          "lane": "318283090#1_0"
+        },
+        {
+          "xy": [
+            2320.9,
+            1257.79
+          ],
+          "link": 9,
+          "lane": "318283090#1_0"
+        },
+        {
+          "xy": [
+            2320.9,
+            1257.79
+          ],
+          "link": 10,
+          "lane": "318283090#1_0"
+        },
+        {
+          "xy": [
+            2320.9,
+            1257.79
+          ],
+          "link": 11,
+          "lane": "318283090#1_0"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "108009619",
+          "distance_m": 16.5
+        },
+        {
+          "osm_id": "262728248",
+          "distance_m": 16.5
+        }
+      ],
+      "focus": false,
+      "generated_location": true,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "GrrGGGGgrrrrGGg",
+          "duration_s": 39
+        },
+        {
+          "state": "yrryyyyyrrrryyy",
+          "duration_s": 4
+        },
+        {
+          "state": "rrrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rGGrrrrrGGGGGrr",
+          "duration_s": 39
+        },
+        {
+          "state": "ryyrrrrryyyyyrr",
+          "duration_s": 4
+        },
+        {
+          "state": "rrrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "joinedS_263381649_263384427",
+      "xy": [
+        1583.0300000000002,
+        1840.625
+      ],
+      "lonlat": [
+        -77.05783556397552,
+        -12.093718521704284
+      ],
+      "roads": [
+        "Avenida Javier Prado Oeste",
+        "Calle Nicanor Rocca de Vergallo"
+      ],
+      "nodes": [
+        "263381649",
+        "263384427"
+      ],
+      "heads": [
+        {
+          "xy": [
+            1585.59,
+            1842.56
+          ],
+          "link": 12,
+          "lane": "-654299906#2_0"
+        },
+        {
+          "xy": [
+            1585.59,
+            1842.56
+          ],
+          "link": 13,
+          "lane": "-654299906#2_0"
+        },
+        {
+          "xy": [
+            1587.93,
+            1858.44
+          ],
+          "link": 6,
+          "lane": "24306352#1_0"
+        },
+        {
+          "xy": [
+            1587.93,
+            1858.44
+          ],
+          "link": 7,
+          "lane": "24306352#1_0"
+        },
+        {
+          "xy": [
+            1572.7,
+            1830.33
+          ],
+          "link": 2,
+          "lane": "315553414#0_0"
+        },
+        {
+          "xy": [
+            1572.7,
+            1830.33
+          ],
+          "link": 3,
+          "lane": "315553414#0_0"
+        },
+        {
+          "xy": [
+            1573.23,
+            1833.48
+          ],
+          "link": 4,
+          "lane": "315553414#0_1"
+        },
+        {
+          "xy": [
+            1573.23,
+            1833.48
+          ],
+          "link": 5,
+          "lane": "315553414#0_1"
+        },
+        {
+          "xy": [
+            1594.73,
+            1850.82
+          ],
+          "link": 8,
+          "lane": "331430037#2_0"
+        },
+        {
+          "xy": [
+            1594.73,
+            1850.82
+          ],
+          "link": 9,
+          "lane": "331430037#2_0"
+        },
+        {
+          "xy": [
+            1594.25,
+            1847.66
+          ],
+          "link": 10,
+          "lane": "331430037#2_1"
+        },
+        {
+          "xy": [
+            1594.25,
+            1847.66
+          ],
+          "link": 11,
+          "lane": "331430037#2_1"
+        },
+        {
+          "xy": [
+            1580.87,
+            1838.9
+          ],
+          "link": 0,
+          "lane": "654299906#0_0"
+        },
+        {
+          "xy": [
+            1580.87,
+            1838.9
+          ],
+          "link": 1,
+          "lane": "654299906#0_0"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "263381649",
+          "distance_m": 10.5
+        },
+        {
+          "osm_id": "263384427",
+          "distance_m": 10.5
+        }
+      ],
+      "focus": true,
+      "generated_location": true,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "rrGGGGrrGGGGrr",
+          "duration_s": 25
+        },
+        {
+          "state": "rryyyyrryyyyrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "GGrrrrGGGrrrrr",
+          "duration_s": 25
+        },
+        {
+          "state": "yyrrrryyyrrrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrGGGGrrrrrrGG",
+          "duration_s": 25
+        },
+        {
+          "state": "rryyyyrrrrrryy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "joinedS_cluster_10010083800_606182738_606182739_cluster_10010083801_3465594394_606182740",
+      "xy": [
+        658.855,
+        2974.1400000000003
+      ],
+      "lonlat": [
+        -77.06624396839231,
+        -12.083411472650303
+      ],
+      "roads": [
+        "Avenida de La Marina",
+        "Paseo de la Libertad"
+      ],
+      "nodes": [
+        "cluster_10010083800_606182738_606182739",
+        "cluster_10010083801_3465594394_606182740"
+      ],
+      "heads": [
+        {
+          "xy": [
+            652.56,
+            2994.01
+          ],
+          "link": 0,
+          "lane": "1343480328_0"
+        },
+        {
+          "xy": [
+            652.56,
+            2994.01
+          ],
+          "link": 1,
+          "lane": "1343480328_0"
+        },
+        {
+          "xy": [
+            652.56,
+            2994.01
+          ],
+          "link": 2,
+          "lane": "1343480328_0"
+        },
+        {
+          "xy": [
+            652.56,
+            2994.01
+          ],
+          "link": 3,
+          "lane": "1343480328_0"
+        },
+        {
+          "xy": [
+            652.56,
+            2994.01
+          ],
+          "link": 4,
+          "lane": "1343480328_0"
+        },
+        {
+          "xy": [
+            679.45,
+            2978.93
+          ],
+          "link": 15,
+          "lane": "1343480330_0"
+        },
+        {
+          "xy": [
+            679.45,
+            2978.93
+          ],
+          "link": 16,
+          "lane": "1343480330_0"
+        },
+        {
+          "xy": [
+            678.37,
+            2975.92
+          ],
+          "link": 17,
+          "lane": "1343480330_1"
+        },
+        {
+          "xy": [
+            677.29,
+            2972.9
+          ],
+          "link": 18,
+          "lane": "1343480330_2"
+        },
+        {
+          "xy": [
+            664.35,
+            2953.23
+          ],
+          "link": 19,
+          "lane": "1343480332_0"
+        },
+        {
+          "xy": [
+            664.35,
+            2953.23
+          ],
+          "link": 20,
+          "lane": "1343480332_0"
+        },
+        {
+          "xy": [
+            664.35,
+            2953.23
+          ],
+          "link": 21,
+          "lane": "1343480332_0"
+        },
+        {
+          "xy": [
+            664.35,
+            2953.23
+          ],
+          "link": 22,
+          "lane": "1343480332_0"
+        },
+        {
+          "xy": [
+            664.35,
+            2953.23
+          ],
+          "link": 23,
+          "lane": "1343480332_0"
+        },
+        {
+          "xy": [
+            636.46,
+            2965.79
+          ],
+          "link": 10,
+          "lane": "1343480334_0"
+        },
+        {
+          "xy": [
+            636.46,
+            2965.79
+          ],
+          "link": 11,
+          "lane": "1343480334_0"
+        },
+        {
+          "xy": [
+            637.52,
+            2968.82
+          ],
+          "link": 12,
+          "lane": "1343480334_1"
+        },
+        {
+          "xy": [
+            638.58,
+            2971.84
+          ],
+          "link": 13,
+          "lane": "1343480334_2"
+        },
+        {
+          "xy": [
+            639.64,
+            2974.86
+          ],
+          "link": 14,
+          "lane": "1343480334_3"
+        },
+        {
+          "xy": [
+            656.32,
+            2987.03
+          ],
+          "link": 5,
+          "lane": "339372362_0"
+        },
+        {
+          "xy": [
+            655.2,
+            2984.03
+          ],
+          "link": 6,
+          "lane": "339372362_1"
+        },
+        {
+          "xy": [
+            654.09,
+            2981.02
+          ],
+          "link": 7,
+          "lane": "339372362_2"
+        },
+        {
+          "xy": [
+            654.09,
+            2981.02
+          ],
+          "link": 8,
+          "lane": "339372362_2"
+        },
+        {
+          "xy": [
+            654.09,
+            2981.02
+          ],
+          "link": 9,
+          "lane": "339372362_2"
+        },
+        {
+          "xy": [
+            659.99,
+            2957.45
+          ],
+          "link": 24,
+          "lane": "339372364_0"
+        },
+        {
+          "xy": [
+            660.98,
+            2960.49
+          ],
+          "link": 25,
+          "lane": "339372364_1"
+        },
+        {
+          "xy": [
+            661.98,
+            2963.53
+          ],
+          "link": 26,
+          "lane": "339372364_2"
+        },
+        {
+          "xy": [
+            662.98,
+            2966.58
+          ],
+          "link": 27,
+          "lane": "339372364_3"
+        },
+        {
+          "xy": [
+            662.98,
+            2966.58
+          ],
+          "link": 28,
+          "lane": "339372364_3"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "606182738",
+          "distance_m": 14.4
+        },
+        {
+          "osm_id": "606182739",
+          "distance_m": 16.2
+        },
+        {
+          "osm_id": "606182740",
+          "distance_m": 16.3
+        },
+        {
+          "osm_id": "3465594394",
+          "distance_m": 14.9
+        },
+        {
+          "osm_id": "4580606966",
+          "distance_m": 90.3
+        }
+      ],
+      "focus": false,
+      "generated_location": true,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "rrrrrGGGGgGGGGGGGGGrrrrrGGGGg",
+          "duration_s": 24
+        },
+        {
+          "state": "rrrrryyyyyyyyyyyyyyrrrrryyyyy",
+          "duration_s": 4
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "rrrrrGGGGGrrrrrrrrrGGGGGrrrrr",
+          "duration_s": 24
+        },
+        {
+          "state": "rrrrryyyyyrrrrrrrrryyyyyrrrrr",
+          "duration_s": 4
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "GGGGGrrrrrrrrrrrrrrrrrrrGGGGG",
+          "duration_s": 24
+        },
+        {
+          "state": "yyyyyrrrrrrrrrrrrrrrrrrryyyyy",
+          "duration_s": 4
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    },
+    {
+      "id": "joinedS_cluster_263384347_263384436_cluster_263384348_263384435",
+      "xy": [
+        896.2,
+        2099.94
+      ],
+      "lonlat": [
+        -77.06412501281577,
+        -12.091328182433275
+      ],
+      "roads": [
+        "Avenida Javier Prado Oeste",
+        "Avenida Parque Gonzales Prada"
+      ],
+      "nodes": [
+        "cluster_263384347_263384436",
+        "cluster_263384348_263384435"
+      ],
+      "heads": [
+        {
+          "xy": [
+            921.22,
+            2096.74
+          ],
+          "link": 9,
+          "lane": "1338063381#3_0"
+        },
+        {
+          "xy": [
+            921.22,
+            2096.74
+          ],
+          "link": 10,
+          "lane": "1338063381#3_0"
+        },
+        {
+          "xy": [
+            919.2,
+            2094.27
+          ],
+          "link": 11,
+          "lane": "1338063381#3_1"
+        },
+        {
+          "xy": [
+            896.63,
+            2116.25
+          ],
+          "link": 3,
+          "lane": "1338063381#5_0"
+        },
+        {
+          "xy": [
+            894.67,
+            2113.71
+          ],
+          "link": 4,
+          "lane": "1338063381#5_1"
+        },
+        {
+          "xy": [
+            894.67,
+            2113.71
+          ],
+          "link": 5,
+          "lane": "1338063381#5_1"
+        },
+        {
+          "xy": [
+            871.43,
+            2102.74
+          ],
+          "link": 6,
+          "lane": "24294983#5_0"
+        },
+        {
+          "xy": [
+            871.43,
+            2102.74
+          ],
+          "link": 7,
+          "lane": "24294983#5_0"
+        },
+        {
+          "xy": [
+            873.42,
+            2105.25
+          ],
+          "link": 8,
+          "lane": "24294983#5_1"
+        },
+        {
+          "xy": [
+            895.96,
+            2083.67
+          ],
+          "link": 15,
+          "lane": "24294983#8_0"
+        },
+        {
+          "xy": [
+            897.94,
+            2086.18
+          ],
+          "link": 16,
+          "lane": "24294983#8_1"
+        },
+        {
+          "xy": [
+            897.94,
+            2086.18
+          ],
+          "link": 17,
+          "lane": "24294983#8_1"
+        },
+        {
+          "xy": [
+            896.94,
+            2075.81
+          ],
+          "link": 12,
+          "lane": "24306502#4_0"
+        },
+        {
+          "xy": [
+            896.94,
+            2075.81
+          ],
+          "link": 13,
+          "lane": "24306502#4_0"
+        },
+        {
+          "xy": [
+            896.94,
+            2075.81
+          ],
+          "link": 14,
+          "lane": "24306502#4_0"
+        },
+        {
+          "xy": [
+            895.74,
+            2124.08
+          ],
+          "link": 0,
+          "lane": "24306643#1_0"
+        },
+        {
+          "xy": [
+            895.74,
+            2124.08
+          ],
+          "link": 1,
+          "lane": "24306643#1_0"
+        },
+        {
+          "xy": [
+            895.74,
+            2124.08
+          ],
+          "link": 2,
+          "lane": "24306643#1_0"
+        }
+      ],
+      "osm_nodes": [
+        {
+          "osm_id": "263384347",
+          "distance_m": 19.4
+        },
+        {
+          "osm_id": "263384348",
+          "distance_m": 19.2
+        },
+        {
+          "osm_id": "263384435",
+          "distance_m": 19.2
+        },
+        {
+          "osm_id": "263384436",
+          "distance_m": 19.2
+        }
+      ],
+      "focus": false,
+      "generated_location": true,
+      "program_source": "generated_by_SUMO; not_municipal",
+      "program": [
+        {
+          "state": "rrrGGgGGGGGGrrrGGg",
+          "duration_s": 40
+        },
+        {
+          "state": "rrryyyyyyyyyrrryyy",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        },
+        {
+          "state": "GGGrrrrrrrrrGGGrrr",
+          "duration_s": 40
+        },
+        {
+          "state": "yyyrrrrrrrrryyyrrr",
+          "duration_s": 3
+        },
+        {
+          "state": "rrrrrrrrrrrrrrrrrr",
+          "duration_s": 2
+        }
+      ],
+      "presence_source": "osm_nearby_tags"
+    }
+  ]
+}
